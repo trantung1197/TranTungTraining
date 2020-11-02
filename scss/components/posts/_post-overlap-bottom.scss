@@ -1,0 +1,51 @@
+/* ----------------------------------------------------------------
+	## Post overlay bottom
+-----------------------------------------------------------------*/
+
+.post--overlap-bottom {
+	position: relative;
+	min-height: 140px;
+	padding-bottom: 20px;
+}
+
+.post--overlap-bottom-xs {
+	min-height: $card-height-xs;
+}
+
+.post--overlap-bottom-sm {
+	min-height: $card-height-sm;
+}
+
+.post--overlap-bottom-md {
+	min-height: $card-height-md;
+}
+
+.post--overlap-bottom-lg {
+	min-height: $card-height-lg;
+}
+
+.post--overlap-bottom .background-img {
+	bottom: 20px;
+	@include shadow(1);
+}
+
+.post--overlap-bottom .post__text {
+	@include absolute(auto, 0, 0, 0);
+	padding: 0 20px;
+}
+
+.post--overlap-bottom .post__text-inner {
+	background: #fff;
+	@include shadow(2);
+}
+
+.post--overlay-solid .post__text {
+	@include absolute(auto, 0, 0, 0);
+	padding: 20px;
+}
+
+.post--overlay-solid .post__text-inner {
+	padding: 20px;
+	background: #fff;
+	@include shadow(2);
+}

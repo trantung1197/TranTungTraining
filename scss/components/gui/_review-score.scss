@@ -1,0 +1,113 @@
+/* -----------------------------------------------------------------
+## Review Score
+----------------------------------------------------------------- */
+
+/*---- Score circle ----*/
+
+.post-score {
+	@include font-meta;
+	display: inline-block;
+	color: #fff;
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+}
+
+.post-score__inner {
+	position: relative;
+	z-index: z('prominent');
+}
+
+.post-score-star {
+	font-size: 1.2em;
+	line-height: 1;
+	color: $star-rating-color;
+}
+
+.hexagon-svg {
+	width: 100%;
+	height: auto;
+}
+
+.post-score-hexagon {
+	position: relative;
+	display: inline-block;
+	line-height: 0;
+	vertical-align: middle;
+}
+
+.post-score-hexagon .hexagon-svg {
+	width: 50px;
+	padding: 2px;
+	@include filter(drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.25)));
+	overflow: visible;
+
+	@include respond-to('sm') {
+		width: 60px;
+	}
+
+	@include respond-to('lg') {
+		width: 64px;
+	}
+}
+
+.post-score-hexagon .hexagon-svg g path {
+	fill: $color-primary;
+}
+
+.post-score-hexagon .post-score-value {
+	@include font-meta;
+	@include absolute(50%, auto, auto, 50%);
+	@include transform(translate(-50%, -50%));
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+
+	@include respond-to('sm') {
+		font-size: 22px;
+	}
+
+	@include respond-to('lg') {
+		font-size: 26px;
+	}
+}
+
+.post-score-hexagon--s .hexagon-svg {
+	width: 50px;
+}
+
+.post-score-hexagon--s .post-score-value {
+	font-size: 20px;
+}
+
+.post-score-hexagon--l .hexagon-svg {
+	width: 100px;
+}
+
+.post-score-hexagon--l .post-score-value {
+	font-size: 42px;
+}
+
+.post-score-hexagon--xl .hexagon-svg {
+	width: 100px;
+
+	@include respond-to('lg') {
+		width: 120px;
+	}
+}
+
+.post-score-hexagon--xl .post-score-value {
+	font-size: 42px;
+
+	@include respond-to('lg') {
+		font-size: 50px;
+	}
+}
+
+.mnmd-review .post-score-hexagon .hexagon-svg {
+	@include filter(drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3)));
+}
+
+

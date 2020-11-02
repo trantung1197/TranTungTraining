@@ -1,0 +1,61 @@
+/* -----------------------------------------------------------------
+## Login Form
+----------------------------------------------------------------- */
+
+.login-lost-password,
+.login-with-social {
+	text-align: center;
+}
+
+.login-lost-password a {
+	text-decoration: underline;
+}
+
+.login-submit,
+.register-submit {
+	margin-top: 20px;
+}
+
+.login-modal .modal-dialog {
+	width: 400px;
+	max-width: 90vw;
+	margin: 10vh auto;
+
+	@include respond-to('sm') {
+		margin: 15vh auto;
+	}
+}
+
+.login-modal .modal-title .nav-tabs {
+	border-bottom: none;
+	text-align: center;
+}
+
+.login-modal .modal-title .nav-tabs li {
+	margin-bottom: 5px;
+
+	&:not(:last-child) {
+		margin-right: 15px;
+	}
+}
+
+.login-modal .modal-title .nav-tabs a {
+	padding: 0;
+	border: none !important;
+	background: transparent !important;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.login-modal .modal-title .nav-tabs li.active a,
+.login-modal .modal-title .nav-tabs a:hover {
+	border-bottom: 1px solid currentColor !important;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.login-modal .modal-body {
+	padding: 15px;
+
+	@include respond-to('sm') {
+		padding: 30px;
+	}
+}

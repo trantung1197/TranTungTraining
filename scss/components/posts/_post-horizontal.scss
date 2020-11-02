@@ -1,0 +1,241 @@
+/* -----------------------------------------------------------------
+## Post Horizontal
+----------------------------------------------------------------- */
+
+.post--horizontal {
+	@include clearfix;
+}
+
+.post--horizontal .post__thumb {
+	width: 100%;
+	margin: 0 0 15px 0;
+
+	@include respond-to('sm') {
+		width: calc(50% - 15px);
+		float: left;
+		margin: 0 20px 0 0;
+	}
+
+	@include respond-to('md') {
+		margin: 0 30px 0 0;
+	}
+}
+
+.post--horizontal-xxs .post__thumb,
+.post--horizontal-xs .post__thumb {
+	width: 70px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.post--horizontal-xs .post__thumb {
+	@include respond-to('sm') {
+		width: 100px;
+		float: left;
+		margin: 0 15px 0 0;
+	}
+}
+
+.post--horizontal-sm .post__thumb {
+		width: 33%;
+		float: left;
+		margin: 0 15px 0 0;
+
+	@include respond-to('sm') {
+		margin-right: 30px;
+	}
+}
+
+.post--horizontal-md .post__thumb {
+	@include respond-to('sm') {
+		width: 40%;
+	}
+}
+
+.post--horizontal-lg .post__thumb {
+	@include respond-to('sm') {
+		width: 55%;
+	}
+}
+
+.post--horizontal .post__text {
+	overflow: hidden;
+}
+
+.post--horizontal-xxs .post__excerpt,
+.post--horizontal-xs .post__excerpt,
+.post--horizontal-sm .post__excerpt,
+.post--horizontal-xxs .post__cat,
+.post--horizontal-xs .post__cat,
+.post--horizontal-sm .post__cat {
+	@include respond-to('xs-only') {
+		display: none;
+	}
+}
+
+.post--horizontal-xxs .post__cat + .post__title,
+.post--horizontal-xs .post__cat + .post__title,
+.post--horizontal-sm .post__cat + .post__title {
+	@include respond-to('xs-only') {
+		margin-top: 0;
+	}
+}
+
+.post--horizontal-sm .post__title {
+	@include respond-to('xs-only') {
+		font-size: 1.125rem;
+		font-weight: 400;
+	}
+}
+
+/*---- Post horizontal reverse ----*/
+
+.post--horizontal-reverse .post__thumb {
+	@include respond-to('sm') {
+		float: right;
+		margin: 0 0 0 20px;
+	}
+
+	@include respond-to('md') {
+		margin: 0 0 0 30px;
+	}
+}
+
+.post--horizontal-xxs.post--horizontal-reverse .post__thumb,
+.post--horizontal-xs.post--horizontal-reverse .post__thumb,
+.post--horizontal-sm.post--horizontal-reverse .post__thumb {
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+.post--horizontal-xs.post--horizontal-reverse .post__thumb {
+	@include respond-to('sm') {
+		margin: 0 0 0 20px;
+	}
+}
+
+.post--horizontal-sm.post--horizontal-reverse .post__thumb {
+	@include respond-to('sm') {
+		margin-left: 20px;
+	}
+
+	@include respond-to('sm') {
+		margin-left: 30px;
+	}
+}
+
+/*---- Post horizontal middle ----*/
+
+.post--horizontal-middle {
+	@include respond-to('sm') {
+		@include display(flex);
+		@include align-items(center);
+		@include justify-content(space-between);
+	}
+
+	&:after {
+		content: none;
+	}
+}
+
+.post--horizontal-middle .post__thumb {
+	@include respond-to('sm') {
+		@include flex(0 0 auto);
+	}
+}
+
+.post--horizontal-middle .post__text {
+	@include respond-to('sm') {
+		@include flex(1);
+	}
+}
+
+.post--horizontal-middle.post--horizontal-xxs,
+.post--horizontal-middle.post--horizontal-xs {
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(flex-start);
+}
+
+.post--horizontal-middle.post--horizontal-xxs .post__thumb,
+.post--horizontal-middle.post--horizontal-xs .post__thumb {
+	@include flex(0 0 auto);
+}
+
+.post--horizontal-middle.post--horizontal-reverse {
+	@include justify-content(space-between);
+
+	.post__text {
+		@include order(-1);
+	}
+}
+
+/*---- Post horizontal equal height ----*/
+
+.post--horizontal-equal-height .post__thumb {
+	position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+
+	@include respond-to('sm') {
+		height: auto;
+		@include absolute(0, auto, 0, 0);
+		margin: 0;
+		padding-bottom: 0;
+	}
+}
+
+.post--horizontal-equal-height .post__text {
+	margin: 0;
+
+	@include respond-to('sm') {
+		width: 100%;
+		padding: 30px;
+		padding-left: calc(50% + 15px);
+	}
+}
+
+.post--horizontal-equal-height.post--horizontal-xxs .post__text {
+	padding-left: 85px;
+}
+
+.post--horizontal-equal-height.post--horizontal-xs .post__text {
+	padding-left: 115px;
+}
+
+.post--horizontal-equal-height.post--horizontal-sm .post__text {
+	padding-left: calc(33% + 30px);
+}
+
+.post--horizontal-equal-height.post--horizontal-md .post__text {
+	padding-left: calc(40% + 30px);
+}
+
+.post--horizontal-equal-height.post--horizontal-lg .post__text {
+	padding-left: calc(55% + 30px);
+}
+
+.post--horizontal-equal-height.post--horizontal-reverse {
+	@include respond-to('sm') {
+		.post__text {
+			@include order(-1);
+		}
+	}
+}
+
+.post--horizontal-equal-height.post--horizontal-xxs,
+.post--horizontal-equal-height.post--horizontal-xs {
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(space-between);
+}
+
+.post--horizontal-equal-height.post--horizontal-xxs .post__thumb,
+.post--horizontal-equal-height.post--horizontal-xs .post__thumb {
+	@include flex(0 0 auto);
+}
+
+.post--horizontal-equal-height.post--horizontal-reverse.post--horizontal-xxs .post__text,
+.post--horizontal-equal-height.post--horizontal-reverse.post--horizontal-xs .post__text {
+	@include order(-1);
+}

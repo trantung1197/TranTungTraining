@@ -1,0 +1,109 @@
+/* -----------------------------------------------------------------
+## Social List
+----------------------------------------------------------------- */
+
+.social-list {
+	margin: 0;
+	padding: 0;
+	@include font-size(14px);
+	list-style: none;
+
+	@include respond-to('sm') {
+		@include font-size(16px);
+	}
+}
+
+.social-list > li > a {
+	@include reset-link;
+	display: inline-block;
+	padding: 0 0.4em;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 20px;
+	@include transition();
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: rgba(0, 0, 0, 0.4);
+	}
+
+	.inverse-text & {
+		color: rgba(255, 255, 255, 0.8);
+	}
+
+	.inverse-text &:hover,
+	.inverse-text &:focus,
+	.inverse-text &:active,
+	.inverse-text &:visited {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+
+.social-list--inverse > li > a {
+	color: rgba(255, 255, 255, 0.8);
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+
+.social-list--circle > li {
+	margin-bottom: 8px;
+
+	&:not(:last-child) {
+		margin-right: 8px;
+	}
+}
+
+.social-list--circle > li > a {
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	border-radius: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	text-align: center;
+
+	i {
+		display: inline-block;
+		font-size: 16px;
+		line-height: 40px;
+	}
+
+	.inverse-text &,
+	.overlay-content & {
+		border: 1px solid rgba(255, 255, 255, 0.2);
+	}
+}
+
+.social-list--sm {
+	@include respond-to('sm') {
+		@include font-size(14px);
+	}
+}
+
+.social-list--lg {
+	@include respond-to('sm') {
+		@include font-size(20px);
+	}
+}
+
+.social-list--xl {
+	@include respond-to('sm') {
+		@include font-size(26px);
+	}
+}
+
+.social-list--md.social-list--circle > li > a {
+	@include respond-to('sm') {
+		width: 60px;
+		height: 60px;
+		border-width: 2px;
+
+		i {
+			font-size: 24px;
+			line-height: 60px;
+		}
+	}
+}

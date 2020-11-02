@@ -1,0 +1,79 @@
+/*
+ * Post list
+ *--------------------*/
+
+.post--list {
+	@include clearfix;
+}
+
+.post--list .post__thumb {
+	max-width: 100%;
+	position: relative;
+	margin: 0 0 10px 0;
+	@include shadow(1);
+	@include transition();
+
+	@include respond-to('sm') {
+		max-width: 200px;
+		float: left;
+		margin: 0 30px 0 0;
+	}
+
+	@include respond-to('sm') {
+		max-width: 300px;
+		margin: 0 30px 0 0;
+	}
+}
+
+.post--list .post__thumb img {
+	width: 100%;
+}
+
+.post--list .post__text {
+	overflow: hidden;
+}
+
+.post--list--size-1 .post__thumb {
+	width: 60px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.post--list--size-2 .post__thumb {
+	width: 80px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.post--list--size-3 .post__thumb {
+	@include respond-to('sm') {
+		width: 50%;
+		max-width: 50%;
+		float: left;
+		margin: 0 30px 0 0;
+	}
+}
+
+.post--list--size-4 .post__thumb {
+	@include respond-to('sm') {
+		width: 55%;
+	}
+}
+
+/*---- Post list reverse ----*/
+
+.post--list--reverse .post__thumb {
+	float: right;
+	margin: 0 0 0 10px;
+
+	@include respond-to('sm') {
+		margin: 0 0 0 15px;
+	}
+}
+
+.post--list--reverse.post--list--size-md .post__thumb,
+.post--list--reverse.post--list--size-lg .post__thumb {
+	@include respond-to('sm') {
+		margin: 0 0 0 30px;
+	}
+}

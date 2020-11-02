@@ -1,0 +1,144 @@
+/* -----------------------------------------------------------------
+## Buttons
+----------------------------------------------------------------- */
+
+input[type="button"]:not(.btn),
+input[type="reset"]:not(.btn),
+input[type="submit"]:not(.btn) {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    @include font-meta;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: $border-radius;
+    box-shadow: $shadow-button;
+    @include transition(all 0.2s ease-out);
+
+    &:hover {
+        background: #efefef;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+}
+
+.btn {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: $border-radius;
+    box-shadow: $shadow-button;
+    @include font-meta;
+    @include transition(all 0.2s ease-out);
+
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+}
+
+a.btn {
+    text-decoration: none;
+}
+
+.btn-link {
+    border: none;
+    box-shadow: none;
+
+    &:active,
+    &:focus,
+    &:hover {
+        border: none;
+        box-shadow: none;
+    }
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+    background: #f8f8f8;
+}
+
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover {
+    background: #eee;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+	background: $color-primary;
+	color: #fff;
+
+	&:active,
+	&:focus,
+	&:hover {
+		background: shade($color-primary, 5%);
+		color: #fff;
+	}
+
+    &.active.focus,
+    &.active:focus,
+    &.active:hover,
+    &:active.focus,
+    &:active:focus,
+    &:active:hover {
+        background: shade($color-primary, 10%);
+        color: #fff;
+    }
+}
+
+.btn-pill {
+	border-radius: 999em;
+}
+
+.btn-glass {
+	border: 3px solid rgba(255, 255, 255, 0.4);
+	background-clip: padding-box;
+
+    &:active,
+    &:focus,
+    &:hover {
+        border: 3px solid rgba(255, 255, 255, 0.4);
+    }
+}
+
+.btn-ghost {
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 0.8);
+
+	&:hover,
+    &:active,
+    &:focus,
+    &:visited {
+        border: 1px solid rgba(255, 255, 255, 0.8);
+		color: rgba(255, 255, 255, 1);
+	}
+}
+
+.btn-frame {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.8);
+
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        color: rgba(0, 0, 0, 0.8);
+    }
+}

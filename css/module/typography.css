@@ -1,0 +1,384 @@
+/* =============================================================================
+   Typography
+============================================================================= */
+.f-14 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.f-15 {
+    font-size: 1.0714rem;
+    line-height: 1.5;
+}
+.f-16 {
+    font-size: 1.1428rem;
+    line-height: 1.5;
+}
+.f-18 {
+    font-size: 1.2857rem;
+    line-height: 1.5;
+}
+.f-20 {
+    font-size: 1.4285rem;
+    line-height: 1.4;
+}
+.f-22 {
+    font-size: 1.5714rem;
+    line-height: 1.4;
+}
+.f-24 {
+    font-size: 1.7142rem;
+    line-height: 1.4;
+}
+.f-26 {
+    font-size: 1.8571rem; /*font system*/
+    line-height: 1.4;
+}
+.f-28 {
+    font-size: 2rem;
+    line-height: 1.4;
+}
+.f-30 {
+    font-size: 2.1428rem; /*font system*/
+    line-height: 1.4;
+}
+.f-32 {
+    font-size: 2.2857rem;
+    line-height: 1.4;
+}
+.f-34 {
+    font-size: 2.4285rem;
+    line-height: 1.4;
+}
+.f-36 {
+    font-size: 2.5714rem;
+    line-height: 1.3;
+}
+.f-38 {
+    font-size: 2.7142rem;
+    line-height: 1.3;
+}
+.f-40 {
+    font-size: 2.8571rem;
+    line-height: 1.3;
+}
+.f-42 {
+    font-size: 3rem;
+    line-height: 1.3;
+}
+.f-44 {
+    font-size: 3.1428rem;
+    line-height: 1.3;
+}
+.f-46 {
+    font-size: 3.2857rem;
+    line-height: 1.3;
+}
+.f-48 {
+    font-size: 3.4285rem;
+    line-height: 1.3;
+}
+.f-50 {
+    font-size: 3.5714rem;
+    line-height: 1.3;
+}
+.f-52 {
+    font-size: 3.7142rem;
+    line-height: 1.3;
+}
+.f-54 {
+    font-size: 3.8571rem;
+    line-height: 1.3;
+}
+.f-56 {
+    font-size: 4rem;
+    line-height: 1.3;
+}
+.f-58 {
+    font-size: 4.1428rem;
+    line-height: 1.3;
+}
+.f-60 {
+    font-size: 4.28571428571rem;
+    line-height: 1.3;
+}
+@media (max-width: 1366px) {
+    .f-22 {
+        font-size: 1.4285rem;
+        line-height: 1.4;
+    }
+    .f-24 {
+        font-size: 1.5714rem; /*font system*/
+        line-height: 1.4;
+    }
+    .f-26 {
+        font-size: 1.7142rem;
+        line-height: 1.4;
+    }
+    .f-28 {
+        font-size: 1.8571rem; /*font system*/
+        line-height: 1.4;
+    }
+    .f-30 {
+        font-size: 1.8571rem; /*font system*/
+        line-height: 1.4;
+    }
+    .f-32 {
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+    .f-34 {
+        font-size: 2.1428rem; /*font system*/
+        line-height: 1.4;
+    }
+    .f-36 {
+        font-size: 2.2857rem;
+        line-height: 1.4;
+    }
+    .f-38 {
+        font-size: 2.4285rem; /*font system*/
+        line-height: 1.4;
+    }
+    .f-40 {
+        font-size: 2.5714rem; /*font system*/
+        line-height: 1.3;
+    }
+    .f-42 {
+        font-size: 2.7142rem;
+        line-height: 1.3;
+    }
+    .f-44 {
+        font-size: 2.8571rem;
+        line-height: 1.3;
+    }
+    .f-46 {
+        font-size: 3rem;
+        line-height: 1.3;
+    }
+    .f-48 {
+        font-size: 3.1428rem;
+        line-height: 1.3;
+    }
+    .f-50 {
+        font-size: 3.2857rem;
+        line-height: 1.3;
+    }
+    .f-52 {
+        font-size: 3.4285rem;
+        line-height: 1.3;
+    }
+    .f-54 {
+        font-size: 3.5714rem;
+        line-height: 1.3;
+    }
+    .f-56 {
+        font-size: 3.7142rem;
+        line-height: 1.3;
+    }
+    .f-58 {
+        font-size: 3.8571rem;
+        line-height: 1.3;
+    }
+    .f-60 {
+        font-size: 3.9285rem;
+        line-height: 1.3;
+    }
+}
+@media (max-width: 991px) {
+    .f-24 {
+        font-size: 1.5714rem; /*font system*/
+        line-height: 1.4;
+    }
+    .f-30 {
+        font-size: 1.7142rem; /*font system*/
+        line-height: 1.4;
+    }
+    .f-32 {
+        font-size: 1.8571rem; /*font system*/
+        line-height: 1.4;
+    }
+    .f-34 {
+        font-size: 1.8571rem; /*font system*/
+        line-height: 1.4;
+    }
+    .f-36 {
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+    .f-38 {
+        font-size: 2.1428rem; /*font system*/
+        line-height: 1.4;
+    }
+    .f-40 {
+        font-size: 2.1428rem; /*font system*/
+        line-height: 1.4;
+    }
+    .f-42 {
+        font-size: 2.2857rem;
+        line-height: 1.4;
+    }
+    .f-44 {
+        font-size: 2.4285rem;
+        line-height: 1.4;
+    }
+    .f-46 {
+        font-size: 2.5714rem;
+        line-height: 1.3;
+    }
+    .f-48 {
+        font-size: 2.7142rem;
+        line-height: 1.3;
+    }
+    .f-50 {
+        font-size: 2.8571rem;
+        line-height: 1.3;
+    }
+    .f-52 {
+        font-size: 3rem;
+        line-height: 1.3;
+    }
+    .f-54 {
+        font-size: 3.1428rem;
+        line-height: 1.3;
+    }
+    .f-56 {
+        font-size: 3.2857rem;
+        line-height: 1.3;
+    }
+    .f-58 {
+        font-size: 3.4285rem;
+        line-height: 1.3;
+    }
+    .f-60 {
+        font-size: 3.5714rem;
+        line-height: 1.3;
+    }
+}
+@media (max-width: 767px) {
+    .f-24 {
+        font-size: 1.4285rem; /*font system*/
+        line-height: 1.4;
+    }
+
+    .f-26,
+    .f-28,
+    .f-30,
+    .f-32,
+    .f-34,
+    .f-36,
+    .f-38,
+    .f-40,
+    .f-42 {
+        font-size: 1.8571rem; /*font system*/
+        line-height: 1.4;
+    }
+
+    .f-46,
+    .f-48,
+    .f-50,
+    .f-52,
+    .f-54 {
+        font-size: 2rem; /*font system*/
+        line-height: 1.4;
+    }
+
+    .f-56,
+    .f-58,
+    .f-60 {
+        font-size: 2.1428rem; /*font system*/
+        line-height: 1.4;
+    }
+
+
+}
+@media (max-width: 575px) {
+    .f-18 {
+        font-size: 1.4285rem; /*font system*/
+        line-height: 1.4;
+    }
+
+    .f-26,
+    .f-28,
+    .f-30,
+    .f-32,
+    .f-34,
+    .f-36,
+    .f-38,
+    .f-40,
+    .f-42 {
+        font-size: 1.7142rem; /*font system*/
+        line-height: 1.4;
+    }
+
+    .f-46,
+    .f-48,
+    .f-50,
+    .f-52,
+    .f-54,
+    .f-56,
+    .f-58,
+    .f-60 {
+        font-size: 1.8571rem; /*font system*/
+        line-height: 1.4;
+    }
+
+}
+@media (max-width: 480px) {
+    .f-26,
+    .f-28,
+    .f-30,
+    .f-32,
+    .f-34,
+    .f-36,
+    .f-38,
+    .f-40,
+    .f-42 {
+        font-size: 1.5714rem; /*font system*/
+        line-height: 1.4;
+    }
+    .f-46,
+    .f-48,
+    .f-50,
+    .f-52,
+    .f-54,
+    .f-56,
+    .f-58,
+    .f-60 {
+        font-size: 1.7142rem; /*font system*/
+        line-height: 1.4;
+    }
+}
+@media (max-width: 380px) {
+    .f-18,
+    .f-20,
+    .f-22,
+    .f-24 {
+        font-size: 1.2857rem; /*font system*/
+        line-height: 1.5;
+    }
+}
+
+/**/
+.f-w-100 {
+    font-weight: 100;
+}
+.f-w-300 {
+    font-weight: 300;
+}
+.f-w-400 {
+    font-weight: 400;
+}
+.f-w-500 {
+    font-weight: 500;
+}
+.f-w-600 {
+    font-weight: 600;
+}
+.f-w-700 {
+    font-weight: 700;
+}
+.f-w-800 {
+    font-weight: 700;
+}
+.f-w-900 {
+    font-weight: 900;
+}

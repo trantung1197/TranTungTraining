@@ -1,0 +1,61 @@
+/* -----------------------------------------------------------------
+## Category Tile
+----------------------------------------------------------------- */
+
+.category-tile {
+	@include shadow(1);
+}
+
+.category-tile__wrap {
+	position: relative;
+	margin-top: 20px;
+	box-shadow: 0 -20px 0 -10px rgba(0, 0, 0, 0.05), 0 -38px 0 -20px rgba(0, 0, 0, 0.02);
+}
+
+.category-tile__inner {
+	@include display(flex);
+	@include align-items(center);
+	min-height: 180px;
+	position: relative;
+}
+
+.category-tile--sm .category-tile__inner {
+	min-height: 120px;
+}
+
+.category-tile .link-overlay {
+	z-index: z('default');
+}
+
+.category-tile__text {
+	width: 100%;
+	position: relative;
+	padding: 20px 20px 15px;
+	text-align: center;
+}
+
+.category-tile__name {
+	@include font-meta;
+	max-width: 100%;
+	display: inline-block;
+	padding: 0.4em 1em;
+	background: #333;
+	color: #fff;
+	font-size: 0.8571rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	@include transition();
+	@extend .text-truncate !optional;
+
+	
+}
+
+.category-tile__description {
+	margin-top: 0.4em;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 0.8571rem;
+}
+
+.category-tile:hover .background-img:after {
+	opacity: 0.6;
+}

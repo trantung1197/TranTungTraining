@@ -1,0 +1,562 @@
+/* -----------------------------------------------------------------
+## Post General
+----------------------------------------------------------------- */
+
+.post {
+	position: relative;
+}
+
+/*---- Post thumb ----*/
+
+.post__thumb,
+.entry-thumb {
+	position: relative;
+}
+
+.post__thumb img,
+.entry-thumb img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.post__thumb a,
+.entry-thumb a {
+	display: block;
+}
+
+.post__thumb--circle {
+	border-radius: 50%;
+
+	img {
+		border-radius: 50%;
+	}
+}
+
+/*---- Post content ----*/
+
+.post__text-inner {
+	position: relative;
+	padding: 20px;
+
+	.post__text-inner--p-sm & {
+		padding: 15px;
+	}
+
+	.post__text-inner--p-lg & {
+		padding: 30px;
+	}
+}
+
+.has-overlap-bg {
+	&:before {
+		content: '';
+		@include absolute(-20px, 0, -20px, 0);
+		background: $color-primary;
+		opacity: 0.6;
+		@include transform(scale(0.6, 1));
+		@include transform-origin(center center);
+		@include transition-property(all);
+		@include transition-duration(0.3s);
+		@include transition-delay(0.1s);
+		@include transition-timing-function($ease-bounce);
+	}
+
+	article:hover &:before {
+		opacity: 1;
+		@include transform(scale(0.9, 1));
+	}
+}
+
+.has-overlap-frame:before {
+	content: '';
+	@include absolute(-20px, 20%, -20px, 20%);
+	border: 12px solid #FC3C2D;
+	opacity: 0.6;
+}
+
+/*---- Post category ----*/
+
+.post__cat,
+a.post__cat,
+.entry-cat,
+a.entry-cat {
+	@include font-category;
+	display: inline-block;
+	border-bottom: 1px solid currentColor;
+	@include font-size(9px);
+	font-weight: 700;
+	line-height: 1.4;
+	text-decoration: none;
+
+	@include respond-to('sm') {
+		@include font-size(10px);
+	}
+}
+
+.post__cat--bg,
+a.post__cat--bg,
+.entry-cat--bg,
+a.entry-cat--bg {
+	display: inline-block;
+	padding: 4px 6px;
+	color: #fff !important;
+	line-height: 1;
+	background: $color-primary;
+	border: none;
+
+	@include respond-to('sm') {
+		padding: 5px 8px;
+	}
+}
+
+.post__cat--bg-inverse,
+a.post__cat--bg-inverse,
+.entry-cat--bg-inverse,
+a.entry-cat--bg-inverse {
+	display: inline-block;
+	padding: 2px 6px;
+	color: #333;
+	background: #fff !important;
+	border: none;
+}
+
+.post__cat--ghost,
+a.post__cat--ghost,
+.entry-cat--ghost,
+a.entry-cat--ghost {
+	display: inline-block;
+	padding: 2px 6px;
+	color: #fff !important;
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.post__cat--overlap,
+a.post__cat--overlap,
+.entry-cat--overlap,
+a.entry-cat--overlap {
+	@include absolute(0, auto, auto, 50%);
+    @include transform(translate(-50%, -50%));
+
+    .post__thumb & {
+    	top: 100%;
+    }
+}
+
+
+/*---- Read more ----*/
+
+.btn.read-more {
+	text-transform: uppercase;
+}
+
+.read-more-link {
+	@include font-meta;
+	color: rgba(0, 0, 0, 0.8);
+	text-decoration: none;
+
+	&:hover,
+	&:focus,
+	&:active,
+	&:visited {
+		color: rgba(0, 0, 0, 0.8);
+		text-decoration: none;
+	}
+}
+
+.read-more-link i {
+	color: rgba(0, 0, 0, 0.25);
+	@include transition('all', 0.3s, 0, 'bounce');
+}
+
+.read-more-link:hover i {
+	@include transform(translate(40%, 0));
+}
+
+/*---- Post title ----*/
+
+.post__title,
+.entry-title {
+	margin: 0.25em 0 0.4em;
+	@include font-heading;
+	color: $color-heading;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	.text-center &,
+	.post--vertical-overlap & {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@for $i from 1 through length($typography-scale) {
+	@if ($i <= 3) {
+		.post__title.typescale-#{inspect($i - 2)},
+		.entry-title.typescale-#{inspect($i - 2)} {
+			font-weight: 400;
+		}
+	}
+	@else if (($i > 3) && ($i < 6)) {
+		.post__title.typescale-#{inspect($i - 2)},
+		.entry-title.typescale-#{inspect($i - 2)} {
+			font-weight: 700;
+		}
+	}
+	@else if ($i >= 6) {
+		.post__title.typescale-#{inspect($i - 2)},
+		.entry-title.typescale-#{inspect($i - 2)} {
+			font-weight: 900;
+		}
+	}
+}
+
+.post__title a,
+.entry-title a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.post__cat--overlap + .post__title,
+a.post__cat--overlap + .post__title,
+.entry-cat--overlap + .post__title,
+a.entry-cat--overlap + .post__title {
+	margin-top: 0;
+}
+
+/*---- Post excerpt ----*/
+
+.post__excerpt,
+.entry-excerpt {
+	max-width: 36em;
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+	color: $color-excerpt;
+	font-size: 1rem;
+	line-height: 1.6;
+
+	.text-center &,
+	.post--vertical-overlap & {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.post__excerpt--lg,
+.entry-excerpt--lg {
+	@include respond-to('sm') {
+		font-size: 16px;
+		font-size: 1.142857142857143rem;
+	}
+}
+
+/*---- Post meta ----*/
+
+.post__meta,
+.entry-meta {
+	@include font-meta;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	color: $color-meta;
+	@include font-size(12px);
+	line-height: 1.5;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.post__meta:not(.post__meta--box) > *:not(:last-child),
+.post__meta-left:not(.entry-meta--box) > *:not(:last-child),
+.post__meta-right:not(.entry-meta--box) > *:not(:last-child),
+.entry-meta:not(.entry-meta--box) > *:not(:last-child) {
+	margin-right: 0.6em;
+}
+
+.post__meta a,
+.entry-meta a {
+	text-decoration: none;
+	color: $color-meta;
+
+	&:active,
+	&:focus,
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.post__meta i,
+.post__meta .mdicon,
+.entry-meta i,
+.entry-meta .mdicon {
+	margin-right: 0.3em;
+}
+
+.post__meta .meta-seperator.meta-seperator,
+.entry-meta .meta-seperator.meta-seperator {
+	margin-left: -0.4em;
+	margin-right: 0.2em;
+}
+
+.post__meta--box,
+.entry-meta--box {
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(space-between);
+	margin-top: 20px;
+	padding: 10px;
+	border: $border-thin;
+	border-bottom: none;
+	background: $light-gray;
+}
+
+.post__meta--flex,
+.entry-meta--flex {
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(space-between);
+}
+
+.post__meta--flex > .post__meta-left,
+.entry-meta--flex > .post__meta-left {
+	@include flex(1);
+	margin-right: 5px;
+	text-align: left;
+}
+
+.post__meta--flex > .post__meta-right,
+.entry-meta--flex > .post__meta-right {
+	@include flex(1);
+	margin-left: 5px;
+	text-align: right;
+}
+
+.post__meta .updated,
+.entry-meta .updated {
+	display: none;
+}
+
+.post__meta--border-top,
+.entry-meta--border-top {
+	margin-top: 15px;
+	padding-top: 15px;
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+
+	.post--overlay & {
+		border-top: 1px solid rgba(255, 255, 255, 0.2);
+	}
+}
+
+/*---- Post author ----*/
+
+.entry-author {
+	text-transform: none;
+}
+
+.entry-author__name,
+a.entry-author__name {
+	@include reset-link;
+	@include font-meta;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.post__meta .entry-author__name,
+.post__meta a.entry-author__name  {
+	color: $color-font-secondary;
+}
+
+.overlay-content .entry-author__name,
+.overlay-content a.entry-author__name {
+	color: $color-font-secondary-inverse;
+}
+
+/*---- Post author with date ----*/
+
+.post__meta--author-w-date {
+	@include display(flex);
+	@include align-items(center);
+}
+
+.post__meta--author-w-date > * {
+	@include flex(0 0 auto);
+}
+
+.post__meta--author-w-date .author-avatar img {
+	@include size(34px);
+	margin-right: 10px;
+	border-radius: 100%;
+}
+
+.post__meta--author-w-date .author-name a {
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 110%;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.entry-author__avatar {
+	@include size(34px);
+	border-radius: 100%;
+	margin-right: 10px;
+}
+
+/*---- Post comments count ----*/
+
+.comments-count-box {
+	@include font-meta;
+	display: inline-block;
+	position: relative;
+	padding: 6px 10px;
+	background: $color-primary;
+	font-size: 12px;
+	line-height: 1;
+	font-weight: 700;
+	color: #fff !important;
+	text-align: center;
+	text-decoration: none !important;
+	border-radius: 2px;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: #fff;
+	}
+
+	&:before {
+		content: '';
+		@include absolute(100%, auto, auto, 50%);
+		margin-left: -5px;
+		border: 0 solid transparent;
+	    border-width: 4px 5px;
+	    border-bottom-width: 0;
+	    border-top-color: $color-primary;
+	}
+}
+
+/*-- Overlay item --*/
+
+.overlay-item {
+	@include absolute(20px, 20px, auto, auto);
+
+	&.overlay-item--sm-p {
+		@include absolute(10px, 10px, auto, auto);
+	}
+}
+
+.overlay-item--top-left {
+	@include absolute(20px, auto, auto, 20px);
+
+	&.overlay-item--sm-p {
+		@include absolute(10px, auto, auto, 10px);
+	}
+}
+
+.overlay-item--left-bottom {
+	@include absolute(auto, auto, 20px, 20px);
+
+	&.overlay-item--sm-p {
+		@include absolute(auto, auto, 10px, 10px);
+	}
+}
+
+.overlay-item--center-xy {
+	@include absolute(50%, auto, auto, 50%);
+	@include transform(translate(-50%, -50%));
+}
+
+.post-type-icon i {
+	font-size: 46px;
+	line-height: 1.1;
+
+	@include respond-to('sm') {
+		font-size: 60px;
+	}
+}
+
+.overlay-content .post-type-icon,
+.post__thumb .post-type-icon,
+.post--overlay .post-type-icon,
+.post-type-icon--inverse {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.post-type-icon--sm i {
+	font-size: 46px;
+}
+
+.post-type-icon--md i {
+	@include respond-to('sm') {
+		font-size: 80px;
+	}
+}
+
+.post-type-icon--lg i {
+	@include respond-to('sm') {
+		font-size: 120px;
+	}
+}
+
+.media-left.post-type-icon > i:only-child,
+.media-right.post-type-icon > i:only-child {
+	display: block;
+}
+
+.post--overlay .gallery-icon,
+.post__thumb .gallery-icon {
+	padding: 0.4em 0.8em;
+	border-radius: 3px;
+	background: rgba(0, 0, 0, 0.4);
+	color: #fff;
+
+	.mdicon:not(:last-child) {
+		margin-right: 0.4em;
+	}
+}
+
+.overlay-content .post__title,
+.overlay-content .post__title a,
+.inverse-text .post__title,
+.inverse-text .post__title a,
+.inverse-text .entry-title,
+.inverse-text .entry-title a {
+	color: #fff;
+}
+
+.overlay-content .post__excerpt,
+.inverse-text .post__excerpt,
+.overlay-content .entry-excerpt,
+.inverse-text .entry-excerpt {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.overlay-content .post__meta,
+.overlay-content .post__meta a,
+.overlay-content .entry-meta,
+.overlay-content .entry-meta a,
+.overlay-content .meta-text,
+.overlay-content a.meta-text,
+.inverse-text .post__meta,
+.inverse-text .post__meta a,
+.inverse-text .entry-meta,
+.inverse-text .entry-meta a,
+.inverse-text .meta-text,
+.inverse-text a.meta-text {
+	color: $color-meta-inverse;
+}
+
+.overlay-content .entry-author__name.entry-author__name,
+.inverse-text .entry-author__name.entry-author__name {
+	color: rgba(255, 255, 255, 0.9);
+}

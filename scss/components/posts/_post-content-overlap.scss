@@ -1,0 +1,130 @@
+/* ----------------------------------------------------------------
+	Post content overlap
+-----------------------------------------------------------------*/
+
+.post--featured-a {
+	position: relative;
+	padding: 1px 0; // fix collapsing margins
+}
+
+.post--featured-a .post__inner {
+	@include display(flex);
+	@include align-items(center);
+
+	@include respond-to('md') {
+		@include align-items(flex-start);
+	}
+}
+
+.post--featured-a .post__text {
+	position: relative;
+	max-width: calc(100% - 40px);
+	margin: 40px auto;
+	text-align: center;
+
+	&:before {
+		content: '';
+		@include absolute(-15px);
+		opacity: 0.6;
+		@include shadow(3);
+		@include transform(scale(0.7, 1));
+		@include transform-origin(center center);
+		@include transition-property(all);
+		@include transition-duration(0.3s);
+		@include transition-delay(0.1s);
+		@include transition-timing-function($ease-bounce);
+	}
+
+	&:hover:before {
+		opacity: 0.9;
+		@include transform(scale(1, 1));
+	}
+
+	@include respond-to('sm') {
+		margin: 60px auto 100px;
+
+		&:before {
+			@include absolute(-15px);
+		}
+	}
+
+	@include respond-to('md') {
+		max-width: 680px;
+		margin: 120px 0 140px;
+		padding-left: 50px;
+		text-align: initial;
+
+		&:before {
+			@include absolute(-50px, -50px, -50px, 0);
+			@include transform(scale(0.5, 1));
+			@include transform-origin(left center);
+		}
+	}
+}
+
+.post--featured-a .post__text-inner {
+	position: relative;
+	padding: 0;
+}
+
+.post--featured-a .post__title {
+	text-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+}
+
+.post--featured-a .read-more {
+	display: none;
+	@include absolute(auto, auto, -50px, auto);
+	text-transform: uppercase;
+	opacity: 0;
+	@include shadow(3);
+	@include transform(translate(0, 20%));
+	@include transition-property(all);
+	@include transition-duration(0.2s);
+	@include transition-delay(0.1s);
+	@include transition-timing-function($ease-bounce);
+
+	@include respond-to('md') {
+		display: inline-block;
+	}
+}
+
+.post--featured-a .post__text:hover .read-more {
+	@include transform(translate(0, 50%));
+	opacity: 1;
+}
+
+/*
+ * Post content overlap bottom
+ *----------------------------------*/
+
+.post--featured-overlap-bottom {
+	min-height: 400px;
+	position: relative;
+
+	@include respond-to('sm') {
+		min-height: 480px;
+	}
+
+	@include respond-to('md') {
+		min-height: 520px;
+	}
+}
+
+.post--featured-overlap-bottom .background-img {
+	bottom: 60px;
+}
+
+.post--featured-overlap-bottom .post__text {
+	width: 100%;
+	@include absolute(auto, auto, 0, auto);
+}
+
+.post--featured-overlap-bottom .post__text-inner {
+	padding: 20px;
+	background: #fff;
+	@include shadow(2);
+
+	@include respond-to('sm') {
+		padding: 30px;
+	}
+}

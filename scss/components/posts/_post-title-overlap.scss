@@ -1,0 +1,35 @@
+/*
+ * Post overlap title
+ *--------------------*/
+
+.post--overlap-title {
+	position: relative;
+	min-height: 500px;
+	margin-bottom: 20px;
+}
+
+.post--overlap-title .post__text {
+	max-width: 600px;
+	margin: 0 auto -20px;
+	padding: 0 20px 20px;
+	text-align: center;
+	background: $color-primary;
+	@include shadow(3);
+}
+
+.post--overlap-title .post-cat {
+	display: inline-block;
+	margin-bottom: -10px;
+    padding: 2px 10px;
+    background: #fff;
+	@include transform(translate(0, -50%));
+	@include shadow(1);
+}
+
+.post--overlap-title .post-content-inner {
+	position: relative;
+}
+
+.post--overlap-title .post__title {
+	font-weight: 700;
+}

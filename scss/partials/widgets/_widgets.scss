@@ -1,0 +1,323 @@
+/* -----------------------------------------------------------------
+## Widgets
+----------------------------------------------------------------- */
+
+.widget {
+	margin-bottom: 40px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.widget--centered {
+	text-align: center;
+}
+
+.widget--has-background {
+	padding: 20px;
+}
+
+.widget__title {
+	margin-bottom: 20px;
+
+	.has-block-heading-line-around &,
+	.has-block-heading-line & {
+		@include display(flex);
+		@include align-items(center);
+		@include justify-content(space-between);
+	}
+
+	.has-block-heading-line &:after {
+		content: '';
+	    @include flex(1);
+	    @include order(2);
+	    margin-left: 0.6em;
+	    border-top: 2px solid rgba(0, 0, 0, 0.05);
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+
+.site-footer .widget__title:before,
+.site-footer .widget__title:after,
+.mnmd-offcanvas .widget__title:before,
+.mnmd-offcanvas .widget__title:after {
+	content: none !important;
+}
+
+.has-block-heading-line-around .site-footer .widget__title {
+	display: block;
+	text-align: center;
+}
+
+.widget__title-text {
+	@include font-meta;
+	margin: 0;
+	font-size: 15px;
+	font-size: 1.1rem;
+	line-height: 1.2;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.widget__title .first-word {
+	font-weight: 300;
+}
+
+.has-block-heading-line-under .widget__title {
+	padding-bottom: 5px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.has-block-heading-line-around .widget__title__title {
+	padding-right: 0;
+}
+
+.has-block-heading-line-under .widget__title__seperator,
+.has-block-heading-line-around .widget__title__seperator {
+	display: none;
+}
+
+.has-block-heading-line-around .widget__title:before,
+.has-block-heading-line-around .widget__title:after {
+	content: '';
+	@include flex(1);
+	margin-right: 0.6em;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.has-block-heading-line-around .widget__title:after {
+	margin-left: 0.6em;
+}
+
+.has-block-heading-line-around .mnmd-widget--box .widget__title {
+	@include justify-content(center);
+}
+
+.site-footer .widget__title__title {
+	font-size: 14px;
+}
+
+/*---- Box Widget ----*/
+
+.mnmd-widget--box .widget__title {
+	margin-bottom: 0;
+	padding: 10px 20px;
+	background: $color-primary;
+	border-bottom: none;
+	color: #fff;
+
+	&:before,
+	&:after {
+		content: none;
+	}
+}
+
+.mnmd-widget--box .widget__inner {
+	padding: 20px;
+	background: $light-gray;
+}
+
+/*---- Indexed Widget A ----*/
+
+.mnmd-widget-indexed-posts-a .posts-list {
+	counter-reset: li;
+}
+
+.mnmd-widget-indexed-posts-a .posts-list > li .post__thumb {
+	position: relative;
+
+	&:after {
+		@include font-meta;
+		content: counter(li); /* Use the counter as content */
+		counter-increment: li;
+		display: block;
+		@include size(24px);
+		@include absolute(auto, auto, 4px, 4px);
+		border: 1px solid rgba(255, 255, 255, 0.4);
+		background: $color-primary;
+		color: #fff;
+		text-align: center;
+		font-size: 12px;
+		line-height: 22px;
+		font-weight: 700;
+		//@include transform(translate(0, 50%));
+	}
+}
+
+/*---- Indexed Widget B ----*/
+
+.mnmd-widget-indexed-posts-b .posts-list {
+	counter-reset: li;
+}
+
+.mnmd-widget-indexed-posts-b .posts-list > li .post__title {
+	position: relative;
+
+	&:after {
+		@include font-meta;
+		content: counter(li); /* Use the counter as content */
+		counter-increment: li;
+		display: block;
+		@include absolute(-30px, 15px, auto, auto);
+		color: $color-primary;
+		font-size: 96px;
+		line-height: 1;
+		font-weight: 700;
+		font-style: italic;
+		opacity: 0.25;
+	}
+}
+
+/*---- Indexed Widget C ----*/
+
+.mnmd-widget-indexed-posts-c .list-index {
+	@include font-meta;
+	display: inline-block;
+	min-width: 45px;
+	margin-left: 10px;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 26px;
+	font-size: 1.86rem;
+	line-height: 1;
+	font-weight: 700;
+	text-align: center;
+}
+
+.mnmd-widget-indexed-posts-c .posts-list > li .post--overlay .post__text-inner {
+	padding-left: 10px;
+}
+
+.mnmd-widget-indexed-posts-c .posts-list > li .post--overlay .list-index {
+	margin-left: 0;
+	color: #fff;
+	font-size: 36px;
+	font-size: 2.57rem;
+}
+
+/*---- Widget most commented ----*/
+
+.mnmd-widget-most-commented .comments-count-box {
+	@include reset-link;
+	min-width: 48px;
+	margin-right: 10px;
+	padding: 10px 12px;
+	background: #444;
+	font-size: 16px;
+
+	&:before {
+		border-top-color: #444;
+	}
+}
+
+/*---- Social counter widget ----*/
+
+.mnmd-widget-social-counter {
+	@include clearfix;
+}
+
+.social-tile {
+	@include reset-link;
+	display: block;
+	position: relative;
+	padding: 15px 30px;
+	border-radius: 2px;
+	background: rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+    @include transition(all 0.2s ease-out);
+
+    &:hover {
+    	background: rgba(0, 0, 0, 0.02);
+    }
+
+    &:before {
+		content: '';
+		@include absolute(0);
+	    background: -webkit-linear-gradient(top,rgba(255,255,255,0.4) 0,rgba(255,255,255,0) 100%);
+		background: linear-gradient(180deg,rgba(255,255,255,0.4) 0,rgba(255,255,255,0) 100%);
+	}
+}
+
+.social-tile__inner {
+	@include align-items(center);
+}
+
+.social-tile__icon {
+	@include absolute(auto, auto, 0, 0);
+	font-size: 5.7143rem;
+	color: rgba(255, 255, 255, 0.2);
+	line-height: 1;
+	@include transition(all 0.3s $ease-bounce);
+	@include transform(translate(20%, 25%) scale(1, 1));
+	@include transform-origin(0 50% 0);
+
+	.social-tile:hover & {
+		@include transform(translate(20%, 20%) scale(1.4, 1.4));
+	}
+}
+
+.social-tile__title {
+	margin: 0;
+	@include font-heading;
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.social-tile__count {
+	@include font-meta;
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 1rem;
+	line-height: 1.1;
+}
+
+.social-tile__right .mdicon {
+	display: inline-block;
+	font-size: 1.2857rem;
+	color: #fff;
+	@include transition(all 0.3s $ease-bounce);
+
+	.social-tile:hover & {
+		@include transform(translate(40%, 0));
+	}
+}
+
+/*---- Subscribe widget ----*/
+
+.widget-subscribe {
+	padding-top: 20px;
+}
+
+.widget-subscribe__inner {
+	padding: 20px;
+	background: #fff;
+	border: 3px solid #eee;
+	box-shadow: 0 -20px 0 -10px #f5f5f5, 0 -38px 0 -20px #fafafa;
+
+	@include respond-to('sm') {
+		padding: 30px;
+	}
+}
+
+.widget-subscribe.widget--centered .subscribe-form input[type="email"] {
+	text-align: center;
+}
+
+.widget-subscribe--stack-bottom {
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+
+.widget-subscribe--stack-bottom .widget-subscribe__inner {
+	box-shadow: 0 20px 0 -10px #f5f5f5, 0 38px 0 -20px #fafafa;
+}
+
+/*---- Widget Categories ----*/
+

@@ -1,0 +1,59 @@
+/* -----------------------------------------------------------------
+## Search Modal
+----------------------------------------------------------------- */
+
+.search-modal .modal-dialog {
+	margin: 10vh 10px;
+
+	@include respond-to('sm') {
+		margin: 15vh auto;
+	}
+}
+
+.search-modal__inner {
+	max-width: 480px;
+	margin: auto;
+}
+
+.search-modal .modal-body {
+	padding: 15px;
+
+	@include respond-to('sm') {
+		padding: 30px;
+	}
+}
+
+.search-modal .search-form {
+	margin-bottom: 15px;
+}
+
+.search-modal .search-form__input {
+	padding-right: calc(1em + 40px);
+	font-size: 14px;
+
+	@include respond-to('sm') {
+		padding-right: calc(1em + 40px);
+		font-size: 20px;
+	}
+}
+
+.search-modal .search-form__submit {
+	width: 40px;
+	@include absolute(50%, 0, auto, auto);
+	@include transform(translate(0, -50%));
+	background: transparent;
+	border: none;
+	color: rgba(0, 0, 0, 0.4);
+	font-size: 14px;
+
+	@include respond-to('sm') {
+		width: 50px;
+		font-size: 20px;
+	}
+
+	&:focus {
+		outline: none;
+	}
+}
+
+

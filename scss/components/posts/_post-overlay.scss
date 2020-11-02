@@ -1,0 +1,142 @@
+/* -----------------------------------------------------------------
+## Post Overlay
+----------------------------------------------------------------- */
+
+.post--overlay {
+	position: relative;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.post--overlay .post__text {
+	@include display(flex);
+	min-height: $card-height-xxs;
+}
+
+.post--overlay-bottom .post__text {
+	@include align-items(flex-end);
+	padding-top: 40px;
+}
+
+.post--overlay-bottom.has-score-badge .post__text {
+	padding-top: 80px;
+}
+
+.post--overlay.has-score-badge-bottom .post__text {
+	padding-bottom: 80px;
+}
+
+.post--overlay.has-score-badge-bottom .post-score-hexagon {
+	@include absolute(auto, auto, 20px, 50%);
+	@include transform(translate(-50%, 0));
+}
+
+.post--overlay-middle .post__text {
+	@include align-items(center);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.post--overlay .post__text-wrap {
+	@include flex(1);
+}
+
+.post--overlay-xs .post__text {
+	@include respond-to('sm') {
+		min-height: $card-height-xs;
+	}
+}
+
+.post--overlay-sm .post__text {
+	min-height: $card-height-xs;
+
+	@include respond-to('sm') {
+		min-height: $card-height-sm;
+	}
+}
+
+.post--overlay-md .post__text {
+	min-height: $card-height-xs;
+
+	@include respond-to('sm') {
+		min-height: $card-height-sm;
+	}
+
+	@include respond-to('md') {
+		min-height: $card-height-md;
+	}
+}
+
+.post--overlay-lg .post__text {
+	min-height: $card-height-sm;
+	
+	@include respond-to('sm') {
+		min-height: $card-height-md;
+	}
+
+	@include respond-to('md') {
+		min-height: $card-height-lg;
+	}
+}
+
+.post--overlay-primary-xs .post__text {
+	@include respond-to('xs-only') {
+		min-height: $card-height-xs;
+	}
+}
+
+.post--overlay .background-img {
+	overflow: hidden;
+}
+
+.post--overlay-floorfade .post__text-wrap {
+	position: relative;
+	width: 100%;
+}
+
+.post--overlay-floorfade .post__text-wrap:before {
+	content: '';
+	@include absolute(-100%, 0, 0, 0);
+	@include background-image(linear-gradient(0deg,
+		hsl(0, 0%, 0%) 0%,
+		hsla(0, 0%, 0%, 0.917) 5.3%,
+		hsla(0, 0%, 0%, 0.834) 10.6%,
+		hsla(0, 0%, 0%, 0.753) 15.9%,
+		hsla(0, 0%, 0%, 0.672) 21.3%,
+		hsla(0, 0%, 0%, 0.591) 26.8%,
+		hsla(0, 0%, 0%, 0.511) 32.5%,
+		hsla(0, 0%, 0%, 0.433) 38.4%,
+		hsla(0, 0%, 0%, 0.357) 44.5%,
+		hsla(0, 0%, 0%, 0.283) 50.9%,
+		hsla(0, 0%, 0%, 0.213) 57.7%,
+		hsla(0, 0%, 0%, 0.147) 65%,
+		hsla(0, 0%, 0%, 0.089) 72.9%,
+		hsla(0, 0%, 0%, 0.042) 81.4%,
+		hsla(0, 0%, 0%, 0.011) 90.6%,
+		hsla(0, 0%, 0%, 0) 100%
+	));
+}
+
+.post--overlay-padding-lg .post__text-inner {
+	@include respond-to('sm') {
+		padding: 30px;
+	}
+}
+
+.post--overlay-padding-lg .overlay-item {
+	@include respond-to('sm') {
+		top: 30px;
+		right: 30px;
+	}
+}
+
+.post--overlay-padding-lg .overlay-item--top-left {
+	@include respond-to('sm') {
+		top: 30px;
+		left: 30px;
+	}
+}
+
+.post--overlay-padding-lg.has-score-badge-bottom .post-score-hexagon {
+	bottom: 30px;
+}

@@ -1,0 +1,51 @@
+/* -----------------------------------------------------------------
+## Custom Scrollbar
+----------------------------------------------------------------- */
+
+.ps-container > .ps-scrollbar-y-rail,
+.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+	width: 6px;
+}
+
+.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+	right: 0;
+	border-radius: 2px;
+}
+
+.ps-container > .ps-scrollbar-y-rail:hover > .ps-scrollbar-y,
+.ps-container > .ps-scrollbar-y-rail:active > .ps-scrollbar-y {
+	width: 8px;
+}
+
+.ps-container > .ps-scrollbar-y-rail {
+	background: transparent !important;
+}
+
+.scrollbar-always-visible.ps-container > .ps-scrollbar-x-rail,
+.scrollbar-always-visible.ps-container > .ps-scrollbar-y-rail {
+	opacity: 0.6;
+}
+
+.iScrollVerticalScrollbar {
+    position: absolute;
+    z-index: 9999;
+    width: 6px;
+    bottom: 4px;
+    top: 4px;
+    right: 4px;
+    overflow: hidden;
+}
+
+.iScrollIndicator {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 999em;
+}
+
+.iScrollVerticalScrollbar .iScrollIndicator {
+    width: 100%;
+}
+
+.mnmd-video-box .iScrollIndicator {
+	background: rgba(255, 255, 255, 0.5);
+}

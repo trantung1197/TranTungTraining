@@ -1,0 +1,29 @@
+/* -----------------------------------------------------------------
+## Block Divider
+----------------------------------------------------------------- */
+
+.block-divider {
+	@include display(flex);
+	@include align-items(center);
+	margin: 1.2em 0;
+
+	&:before,
+	&:after {
+		content: '';
+		@include flex(1);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	}
+}
+
+.block-divider > span {
+	margin: 0 0.6em;
+}
+
+.horizontal-divider {
+	margin: 30px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.horizontal-divider--space-sm {
+	margin: 10px 0;
+}

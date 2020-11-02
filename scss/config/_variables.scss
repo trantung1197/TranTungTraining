@@ -1,0 +1,241 @@
+// =============================================================================
+// TYPOGRAPHY
+// =============================================================================
+
+$base-font-size: 14px;
+$em-base: $base-font-size;
+$font-primary: "Rubik", Helvetica, Arial, sans-serif;
+$font-secondary: "Rubik", Helvetica, Arial, sans-serif;
+$font-tertiary: "Rubik", Helvetica, Arial, sans-serif;
+$font-heading: $font-primary;
+$font-body: $font-secondary;
+$font-category: $font-tertiary;
+$font-meta: $font-tertiary;
+$font-navigation: $font-tertiary;
+
+// Typography scale
+$typography-scale: (
+	'-1': (
+		'xs': (0.889, 1.5),
+		'sm': (0.889, 1.5),
+		'md': (0.889, 1.5),
+	),
+	'0': (
+		'xs': (1, 1.5),
+		'sm': (1, 1.5),
+		'md': (1, 1.5),
+	),
+	'1': (
+		'xs': (1.125, 1.4),
+		'sm': (1.2, 1.4),
+		'md': (1.25, 1.4),
+	),
+	'2': (
+		'xs': (1.266, 1.4),
+		'sm': (1.44, 1.4),
+		'md': (1.563, 1.3),
+	),
+	'3': (
+		'xs': (1.424, 1.4),
+		'sm': (1.728, 1.3),
+		'md': (1.953, 1.3),
+	),
+	'4': (
+		'xs': (1.602, 1.3),
+		'sm': (2.074, 1.3),
+		'md': (2.441, 1.2),
+	),
+	'5': (
+		'xs': (1.802, 1.3),
+		'sm': (2.488, 1.2),
+		'md': (3.052, 1.2),
+	),
+	'6': (
+		'xs': (2.027, 1.3),
+		'sm': (2.986, 1.2),
+		'md': (3.815, 1.1),
+	),
+	'7': (
+		'xs': (2.281, 1.3),
+		'sm': (3.583, 1.2),
+		'md': (4.768, 1.1),
+	),
+	'8': (
+		'xs': (2.566, 1.3),
+		'sm': (4.3, 1.1),
+		'md': (5.96, 1.1),
+	),
+);
+
+// spacement
+$spacement-increment: 5px;
+$spacement-xxs: $spacement-increment;
+$spacement-xs: $spacement-xxs + $spacement-increment;
+$spacement-sm: $spacement-xs + $spacement-increment;
+$spacement-md: $spacement-sm + $spacement-increment;
+$spacement-lg: $spacement-md + $spacement-increment * 2;
+$spacement-xl: $spacement-lg + $spacement-increment * 2;
+$spacement-xxl: $spacement-xl + $spacement-increment * 2;
+
+// borders
+$border-radius: 3px;
+$border-thin: 1px solid rgba(0, 0, 0, 0.05);
+$border-thin-inverse: 1px solid rgba(255, 255, 255, 0.1);
+
+
+// =============================================================================
+// COLORS
+// =============================================================================
+
+$color-font-primary: rgba(0, 0, 0, 0.8);
+$color-font-secondary: rgba(0, 0, 0, 0.6);
+$color-font-tertiary: rgba(0, 0, 0, 0.4);
+
+$color-font-primary-inverse: rgba(255, 255, 255, 1);
+$color-font-secondary-inverse: rgba(255, 255, 255, 0.8);
+$color-font-tertiary-inverse: rgba(255, 255, 255, 0.6);
+
+$color-primary: #FC3C2D;
+$color-primary-inverse: #FFF;
+
+$color-secondary: #0a293b;
+$color-secondary-inverse: #FFF;
+
+$color-tertiary: #2BAAB1;
+$color-tertiary-inverse: #FFF;
+
+$light-gray: #fafafa;
+$gray: #eee;
+$color-dark: #333;
+
+$color-heading: $color-font-primary;
+$color-heading-inverse: $color-font-primary-inverse;
+$color-meta: $color-font-tertiary;
+$color-meta-hover: $color-font-secondary;
+$color-meta-inverse: $color-font-tertiary-inverse;
+$color-excerpt: $color-font-secondary;
+
+$link-color: rgba(0,0,0,0.8);
+$text-color: rgba(0,0,0,0.8);
+$score-circle-color: #fb4834;
+$score-bg-color: #19bc9c;
+$star-rating-color: #F7E74A;
+
+// =============================================================================
+// SHADOWS
+// =============================================================================
+
+$shadow-button: 0px 1px 1px rgba(0,0,0,0.1); 
+$shadow-lvl1: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.08);
+$shadow-lvl2: 0 3px 6px rgba(0,0,0,0.05), 0 3px 6px rgba(0,0,0,0.06);
+$shadow-lvl3: 0 10px 20px rgba(0,0,0,0.03), 0 6px 6px rgba(0,0,0,0.05);
+$shadow-lvl4: 0 14px 28px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.04);
+$shadow-lvl5: 0 19px 38px rgba(0,0,0,0.06), 0 15px 12px rgba(0,0,0,0.04);
+
+// =============================================================================
+// BREAKPOINTS
+// =============================================================================
+
+$breakpoints: (
+	'sm': (min-width: 768px),
+	'md': (min-width: 992px),
+	'lg': (min-width: 1200px),
+	'xs-only': (max-width: 767px),
+	'sm-only': (min-width: 768px) and (max-width: 991px),
+	'md-only': (min-width: 992px) and (max-width: 1199px),
+);
+
+// =============================================================================
+// EASINGS
+// =============================================================================
+
+$easings: (
+	'main': cubic-bezier(0.55,0,0.1,1),
+	'ease': cubic-bezier(0.23, 1, 0.32, 1),
+	'bounce': cubic-bezier(0.175, 0.885, 0.320, 1.275),
+	'ease-1': cubic-bezier(0.4, 0, 0.2, 1),
+);
+
+$ease-bounce: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+
+// =============================================================================
+// SITE HEADER
+// =============================================================================
+
+$top-bar-bg-color: #333;
+$top-bar-color: rgba(255, 255, 255, 0.8);
+$top-bar-color-hover: rgba(255, 255, 255, 0.9);
+
+$top-bar-light-bg-color: #fff;
+$top-bar-light-color: rgba(0, 0, 0, 0.8);
+$top-bar-light-color-hover: rgba(0, 0, 0, 0.8);
+
+$top-bar-dark-bg-color: #333;
+$top-bar-dark-color: rgba(255, 255, 255, 0.8);
+$top-bar-dark-color-hover: rgba(255, 255, 255, 0.9);
+
+$header-bg-color: #fff;
+$header-color: rgba(0, 0, 0, 0.8);
+$header-color-hover: rgba(0, 0, 0, 0.8);
+
+$header-inverse-color-bg: #1B1D1C;
+$header-inverse-color: rgba(255, 255, 255, 0.8);
+$header-inverse-color-hover: rgba(255, 255, 255, 1);
+
+$menu-dropdown-bg-color: #fafafa;
+$menu-dropdown-bg-color-hover: rgba(0, 0, 0, 0.05);
+$menu-dropdown-color: rgba(0, 0, 0, 0.6);
+$menu-dropdown-shadow: 0 0 4px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.03), 0 6px 6px rgba(0, 0, 0, 0.05);
+
+$header-inverse-menu-dropdown-bg-color: #fafafa;
+$header-inverse-menu-dropdown-bg-color-hover: rgba(0, 0, 0, 0.05);
+$header-inverse-menu-dropdown-color: rgba(0, 0, 0, 0.6);
+
+$navbar-height: 60px;
+$header-sticky-height: 60px;
+$navbar-height-mobile: 50px;
+
+// =============================================================================
+// SITE FOOTER
+// =============================================================================
+
+$footer-text-color: rgba(0, 0, 0, 0.6);
+$footer-text-color-inverse: rgba(255, 255, 255, 0.8);
+$footer-link-color: rgba(0, 0, 0, 0.8);
+$footer-link-color-inverse: rgba(255, 255, 255, 1);
+
+// =============================================================================
+// Z-INDEX ELEMENTS
+// =============================================================================
+
+$z-layers: (
+	"modal":            50,
+	"dropdown-overlay": 40,
+	"dropdown":         30,
+	"navigation":       20,
+	"prominent":		10,
+	"default":            1,
+	"below":             -1,
+);
+
+// =============================================================================
+// LAYOUT
+// =============================================================================
+
+$container-width: 1140px;
+$container-wide-width: 1440px;
+$sidebar-width: 330px; // sidebar width
+$sidebar-width-small: 290px; // main content width on md breakpoint
+$copy-width: 42.8125em; //body copy width to fontsize ratio
+$content-width: 1170px - $sidebar-width; // sidebar width
+$content-width-small: 970px - $sidebar-width-small; // sidebar width on md breakpoint
+
+// =============================================================================
+// POST
+// =============================================================================
+
+$card-height-xxs: rem(200px);
+$card-height-xs: rem(250px);
+$card-height-sm: rem(350px);
+$card-height-md: rem(450px);
+$card-height-lg: rem(550px);

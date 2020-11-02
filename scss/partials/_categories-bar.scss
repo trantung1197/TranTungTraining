@@ -1,0 +1,49 @@
+/* -----------------------------------------------------------------
+## Categories bar
+----------------------------------------------------------------- */
+
+.category-bar {
+	margin-bottom: 30px;
+}
+
+.category-bar-inner {
+	@include display(flex);
+	@include flex-wrap(wrap);
+	margin: 0 -8px;
+
+	@include respond-to('sm') {
+
+	}
+}
+
+.category-bar__cat {
+	@include flex(1);
+	margin: 0 8px 10px;
+	text-align: center;
+}
+
+.category-bar__cat a {
+	display: block;
+	padding: 8px;
+	border: 1px solid rgba(0, 0, 0, 0.04);
+	border-radius: 4px;
+	background: #fff;
+	@include shadow(1);
+	@include transition();
+
+	&:hover {
+		@include shadow(2);
+	}
+}
+
+.category-bar .cat-icon {
+	color: rgba(0, 0, 0, 0.2);
+	font-size: 30px;
+	@include transition();
+}
+
+.category-bar .cat-name {
+	color: $text-color;
+	font-size: 12px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,229 @@
+/* -----------------------------------------------------------------
+## Block heading
+----------------------------------------------------------------- */
+
+.block-heading {
+	@include font-meta;
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(space-between);
+	width: 100%;
+	position: relative;
+	margin-bottom: 1.4rem;
+	font-size: 1rem;
+	line-height: 1.2;
+}
+
+.block-heading a {
+	@include reset-link;
+}
+
+.block-heading__title {
+	@include font-meta;
+	margin: 0;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 1.1rem;
+	line-height: 1.2;
+	letter-spacing: 0.08em;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	.block-heading--secondary & {
+		font-size: 1rem;
+		font-weight: 300;
+	}
+}
+
+.block-heading .first-word {
+	font-weight: 300;
+}
+
+.block-heading__subtitle {
+	font-family: $font-body;
+	line-height: 1.4;
+	letter-spacing: normal;
+	font-size: 1rem;
+	color: $color-meta;
+
+	.overlay-content &,
+	.inverse-text & {
+		color: rgba(255, 255, 255, 0.8);
+	}
+}
+
+.block-heading__secondary {
+	padding-left: 0.6em;
+	text-align: right;
+	vertical-align: middle;
+
+	a {
+		@include reset-link;
+	}
+}
+
+/*---- Block heading large ----*/
+
+.block-heading--lg {
+	@include respond-to('sm') {
+		margin-bottom: 1.6rem;
+	}
+}
+
+.block-heading--lg .block-heading__title {
+	@include respond-to('sm') {
+		font-size: 20px;
+		font-size: 1.43rem;
+	}
+}
+
+/*---- Block heading line ----*/
+
+.has-block-heading-line .block-heading:after {
+	content: '';
+    @include flex(1);
+    @include order(2);
+    margin-left: 0.6em;
+    border-top: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.has-block-heading-line .block-heading__secondary {
+	@include order(3);
+}
+
+/*---- Block heading center ----*/
+
+.block-heading--center {
+	display: block;
+	text-align: center;
+	border: none !important;
+}
+
+.block-heading--center .block-heading__title {
+	margin-bottom: 0.4em;
+	padding: 0;
+}
+
+.block-heading--center .block-heading__subtitle {
+	padding: 0;
+}
+
+.block-heading--center:before,
+.block-heading--center:after {
+	display: none;
+}
+
+/*---- Block heading line around ----*/
+
+.has-block-heading-line-around {
+	.block-heading:before,
+	.block-heading:after {
+		content: '';
+		@include flex(1);
+		margin-right: 0.6em;
+		border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+	}
+
+	.block-heading:after {
+		margin-left: 0.6em;
+	}
+
+	.block-heading__secondary {
+		display: none;
+	}
+}
+
+/*---- Block heading line under ----*/
+
+.has-block-heading-line-under {
+	.block-heading {
+		padding-bottom: 5px;
+		border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+	}
+
+	.overlay-content .block-heading,
+	.inverse-text .block-heading,
+	.block-heading--inverse.block-heading {
+		border-color: rgba(255, 255, 255, 0.4);
+	}
+}
+
+/*---- Block heading box ----*/
+
+.block-heading--box {
+	padding: 10px 12px 11px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	border-bottom: none;
+	background: $light-gray;
+}
+
+.block-heading--box .block-heading__title {
+	font-size: 14px;
+}
+
+/*---- Block heading vertical ----*/
+
+.block-heading--vertical {
+	display: block;
+
+	&.block-heading--vertical {
+		padding-bottom: 0;
+		border-bottom: none;	
+	}
+	
+}
+
+.block-heading--vertical > *:not(:last-child) {
+	margin-bottom: 0.4em;
+}
+
+/*---- Block heading inverse ----*/
+
+.block-heading--inverse {
+	position: relative;
+	color: $color-font-primary-inverse;
+	z-index: 1;
+}
+
+.block-heading--inverse .block-heading__title {
+	color: $color-font-primary-inverse;
+}
+
+.block-heading--inverse .block-heading__subtitle {
+	color: $color-font-secondary-inverse;
+}
+
+.block-heading.block-heading--inverse:before,
+.block-heading.block-heading--inverse:after {
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+/*---- Search results section heading ----*/
+
+.search-results__section-heading {
+	@include font-meta;
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(space-between);
+	width: 100%;
+	position: relative;
+	margin-bottom: 1.4rem;
+	border-bottom: $border-thin;
+	line-height: 1.2;
+}
+
+.search-results__section-heading-title {
+	margin-bottom: 0;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+.search-results__section-heading a {
+	@include reset-link;
+}
+
+.search-results__section-heading-more {
+	@include font-meta;
+	color: rgba(0, 0, 0, 0.4);
+}

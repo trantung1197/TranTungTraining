@@ -1,0 +1,138 @@
+// =============================================================================
+// ## TYPOGRAPHY
+// =============================================================================
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	@include font-heading;
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+/*---- Typography scale ----*/
+@for $i from 0 through (length($typography-scale) - 2) {
+	.h#{6 - $i},
+	h#{6 - $i} {
+		@include typography-scale(inspect($i));
+	}
+}
+
+@for $i from 1 through (length($typography-scale)) {
+	@if ($i == 1) {
+		.typescale-n1 {
+			@include typography-scale(inspect($i - 2));
+		}
+	} @else {
+		.typescale-#{$i - 2} {
+			@include typography-scale(inspect($i - 2));
+		}
+	}
+}
+
+.typography-copy,
+.comment-content {
+	font-size: 16px;
+	font-size: 1.1429rem;
+	line-height: 1.6;
+
+	@for $i from 0 through (length($typography-scale) - 2) {
+		.h#{6 - $i},
+		h#{6 - $i} {
+			margin-top: 1.5em;
+			margin-bottom: 0.75em;
+			@include typography-scale(inspect($i), 'em');
+		}
+	}
+
+	@for $i from 1 through (length($typography-scale)) {
+		@if ($i == 1) {
+			.typescale-n1 {
+				@include typography-scale(inspect($i - 2), 'em');
+			}
+		} @else {
+			.typescale-#{$i - 2} {
+				@include typography-scale(inspect($i - 2), 'em');
+			}
+		}
+	}
+
+	h4,
+	.h4 {
+		font-weight: 700;
+	}
+
+	h5,
+	.h5 {
+		color: rgba(0, 0, 0, 0.5);
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	h6,
+	.h6 {
+		font-weight: 700;
+	}
+
+	blockquote {
+		margin: 0 0 1.6em 0;
+		padding: 0 0 0 1em;
+		border-left: 5px solid #eee;
+		@include font-heading;
+		font-size: 1.5em;
+		line-height: 1.5;
+		color: rgba(0, 0, 0, 0.5);
+
+		&:before {
+			content: '\201c';
+			display: block;
+			position: relative;
+		    top: 0.225em;
+		    margin-bottom: 0.2em;
+		    color: #eee;
+		    font-family: sans-serif;
+		    font-weight: 700;
+		    font-size: 5em;
+		    line-height: 0.3;
+		}
+
+		cite {
+			font-size: 0.86em;
+		}
+
+		p {
+			margin-bottom: 1em;
+		}
+	}
+
+	mark {
+		color: rgba(0, 0, 0, 0.8);
+		background: #FBFF64;
+	}
+
+	ol,
+	ul {
+		margin-bottom: 1.6em;
+		padding-left: 1.8em;
+	}
+
+	li > ol,
+	li > ul {
+		margin-bottom: 0;
+	}
+
+	p {
+		margin-bottom: 1.6em;
+	}
+}

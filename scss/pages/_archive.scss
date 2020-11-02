@@ -1,0 +1,62 @@
+/* -----------------------------------------------------------------
+## Archives
+----------------------------------------------------------------- */
+
+.page-heading {
+	position: relative;
+
+	.mnmd-block & {
+		margin-bottom: 30px;
+	}
+}
+
+.page-heading__title {
+	margin: 0;
+	@include font-meta;
+	font-size: 1.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	@include respond-to('sm') {
+		font-size: 1.8rem;
+	}
+}
+
+.page-heading__subtitle {
+	max-width: 40em;
+	margin-top: 0.6em;
+	color: rgba(0, 0, 0, 0.4);
+	font-size: 1rem;
+}
+
+.page-heading--inverse .page-heading__title {
+	position: relative;
+	color: #fff;
+}
+
+.page-heading--inverse .page-heading__subtitle {
+	position: relative;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.page-heading--center {
+	text-align: center;
+
+	.page-heading__title,
+	.page-heading__subtitle {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.page-heading--has-background {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #f8f8f8;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+
+	@include respond-to('sm') {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}

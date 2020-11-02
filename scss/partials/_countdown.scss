@@ -1,0 +1,83 @@
+/* -----------------------------------------------------------------
+## Count down
+----------------------------------------------------------------- */
+
+.mnmd-countdown {
+	position: relative;
+	text-align: center;
+}
+
+.mnmd-countdown__inner {
+	display: inline-block;
+	@include clearfix;
+	margin: 0 -10px;
+
+	@include respond-to('sm') {
+		margin: 0 -20px;
+	}
+
+	@include respond-to('md') {
+		margin: 0 -30px;
+	}
+}
+
+.countdown__section {
+	display: inline-block;
+	min-width: 60px;
+	margin: 0 10px;
+	text-align: center;
+
+	@include respond-to('sm') {
+		min-width: 80px;
+		margin: 0 20px;
+	}
+}
+
+.countdown__digit {
+	display: block;
+	@include font-meta;
+	font-size: 32px;
+	font-weight: 700;
+
+	@include respond-to('sm') {
+		font-size: 48px;
+	}
+
+	@include respond-to('md') {
+		font-size: 60px;
+	}
+}
+
+.countdown__text {
+	display: block;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;;
+
+	@include respond-to('sm') {
+		font-size: 16px;
+	}
+
+	@include respond-to('md') {
+		font-size: 20px;
+	}
+}
+
+.mnmd-countdown-block {
+	@include clearfix;
+}
+
+.mnmd-countdown-block .mnmd-block__inner {
+	padding: 20px;
+
+	@include respond-to('sm') {
+		padding: 30px;
+	}
+}
+
+.mnmd-countdown-block--solid-overlay .mnmd-countdown {
+	padding: 20px;
+	background-color: #fff;
+	@include shadow(2);
+}

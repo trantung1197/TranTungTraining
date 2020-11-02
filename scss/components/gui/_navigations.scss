@@ -1,0 +1,45 @@
+/* -----------------------------------------------------------------
+## Navigations
+----------------------------------------------------------------- */
+
+.navigation,
+.menu,
+.sub-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navigation,
+.menu {
+	font-family: $font-navigation;
+}
+
+.navigation .sub-menu li {
+	position: relative;
+}
+
+.navigation a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.navigation--horizontal {
+	@include clearfix;
+}
+
+.navigation--horizontal > li {
+	float: left;
+}
+
+.navigation--inline > li {
+	display: inline-block;
+}
+
+.navigation--center {
+	text-align: center;
+}
+
+.navigation--center > li {
+	display: inline-block;
+}

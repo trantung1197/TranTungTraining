@@ -1,0 +1,391 @@
+/* -----------------------------------------------------------------
+## WordPress Defaul Widgets
+----------------------------------------------------------------- */
+
+/*---- ## Archive Widget ----*/
+
+.widget_archive ul {
+	list-style: none;
+	padding: 0;
+}
+
+.widget_archive li:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.widget_archive li > a {
+	display: inline-block;
+	text-decoration: none;
+	color: $color-font-primary;
+}
+
+.widget_archive a > span {
+	display: inline-block;
+	background: #ccc;
+	padding: 1px 5px;
+	border-radius: 3px;
+	margin-left: 5px;
+	font-size: 0.8571rem;
+	color: #fff;
+}
+
+.widget_archive ul.children {
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.widget_archive ul.children li > a {
+	color: $color-font-secondary;
+}
+
+/*---- ## Calendar Widget ----*/
+
+.widget_calendar {
+	border-bottom: none;
+}
+
+#calendar_wrap {
+	border-radius: $border-radius;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.widget_calendar caption {
+	padding: 0.6em;
+	@include font-meta;
+	text-align: center;
+	font-size: 22px;
+	font-size: 1.5714rem;
+	font-weight: 700;
+	color: #fff;
+	background-color: #333;
+}
+
+.widget_calendar table {
+	width: 100%;
+	margin-bottom: 0;
+	font-size: 12px;
+	font-size: 0.8571rem;
+	color: $color-font-secondary;
+	border: $border-thin;
+}
+
+.widget_calendar thead {
+	background-color: #fafafa; 
+}
+
+.widget_calendar th {
+	padding: 1em;
+	text-align: center;
+	border: none;
+}
+
+.widget_calendar td {
+	padding: 0.8em 1em;
+	border: none;
+	text-align: center;
+}
+
+.widget_calendar td a {
+	position: relative;
+	text-decoration: none;
+	color: $color-font-primary;
+	font-weight: 700;
+
+	&:before {
+		content: '';
+		display: block;
+		width: 4px;
+		height: 4px;
+		@include absolute(-4px, -6px, auto, auto);
+		border-radius: 100%;
+		background-color: #aaa;
+		background-color: $color-primary;
+	}
+}
+
+.widget_calendar #today,
+.widget_calendar #today a {
+	position: relative;
+	font-weight: 700;
+	color: #fff;
+	background-color: #444;
+	background-color: $color-primary;
+}
+
+.widget_calendar tfoot {
+	border-top: $border-thin;
+}
+
+.widget_calendar tfoot td {
+	padding: 1em;
+}
+
+.widget_calendar tfoot a {
+	font-size: 18px;
+	font-weight: 700;
+	color: $color-font-primary;
+
+	&:before {
+		content: none;
+	}
+}
+
+/*---- ## Categories Widget ----*/
+
+.widget_categories ul {
+	list-style: none;
+	padding: 0;
+}
+
+.widget_categories li:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.widget_categories li > a {
+	display: inline-block;
+	@include font-heading;
+	text-decoration: none;
+	color: $color-font-primary;
+}
+
+.widget_categories a > span {
+	display: inline-block;
+	background: #ccc;
+	padding: 1px 5px;
+	border-radius: 3px;
+	margin-left: 5px;
+	font-size: 0.8571rem;
+	color: #fff;
+}
+
+.widget_categories ul.children {
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+/*---- ## Menu Widget ----*/
+
+.widget_nav_menu ul {
+	list-style: none;
+	padding: 0;
+	font-family: $font-secondary;
+}
+
+.widget_nav_menu li:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.widget_nav_menu li > a {
+	display: inline-block;
+	text-decoration: none;
+	color: $color-font-primary;
+
+	.inverse-text & {
+		color: $color-font-secondary-inverse;
+	}
+
+	.inverse-text &:hover,
+	.inverse-text &:focus,
+	.inverse-text &:active {
+		color: $color-font-primary-inverse;
+	}
+}
+
+.widget_nav_menu .sub-menu {
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+.widget_nav_menu .sub-menu .sub-menu {
+	font-size: 100%;
+}
+
+/*---- ## Meta Widget ----*/
+
+.widget_meta ul {
+	list-style: none;
+	padding: 0;
+	font-family: $font-secondary;
+}
+
+.widget_meta li:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.widget_meta li > a {
+	display: inline-block;
+	text-decoration: none;
+	color: $color-font-primary;
+
+	.inverse-text & {
+		color: $color-font-secondary-inverse;
+	}
+
+	.inverse-text &:hover,
+	.inverse-text &:focus,
+	.inverse-text &:active {
+		color: $color-font-primary-inverse;
+	}
+}
+
+/*---- ## Pages Widget ----*/
+
+.widget_pages ul {
+	list-style: none;
+	padding: 0;
+}
+
+.widget_pages li:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.widget_pages li > a {
+	display: inline-block;
+	text-decoration: none;
+	color: $color-font-primary;
+}
+
+.widget_pages ul.children {
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+/*---- ## Recent Comments Widget ----*/
+
+.widget_recent_comments #recentcomments {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.widget_recent_comments .recentcomments {
+	position: relative;
+	margin-bottom: 20px;
+
+	&:before {
+		content: '\e0cb';
+		font-family: 'mdicon';
+		margin-right: 0.2em;
+	}
+}
+
+.widget_recent_comments .recentcomments > a {
+	display: block;
+	position: relative;
+	margin-top: 8px;
+	padding: 10px 15px;
+	border: $border-thin;
+	border-radius: $border-radius;
+	background: rgba(0, 0, 0, 0.05);
+	@include font-heading;
+	color: $color-font-primary;
+	font-family: $font-heading;
+	text-decoration: none !important;
+}
+
+.widget_recent_comments .comment-author-link {
+	@include font-heading;
+	font-weight: 700;
+}
+
+.widget_recent_comments .comment-author-link a {
+	color: inherit;
+	text-decoration: none !important;
+	text-transform: uppercase;
+}
+
+.inverse-text .widget_recent_comments .recentcomments > a {
+	color: $color-font-primary-inverse;
+	border: $border-thin-inverse;
+	background: transparent;
+}
+
+/*---- ## Recent Posts Widget ----*/
+
+.widget_recent_entries ul {
+	list-style: none;
+	padding: 0;
+}
+
+.widget_recent_entries li:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.widget_recent_entries li > a {
+	display: inline-block;
+	@include font-heading;
+	text-decoration: none;
+	color: $color-font-primary;
+}
+
+/*---- ## RSS Widget ----*/
+
+.widget_rss .rss-widget-icon {
+	display: none;
+}
+
+.widget_rss .widget__title a.rsswidget:last-child:before {
+	content: '\e0e5';
+	font-family: 'mdicon';
+	margin-right: 0.3em;
+}
+
+.widget_rss ul {
+	list-style: none;
+}
+
+.widget_rss li {
+	position: relative;
+	padding: 12px 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.widget_rss li:first-child {
+	padding-top: 0;
+	border-top: none;
+}
+
+.widget_rss a.rsswidget {
+	font-weight: 700;
+	color: inherit;
+}
+
+.widget_rss .rss-date {
+	display: block;
+	margin-top: 0.4em;
+	font-size: 12px;
+	font-size: 0.8571rem;
+	font-style: italic;
+}
+
+.widget_rss .rssSummary {
+	margin: 0.4em 0;
+}
+
+/*---- ## Tag Cloud Widget ----*/
+
+.tagcloud {
+	@include clearfix;
+}
+
+.tagcloud a {
+	display: inline-block;
+	float: left;
+	padding: 5px 10px;
+	margin: 0 10px 10px 0;
+	font-size: 12px;
+	font-size: 0.8571rem;
+	text-decoration: none;
+	border-radius: 2px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background: #fafafa;
+	color: rgba(0, 0, 0, 0.44);
+	@include transition(all 0.2s ease-out);
+
+	&:hover {
+		background: #fff;
+		color: rgba(0, 0, 0, 0.8);
+		box-shadow: $shadow-button;
+	}
+}

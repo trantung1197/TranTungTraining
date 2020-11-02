@@ -1,0 +1,90 @@
+/* -----------------------------------------------------------------
+## Block general
+----------------------------------------------------------------- */
+
+.mnmd-block {
+	position: relative;
+	margin-bottom: 40px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.mnmd-block__inner {
+	position: relative;
+}
+
+.mnmd-block--fullwidth {
+	@include respond-to('lg') {
+		margin-bottom: 60px;
+	}
+}
+
+.mnmd-block--fullwidth.mnmd-block--contiguous:first-child {
+	margin-top: -20px;
+
+	@include respond-to('sm') {
+		margin-top: -40px;
+	}
+}
+
+.mnmd-block--fullwidth.has-background:last-child {
+	margin-bottom: -30px;
+
+	@include respond-to('lg') {
+		margin-bottom: -60px;
+	}
+}
+
+.mnmd-block--contiguous + .mnmd-block--contiguous {
+	margin-top: -40px;
+}
+
+.mnmd-block--fullwidth.mnmd-block--contiguous + .mnmd-block--fullwidth.mnmd-block--contiguous {
+	@include respond-to('lg') {
+		margin-top: -60px;
+	}
+}
+
+.mnmd-block.has-background {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	@include respond-to('md') {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+
+.mnmd-block.has-background--md {
+	@include respond-to('md') {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+
+.mnmd-block.has-overlap-background {
+	padding-top: 30px;
+
+	@include respond-to('md') {
+		padding-top: 40px;
+	}
+}
+
+.mnmd-block.has-border {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+
+	@include respond-to('md') {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+
+.mnmd-layout-split:first-child {
+	margin-top: -10px;
+}
+

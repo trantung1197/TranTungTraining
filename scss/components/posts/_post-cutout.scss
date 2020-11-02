@@ -1,0 +1,120 @@
+/*
+ * Post Cutout
+ *--------------------*/
+
+.post--cutout {
+	position: relative;
+	overflow: hidden;
+	
+	@include respond-to('sm') {
+		&:before {
+			content: '';
+			width: 20%;
+			@include absolute(0, auto, 0, 0);
+			background: #fff;
+			z-index: 1;
+			@include transform(scale(1, 1));
+			@include prefix((transform-origin: left center), webkit ms);
+			@include transition('all', 0.3s, 0.05s);
+		}
+
+		&:hover:before {
+			@include transform(scale(1.5, 1));
+		}
+	}
+}
+
+.post--cutout .background-img {
+	@include transition('all', 0.3s, 0.05s);
+
+	@include respond-to('sm') {
+		@include absolute(0, 0, 0, 10%);
+	}
+}
+
+.post--cutout:hover .background-img {
+	@include respond-to('sm') {
+		@include transform(translate(5%, 0));
+	}
+}
+
+.post--cutout .post__text {
+	position: relative;
+	padding: 20px;
+
+	@include respond-to('sm') {
+		padding: 80px 80px 80px 0 ;
+		z-index: 1;
+	}
+}
+
+.post--cutout .post-content__sub {
+	max-width: 280px;
+	padding: 15px;
+	background: #fff;
+
+	@include respond-to('sm') {
+		max-width: initial;
+		padding: 0;
+		background: transparent;
+	}
+}
+
+.post--cutout .post__title {
+	padding: 0.2em;
+	font-weight: 700;
+
+	@include respond-to('sm') {
+		padding: 0;
+	}
+}
+
+.post--cutout .post__title a {
+	@extend .padded-text;
+}
+
+.post--cutout .post__title a span {
+	position: relative;
+}
+
+.post--cutout .post__meta > * {
+	@include respond-to('sm') {
+		display: inline;
+		background: #fff;
+		box-shadow: 0 0 0 0.4em #fff;
+		box-decoration-break: clone;
+	}
+}
+
+.post--cutout .post__excerpt {
+	margin-top: 0;
+	color: rgba(0, 0, 0, 0.8);
+
+	@include respond-to('sm') {
+		width: 60%;
+		margin-top: 30px;
+		font-size: 18px;
+	}
+}
+
+.post--cutout .post__excerpt p {
+	@include respond-to('sm') {
+		display: inline;
+		background: #fff;
+		box-shadow: 0 0 0 0.4em #fff;
+		box-decoration-break: clone;
+	}
+}
+
+.post--cutout .read-more {
+	margin-top: 20px;
+	@include shadow(2);
+	@include transform(translate(0, -20%));
+	opacity: 0;
+	@include transition('all', 0.2s, 0.05s);
+}
+
+.post--cutout:hover .read-more {
+	@include transform(translate(0, 0));
+	opacity: 1;
+}

@@ -1,0 +1,111 @@
+/* -----------------------------------------------------------------
+## Post Card
+----------------------------------------------------------------- */
+
+.post--card {
+	height: auto;
+	position: relative;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	background-clip: padding-box;
+	overflow: hidden;
+}
+
+.post--card .post__text {
+	min-height: rem(40px);
+}
+
+.post--card-xs {
+	@include respond-to('sm') {
+		height: $card-height-xs;
+	}
+}
+
+.post--card-sm {
+	@include respond-to('sm') {
+		height: $card-height-sm;
+	}
+}
+
+.post--card-md {
+	@include respond-to('sm') {
+		height: $card-height-sm;
+	}
+
+	@include respond-to('md') {
+		height: $card-height-md;
+	}
+}
+
+.post--card-lg {
+	@include respond-to('sm') {
+		height: $card-height-md;
+	}
+
+	@include respond-to('md') {
+		height: $card-height-lg;
+	}
+}
+
+.post--card .post__thumb {
+	height: 40%;
+	min-height: 120px;
+	position: relative;
+	margin: -21px -21px 20px;
+}
+
+.post--card-sm .post__thumb {
+	height: 140px;
+}
+
+.post--card-md .post__thumb {
+	height: 180px;
+}
+
+.post--card .post__thumb .post__cat--overlap {
+	@include absolute(auto, auto, 0, 50%);
+	@include transform(translate(-50%, 50%));
+}
+
+.post--card .post__footer {
+	margin: 20px -20px -20px;
+	padding: 10px 15px;
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	background: #fff;
+	@include clearfix;
+
+	@include respond-to('sm') {
+		@include absolute(auto, 0, 0, 0);
+		margin: 0;
+		
+		&:before {
+			content: '';
+			display: block;
+			@include absolute(auto, 0, 100%, 0);
+			@include size(100% 20px);
+			margin-bottom: 1px;
+			background: -webkit-linear-gradient(bottom,rgba(0,0,0,1) 0,rgba(255,255,255,0.7) 70%,rgba(255,255,255,0) 100%);
+			background: linear-gradient(0deg,rgba(255,255,255,1) 0,rgba(255,255,255,0.7) 70%,rgba(255,255,255,0) 100%);
+		}
+	}
+}
+
+.post--card .post__footer-left {
+	width: 50%;
+	float: left;
+	padding-right: 5px;
+	text-align: left;
+}
+
+.post--card .post__footer-right {
+	width: 50%;
+	float: left;
+	padding-left: 5px;
+	text-align: right;
+}
+
+.post--card .post__footer .post__meta {
+	margin-top: 0;
+	margin-bottom: 0;
+}

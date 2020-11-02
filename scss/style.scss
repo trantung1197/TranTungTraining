@@ -1,0 +1,117 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: The Next Mag
+    Theme URI: http://html.minimaldog.net/tnm
+    Description: Ultimate News and Magazine Template
+    Author: minimaldog
+    Author URI: http://themeforest.net/user/minimalDog
+    Version: 1.0
+
+    Stylesheet
+
+-----------------------------------------------------------------------------------*/
+
+
+// VENDOR
+// -----------------------------------------------------------------------------
+
+@import "vendor/bourbon/bourbon";
+
+// CONFIG
+// -----------------------------------------------------------------------------
+
+@import "config/mixins";
+@import "config/variables";
+
+/* =============================================================================
+## BASE
+============================================================================= */
+
+@import 'base/base';
+
+
+/* =============================================================================
+## TYPOGRAPHY
+============================================================================= */
+
+@import 'base/typography';
+
+
+/* =============================================================================
+## UTILITIES
+============================================================================= */
+
+@import 'config/utilities';
+
+
+/* =============================================================================
+## LAYOUT
+============================================================================= */
+
+@import 'layout/layout';
+@import 'layout/header';
+@import 'layout/footer';
+
+
+/* =============================================================================
+## COMPONENTS
+============================================================================= */
+
+@import 'components/gui/block-headings';
+@import 'components/gui/buttons';
+@import 'components/gui/custom-scrollbar';
+@import 'components/gui/forms';
+@import 'components/gui/category-tile';
+@import 'components/gui/dividers';
+@import 'components/gui/forms';
+@import 'components/gui/icons';
+@import 'components/gui/links';
+@import 'components/gui/login-form';
+@import 'components/gui/modal';
+@import 'components/gui/navigations';
+@import 'components/gui/paginations';
+@import 'components/gui/review-score';
+@import 'components/gui/search-form';
+@import 'components/gui/search-modal';
+@import 'components/gui/shortcodes';
+@import 'components/gui/social-list';
+@import 'components/gui/subscribe-form';
+@import 'components/posts/post-general';
+@import 'components/posts/post-card';
+@import 'components/posts/post-horizontal';
+@import 'components/posts/post-list';
+@import 'components/posts/post-overlay';
+@import 'components/posts/post-thumb-overlap';
+@import 'components/posts/post-vertical';
+
+
+/* =============================================================================
+## PARTIALS
+============================================================================= */
+
+@import 'partials/ads';
+@import 'partials/carousels';
+@import 'partials/categories-bar';
+@import 'partials/countdown';
+@import 'partials/general';
+@import 'partials/menu-offcanvas';
+@import 'partials/widgets/widgets';
+@import 'partials/widgets/wordpress-default';
+@import 'partials/posts-blocks';
+
+/* =============================================================================
+## PAGES
+============================================================================= */
+
+@import 'pages/404';
+@import 'pages/archive';
+@import 'pages/coming-soon';
+@import 'pages/single';
+
+
+/* =============================================================================
+## THEMES
+============================================================================= */
+
+@import 'themes/skins';
+@import 'themes/demo';

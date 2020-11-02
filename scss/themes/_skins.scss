@@ -1,0 +1,65 @@
+/* -----------------------------------------------------------------
+## Skin
+----------------------------------------------------------------- */
+
+/*---- Header skin 1 ----*/
+
+.site-header--skin-1 .navigation-bar {
+	background: #E90606;
+}
+
+.site-header--skin-1 .navigation--main > li > a:before {
+	background: #fff !important;
+}
+
+/*---- Header skin 2 ----*/
+
+.site-header--skin-2 .navigation-bar,
+.site-header--skin-2 .mobile-header {
+	background: #ee0979;
+	@include background(linear-gradient(225deg, #ee0979 0, #ff6a00 100%));
+}
+
+.site-header--skin-2 .navigation-wrapper {
+	text-align: right;
+}
+
+/*---- Header skin 3 ----*/
+
+.site-header--skin-3:not(.sticky-header) .navigation-bar {
+	box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/*---- Header skin 4 ----*/
+
+.site-header--skin-4,
+.site-header--skin-4 .mobile-header {
+	background: #2c3979;
+}
+
+.site-header--skin-4 .header-main {
+	background: transparent;
+}
+
+.site-header--skin-4 .navigation-bar__inner {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.site-header--skin-4.sticky-header .navigation-bar {
+	background: #2c3979;
+}
+
+.site-header--skin-4 .navigation--main > li > a:before {
+	background: $color-primary !important;
+}
+
+/*---- Header skin 5 ----*/
+
+.site-header--skin-5 .navigation-bar,
+.site-header--skin-5 .mobile-header {
+	background-color: #fafafa;
+}
+
+.site-header--skin-5:not(.sticky-header) .navigation-bar {
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
+}
