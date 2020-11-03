@@ -1,0 +1,121 @@
+50px: 
+	font-size: 3.5714rem; /*font system*/
+	line-height: 1.3
+
+------------------------------------------------
+ 
+40px: 
+	font-size: 2.8571rem; /*font system*/
+	line-height: 1.3;
+
+------------------------------------------------
+
+36px: 
+	font-size: 2.5714rem; /*font system*/
+	line-height: 1.3;
+
+------------------------------------------------
+
+35px: 
+	font-size: 2.5rem; /*font system*/
+	line-height: 1.3;
+
+------------------------------------------------
+
+34px: 
+	font-size: 2.4285rem; /*font system*/
+	line-height: 1.4;
+
+------------------------------------------------
+
+32px: 
+	font-size: 2.2857rem; /*font system*/
+	line-height: 1.4;
+
+------------------------------------------------
+
+30px: 
+	font-size: 2.1428rem; /*font system*/
+	line-height: 1.4;
+
+------------------------------------------------
+
+28px: 
+	font-size: 2rem; /*font system*/
+	line-height: 1.4;
+
+------------------------------------------------
+
+26px: 
+	font-size: 1.8571rem; /*font system*/
+	line-height: 1.4;
+
+------------------------------------------------
+
+25px: 
+	font-size: 1.7857rem; /*font system*/
+	line-height: 1.4;
+
+------------------------------------------------
+
+24px: 
+	font-size: 1.7142rem; /*font system*/
+	line-height: 1.4;
+
+------------------------------------------------
+
+22px: 
+	font-size: 1.5714rem; /*font system*/
+	line-height: 1.4;
+
+------------------------------------------------
+
+20px: 
+	font-size: 1.4285rem; /*font system*/
+	line-height: 1.4;
+
+------------------------------------------------
+
+18px: 
+	font-size: 1.2857rem; /*font system*/
+	line-height: 1.5;
+
+------------------------------------------------
+
+17px: 
+	font-size: 1.2142rem; /*font system*/
+	line-height: 1.5;
+
+------------------------------------------------
+16px: 
+	font-size: 1.1428rem; /*font system*/
+	line-height: 1.5;
+------------------------------------------------ 
+
+15px: 
+	font-size: 1.0714rem; /*font system*/
+	line-height: 1.5;
+
+------------------------------------------------
+
+14px: 
+	font-size: 1rem; /*font system*/
+	line-height: 1.5;
+	
+------------------------------------------------
+
+13px:
+	font-size: 0.9285rem; /*font system*/
+    	line-height: 1.5;
+
+------------------------------------------------
+
+12px:
+	font-size: 0.8571rem; /*font system*/
+	line-height: 1;
+
+------------------------------------------------
+
+10px:
+	font-size: 0.7142rem; /*font system*/
+	line-height: 1;
