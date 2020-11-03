@@ -1,0 +1,116 @@
+/* -----------------------------------------------------------------
+## Custom CSS
+----------------------------------------------------------------- */
+/* Add here all your CSS customizations */
+.m-b-20 {
+    margin-bottom: 20px;
+}
+:root {
+    --color-primary: red;
+}
+a.post__cat {
+    text-decoration: none;
+    border-bottom: none;
+
+}
+a.post__cat-primary {
+    color: var(--color-primary);
+}
+
+.background-white{
+    background-color: white;
+}
+
+.background-orange{
+    background-color: #EB7116;
+}
+
+.btn-non-border{
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.max-width-1{
+    max-width: 10%;
+}
+
+.max-width-2{
+    max-width: 20%;
+}
+
+.max-width-3{
+    max-width: 30%;
+}
+
+.max-width-4{
+    max-width: 40%;
+}
+
+.max-width-5{
+    max-width: 50%;
+}
+
+.max-width-6{
+    max-width: 60%;
+}
+
+.max-width-7{
+    max-width: 70%;
+}
+
+.max-width-8{
+    max-width: 80%;
+}
+
+.max-width-9{
+    max-width: 90%;
+}
+
+.overlay-item__onborder--bottom-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: auto;
+    left: auto;
+}
+
+.post__meta-head a, time{
+    font-weight: 300!important;
+    font-size: 18px!important;
+}
+
+.f-w-300{
+    font-weight: 300;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.padding-0{
+    padding: 0;
+}
+
+.post__cat--has-link-seperated .link-seperated__inclined::after{
+    content: '/';
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+.post__cat--has-link-seperated .link-seperated__straight::before{
+    content: '|';
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+.post__cat--has-link-seperated > *:not(:last-child) {
+    padding-right: 10px;
+    border-right: 1px solid #000;
+}
