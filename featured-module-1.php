@@ -56,9 +56,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="post__text">
-                                                    <div class="post__meta post__meta-heading">
-                                                        <a href="#" class="post__cat">INSPIRATION</a>
-                                                    </div>
+                                                    <a href="#" class="post__cat post__cat--heading-style-1">INSPIRATION</a>
                                                     <h3 class="post__title text-capitalize f-16">
                                                         <a href="#">Nothing ever becomes real till it is experienced</a>
                                                     </h3>
@@ -73,9 +71,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="post__text">
-                                                    <div class="post__meta post__meta-heading">
-                                                        <a href="#" class="post__cat">INSPIRATION</a>
-                                                    </div>
+                                                    <a href="#" class="post__cat post__cat--heading-style-1">INSPIRATION</a>
                                                     <h3 class="post__title text-capitalize f-16">
                                                         <a href="#">Nothing ever becomes real till it is experienced</a>
                                                     </h3>

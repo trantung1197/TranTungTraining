@@ -6,23 +6,6 @@
     max-width: 360px;
 }
 
-.mnmd-featured-module-2 .entry-thumb {
-    width: 500px;
-}
-
-.post--horizontal-single {
-    display: flex;
-}
-
-.abts-post--custom .post__thumb--height-xxl {
-    width: 500px;
-    height: 600px;
-}
-
-.post--horizontal-no-thumb {
-    display: flex;
-}
-
 .d-flex {
     display: flex;
 }
@@ -40,18 +23,6 @@ a.post__cat.cat-primary {
     font-size: 0.8571rem;
     line-height: 1.5;
     font-weight: 300;
-}
-
-.meta__author--style-1 a.entry-author__name {
-    font-size: 0.8571rem;
-    line-height: 1.5;
-    font-weight: 300;
-    color: var(--color-primary);
-}
-
-.author-avatar-50 {
-    width: 50px;
-    height: 50px;
 }
 
 .block-heading__title-capitalize {
@@ -84,7 +55,7 @@ a.post__cat.cat-primary {
     display: block;
     display: -webkit-box;
     max-width: 100%;
-    height: 70px;
+    height: 60px;
     margin: 0 auto;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -92,6 +63,86 @@ a.post__cat.cat-primary {
     text-overflow: ellipsis;
 }
 
+
+.mnmd-featured-module-2 .mnmd-block__inner {
+    padding-left: calc(500px + 90px);
+    min-height: 600px;
+}
+
+.post--horizontal-follow-parent {
+    position: static;
+}
+
+.post--horizontal-follow-parent .post__thumb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 500px;
+}
+
+.sub-section {
+    width: 100%;
+}
+
+.post__text-group {
+    display: flex;
+    align-items: flex-start;
+}
+
+.mnmd-featured-module-2 .post__text-group{
+    max-width: 545px;
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.mnmd-featured-module-2 .author-box {
+    background: none;
+    border: none;
+    padding-right: 0;
+    width: 145px;
+}
+
+.mnmd-featured-module-2 .author-box .author-avatar {
+    width: 53px;
+    height: 53px;
+    border: none;
+    box-shadow: none;
+    left: -3px;
+}
+
+.entry-author__name,
+a.entry-author__name {
+    text-transform: none;
+}
+
+.post__text .post__excerpt {
+    line-height: 1.4;
+}
+.post__excerpt:last-child {
+    margin-bottom: 0;
+}
+.author-box .author-name a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-size: 0.8571rem;
+    line-height: 1.3;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: var(--color-primary);
+}
+
+.post__thumb.post__height-180.atbs-object-fit.m-b-25 {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1366px) {
+    .mnmd-featured-module-2 .author-box{
+        width: 145px;
+    }
+}
 
 @media (max-width: 1199px){
     .atbs--post-custom .entry-thumb.m-r-90{
@@ -140,21 +191,40 @@ a.post__cat.cat-primary {
         margin-top: -280px;
         max-width: 420px;
     }
+
+    .mnmd-featured-module-2 .sub-section.p-t-60{
+        padding-top: 0;
+    }
+
+    .mnmd-featured-module-2 .mnmd-block__inner {
+        padding-left: 450px;
+    }
+    .post--horizontal-follow-parent .post__thumb {
+        width: 410px;
+    }
 }
 
 @media (max-width: 991px){
-    .mnmd-featured-module-2 .bottom-section{
-        float: none;
-        margin-top: 30px;
-        max-width: 100%;
+    .post--horizontal-follow-parent .post__thumb {
+        position: relative;
+    }
+    .mnmd-featured-module-2 .mnmd-block__inner {
+        padding-left: 0;
+        min-height: 600px;
+    }
+    .main-section .post__text {
+        padding-top: 20px;
+    }
+    .post__text-group .author-box {
+        display: none;
+    }
+
+    .post__text .post__excerpt {
+        padding-right: 0;
     }
 
     .sub-post .post__title.m-b-16{
         margin-bottom: 16px;
-    }
-
-    .bottom-section .block-heading.m-b-35{
-        margin-bottom: 35px;
     }
 
     .mnmd-featured-module-2 .sub-post .min-height-260{
@@ -163,6 +233,10 @@ a.post__cat.cat-primary {
 
     .sub-post .post__text.m-r-40{
         margin-right: 40px;
+    }
+
+    .mnmd-featured-module-2 .sub-section.p-t-60{
+        padding-top: 30px;
     }
 }
 
@@ -180,8 +254,13 @@ a.post__cat.cat-primary {
     }
 }
 
+
 @media (max-width: 480px) {
-    .bottom-section .d-flex{
-        flex-wrap: wrap;
+    .post--horizontal-follow-parent .post__thumb {
+        width: 100%;
+    }
+    .flex-box-3i > * {
+        width: 50%;
     }
 }
+

@@ -31,7 +31,7 @@
                             <img src="http://via.placeholder.com/370x350" alt="image">
                         </a>
                     </div>
-                    <div class="post__text p-l-50 p-r-35">
+                    <div class="post__text p-l-50 p-r-35 p-b-30">
                         <div class="post__meta post__meta-heading text-uppercase post__meta-heading--style-1 m-b-10">
                             <a href="#" class="post__cat">Lifestyle</a>
                             <time class="time" datetime="" title="">12 april</time>
@@ -45,9 +45,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam voluptatum minus?
                         </div>
 
-                        <div class="post__meta post__meta-footer text-right">
-                            <a href="#" class="post__cat f-12">Read more</a>
-                        </div>
+                        <button class=" btn-read-more btn-read-more--bot-right f-12 f-w-700 text-uppercase">read more</button>
                     </div>
                 </article>
             </div>

@@ -37,6 +37,8 @@ fontweight >= 34: 1.3rem -->
     <link rel="stylesheet" href="css/module/featured-module-2.css">
     <link rel="stylesheet" href="css/module/featured-module-3.css">
     <link rel="stylesheet" href="css/module/featured-module-4.css">
+    <link rel="stylesheet" href="css/module/featured-module-5.css">
+    <link rel="stylesheet" href="css/module/featured-module-6.css">
 
     <!-- Web Fonts  -->
     <script>
@@ -66,10 +68,15 @@ fontweight >= 34: 1.3rem -->
         <?php include 'featured-module-4.php'; ?>
         
         <?php include 'featured-module-3.php'; ?>
-       
+        
+        <?php include 'featured-module-6.php'; ?>
+
         <?php include 'featured-module-2.php'; ?>
 
         <?php include 'featured-module-1.php'; ?>
+
+        <?php include 'featured-module-5.php'; ?>
+
     </div><!-- .site-content -->
 
 </div><!-- .site-wrapper -->

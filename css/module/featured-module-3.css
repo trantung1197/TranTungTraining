@@ -5,7 +5,16 @@
 }
 
 .mnmd-featured-module-3 .right-section{
+    width: 370px;
+}
+
+.mnmd-featured-module-3 .left-section{
     flex: 1;
+    max-width: 900px;
+}
+
+.mnmd-featured-module-3 .left-section .post__text{
+    height: 100%;
 }
 
 .mnmd-featured-module-3 .post--overlay-has-text-background-white .post__text-inner{
@@ -13,7 +22,6 @@
     padding-right: 60px;
     padding-bottom: 30px;
     margin-right: 400px;
-    max-width: 750px;
 }
 
 .mnmd-featured-module-3 .right-section .post--vertical .post__thumb{
@@ -24,22 +32,20 @@
     color: var(--color-primary);
 }
 
-@media (max-width: 1680px){
-    .mnmd-featured-module-3 .post--overlay-has-text-background-white .post__text-inner{
-        max-width: 600px;
-    }
+.btn-read-more{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--color-primary);
+    padding: 0;
 }
 
-@media (max-width: 1440px){
-    .mnmd-featured-module-3 .post--overlay-has-text-background-white .post__text-inner{
-        max-width: 550px;
-    }
-}
-
-@media (max-width: 1366px) {
-    .mnmd-featured-module-3 .post--overlay-has-text-background-white .post__text-inner{
-        max-width: 500px;
-    }
+.btn-read-more--bot-right{
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 35px;
+    bottom: 0;
 }
 
 @media (max-width: 1199px) {
@@ -62,10 +68,13 @@
         height: 100%;
     }
     
+    .mnmd-featured-module-3 .right-section{
+        width: 300px;
+    }
+
     .mnmd-featured-module-3 .post--overlay-has-text-background-white .post__text-inner{
         padding-left: calc((100vw - 720px)/2);
         margin-right: 100px;
-        max-width: 400px;
     }
 
     .mnmd-featured-module-3 .right-section .post--vertical .post__thumb{
@@ -88,6 +97,10 @@
         margin-right: -15px;
     }
 
+    .mnmd-featured-module-3 .right-section{
+        width: 100%;
+    }
+
     .mnmd-featured-module-3 .post--overlay-has-text-background-white .post__text-inner{
         max-width: none;
         margin-right: 200px;
@@ -104,7 +117,6 @@
 
     .mnmd-featured-module-3 .right-section .post--vertical{
         display: flex;
-        /* flex-direction: row; */
     }
 
     .mnmd-featured-module-3 .right-section .post--vertical .post__thumb{
@@ -115,5 +127,13 @@
 @media (max-width: 575px) {
     .mnmd-featured-module-3 .post--overlay-has-text-background-white .post__text-inner{
         margin-right: 100px;
+    }
+
+    .mnmd-featured-module-3 .right-section .post--vertical{
+        display: block;
+    }
+
+    .mnmd-featured-module-3 .right-section .post--vertical .post__thumb{
+        margin-bottom: 20px;
     }
 }
