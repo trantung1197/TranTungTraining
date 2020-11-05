@@ -1,0 +1,24 @@
+.atbs__site-header--style-1 .navigation-bar__site-logo {
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
+    padding-left: calc((100vw - 1170px) / 2);
+}
+
+.atbs--logo-custom-1 a {
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.atbs__site-header--style-1 .navigation--main li a {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.0714rem;
+    line-height: 60px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.atbs__site-header--style-1 .navigation--main{
+    
+}

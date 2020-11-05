@@ -18,7 +18,6 @@
                             </div>
                         </article>
                     </div>
-                    <!-- 60 780 840 720/240  -->
                     <div class="list-item">
                         <article class="post post__no-thumb">
                             <div class="post__text">

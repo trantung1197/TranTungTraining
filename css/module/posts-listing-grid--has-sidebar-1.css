@@ -1,0 +1,34 @@
+.posts-listing-grid-1 .post--horizontal .post__thumb {
+    position: relative;
+    width: 425px;
+    margin-left: 120px;
+}
+
+.posts-listing-grid-1 .post__text {
+    padding-top: 20px;
+}
+
+.posts-listing-grid-1 .post__text .post__meta-heading {
+    margin-bottom: 15px;
+}
+
+.posts-listing-grid-1 .post__text .post__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+@media (max-width:1199px){
+    .posts-listing-grid-1 .post--horizontal .post__thumb {
+        width: 350px;
+        margin-left: 60px;
+    }
+}
+
+@media (max-width:767px){
+    .posts-listing-grid-1 .post--horizontal .post__thumb {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+}
+

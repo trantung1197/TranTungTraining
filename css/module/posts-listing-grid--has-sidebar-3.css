@@ -1,0 +1,19 @@
+.post--overlay .post__text.min-height-450 {
+    min-height: 450px;
+}
+
+.posts-listing-grid-3 .post--overlay-has-background-inner .post__text-inner {
+    padding-right: 60px;
+}
+
+@media (max-width: 767px) {
+    .post--overlay .post__text.min-height-450 {
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 680px) {
+    .posts-listing-grid-3.flex-box-2i > * {
+        width: 100%;
+    }
+}

@@ -1,4 +1,4 @@
-.mnmd-featured-module-3 .post--overlay-has-text-background-white {
+.post--overlay-has-background-inner.post--overlay-has-background-inner--fullwidth  {
     width: calc(100% + (100vw - 1170px)/2);
     margin-left: calc((100vw - 1170px)/ 2 * -1);
     height: 100%;
@@ -13,11 +13,7 @@
     max-width: 900px;
 }
 
-.mnmd-featured-module-3 .left-section .post__text{
-    height: 100%;
-}
-
-.mnmd-featured-module-3 .post--overlay-has-text-background-white .post__text-inner{
+.post--overlay-has-background-inner.post--overlay-has-background-inner--fullwidth .post__text-inner{
     padding-left: calc((100vw - 1170px)/2);
     padding-right: 60px;
     padding-bottom: 30px;
@@ -49,20 +45,20 @@
 }
 
 @media (max-width: 1199px) {
-    .mnmd-featured-module-3 .post--overlay-has-text-background-white {
+    .post--overlay-has-background-inner.post--overlay-has-background-inner--fullwidth {
         width: calc(100% + (100vw - 940px)/2);
         margin-left: calc((100vw - 940px)/ 2 * -1);
         height: 100%;
     }
     
-    .mnmd-featured-module-3 .post--overlay-has-text-background-white .post__text-inner{
+    .post--overlay-has-background-inner .post__text-inner.post--overlay-has-background-inner--fullwidth{
         padding-left: calc((100vw - 940px)/2);
         margin-right: 200px;
     }
 }
 
 @media (max-width: 991px) {
-    .mnmd-featured-module-3 .post--overlay-has-text-background-white {
+    .post--overlay-has-background-inner.post--overlay-has-background-inner--fullwidth{
         width: calc(100% + (100vw - 720px)/2);
         margin-left: calc((100vw - 720px)/ 2 * -1);
         height: 100%;
@@ -72,7 +68,7 @@
         width: 300px;
     }
 
-    .mnmd-featured-module-3 .post--overlay-has-text-background-white .post__text-inner{
+    .post--overlay-has-background-inner.post--overlay-has-background-inner--fullwidth .post__text-inner{
         padding-left: calc((100vw - 720px)/2);
         margin-right: 100px;
     }
@@ -91,7 +87,7 @@
 }
 
 @media (max-width: 767px) {
-    .mnmd-featured-module-3 .post--overlay-has-text-background-white{
+    .post--overlay-has-background-inner.post--overlay-has-background-inner--fullwidth{
         width: 100vw ;
         margin-left: -15px;
         margin-right: -15px;
@@ -101,7 +97,7 @@
         width: 100%;
     }
 
-    .mnmd-featured-module-3 .post--overlay-has-text-background-white .post__text-inner{
+    .post--overlay-has-background-inner.post--overlay-has-background-inner--fullwidth .post__text-inner{
         max-width: none;
         margin-right: 200px;
         padding-left: 30px;
@@ -125,7 +121,7 @@
 }
 
 @media (max-width: 575px) {
-    .mnmd-featured-module-3 .post--overlay-has-text-background-white .post__text-inner{
+    .post--overlay-has-background-inner.post--overlay-has-background-inner--fullwidth .post__text-inner{
         margin-right: 100px;
     }
 

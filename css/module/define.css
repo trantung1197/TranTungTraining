@@ -1,0 +1,324 @@
+/* =============================================================================
+   My custom
+============================================================================= */
+@media (min-width: 1200px) {
+    .mnmd-main-col{
+        width: 900px;
+    }
+}
+/* =============================================================================
+   Flexbox
+============================================================================= */
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-direction-column {
+    flex-direction: column;
+    height: 100%;
+}
+.flex-box-auto > *, .flex-item-auto {
+    flex: 1;
+}
+
+.flex-item-auto-bottom {
+    flex: 1 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-self: auto;
+    align-content: flex-end;
+}
+.flex-item-auto-top {
+    flex: 1 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/**/
+.flex-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+/**/
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-space {
+    justify-content: space-between;
+}
+.justify-content-start {
+    justify-content: flex-start;
+}
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+/**/
+.align-item-center {
+    align-items: center;
+}
+.align-item-space {
+    align-content: space-between;
+}
+.align-item-end {
+    align-items: flex-end;
+}
+.align-item-start {
+    align-items: flex-start;
+}
+
+/**/
+.flex-box-1i > * {
+    width: 100%;
+}
+.flex-box-2i > * {
+    width: 50%;
+}
+.flex-box-3i > * {
+    width: calc(100% / 3);
+}
+.flex-box-4i > * {
+    width: 25%;
+}
+.flex-column-10 {
+    width: 10%;
+}
+.flex-column-20 {
+    width: 20%;
+}
+.flex-column-25 {
+    width: 25%;
+}
+.flex-column-30 {
+    width: 30%;
+}
+.flex-column-40 {
+    width: 40%;
+}
+.flex-column-50 {
+    width: 50%;
+}
+.flex-column-60 {
+    width: 60%;
+}
+.flex-column-70 {
+    width: 70%;
+}
+.flex-column-80 {
+    width: 80%;
+}
+.flex-column-100 {
+    width: 100%;
+}
+
+.flex-height-100 {
+    height: 100%;
+}
+
+.flex-space-10 {
+    margin: -5px;
+}
+.flex-space-10 > * {
+    padding: 5px;
+}
+.flex-space-15 {
+    margin: -7.5px;
+}
+.flex-space-15 > * {
+    padding: 7.5px;
+}
+.flex-space-20 {
+    margin: -10px;
+}
+.flex-space-20 > * {
+    padding: 10px;
+}
+.flex-space-25 {
+    margin: -12.5px;
+}
+.flex-space-25 > * {
+    padding: 12.5px;
+}
+.flex-space-30 {
+    margin: -15px;
+}
+.flex-space-30 > * {
+    padding: 15px;
+}
+.flex-space-40 {
+    margin: -20px;
+}
+.flex-space-40 > * {
+    padding: 20px;
+}
+.flex-space-50 {
+    margin: -25px;
+}
+.flex-space-50 > * {
+    padding: 25px;
+}
+.flex-space-60 {
+    margin: -30px;
+}
+.flex-space-60 > * {
+    padding: 30px;
+}
+.flex-space-70 {
+    margin: -35px;
+}
+.flex-space-70 > * {
+    padding: 35px;
+}
+.flex-space-75 {
+    margin: -37.5px;
+}
+.flex-space-75 > * {
+    padding: 37.5px;
+}
+.flex-space-80 {
+    margin: -40px;
+}
+.flex-space-80 > * {
+    padding: 40px;
+}
+.flex-space-90 {
+    margin: -45px;
+}
+.flex-space-90 > * {
+    padding: 45px;
+}
+.flex-space-100 {
+    margin: -50px;
+}
+.flex-space-100 > *{
+    padding: 50px;
+}
+.flex-space-120 {
+    margin: -60px;
+}
+.flex-space-120 > *{
+    padding: 60px;
+}
+.flex-space-160 {
+    margin: -80px;
+}
+.flex-space-160 > *{
+    padding: 80px;
+}
+
+.flex-gutter-15 {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+.flex-gutter-15 > * {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+.flex-gutter-20 {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.flex-gutter-20 > * {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.flex-gutter-25 {
+    margin-left: -12.5px;
+    margin-right: -12.5px;
+}
+.flex-gutter-25 > * {
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+}
+.flex-gutter-30 {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.flex-gutter-30 > * {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.flex-gutter-40 {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.flex-gutter-40 > * {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.flex-gutter-50 {
+    margin-left: -25px;
+    margin-right: -25px;
+}
+.flex-gutter-50 > * {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.flex-gutter-60 {
+    margin-left: -30px;
+    margin-right: -30px;
+}
+.flex-gutter-60 > * {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.flex-gutter-70 {
+    margin-left: -35px;
+    margin-right: -35px;
+}
+.flex-gutter-70 > * {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.flex-gutter-75 {
+    margin-left: -37.5px;
+    margin-right: -37.5px;
+}
+.flex-gutter-75 > * {
+    padding-left: 37.5px;
+    padding-right: 37.5px;
+}
+.flex-gutter-80 {
+    margin-left: -40px;
+    margin-right: -40px;
+}
+.flex-gutter-80 > * {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.flex-gutter-90 {
+    margin-left: -45px;
+    margin-right: -45px;
+}
+.flex-gutter-90 > * {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+.flex-order-1 {
+    order: -1;
+}
+
+
+.atbs-line-limit, a.atbs-line-limit , h3.atbs-line-limit > a{
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.atbs-line-limit.atbs-line-limit-2, h3.atbs-line-limit.atbs-line-limit-2 > a{
+    -webkit-line-clamp: 2;
+}
+.atbs-line-limit.atbs-line-limit-3, h3.atbs-line-limit.atbs-line-limit-3 > a{
+    -webkit-line-clamp: 3;
+}
+.atbs-line-limit.atbs-line-limit-4, h3.atbs-line-limit.atbs-line-limit-4 > a{
+    -webkit-line-clamp: 4;
+}
