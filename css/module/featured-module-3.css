@@ -51,7 +51,7 @@
         height: 100%;
     }
     
-    .post--overlay-has-background-inner .post__text-inner.post--overlay-has-background-inner--fullwidth{
+    .post--overlay-has-background-inner.post--overlay-has-background-inner--fullwidth .post__text-inner{
         padding-left: calc((100vw - 940px)/2);
         margin-right: 200px;
     }

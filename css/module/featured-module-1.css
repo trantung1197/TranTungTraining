@@ -233,7 +233,7 @@ time.time {
 }
 
 .post--overlay-has-background-inner--style-1 .post__text-inner {
-    margin-right: 160px;
+    margin-right: 158px;
     padding: 25px 90px 1px 20px;
 }
 
@@ -432,7 +432,7 @@ time.time {
 
 @media (max-width: 991px) {
     .post--overlay-has-background-inner .post__text-inner {
-        margin-right: 160px;
+        margin-right: 158px;
     }
 
     .mnmd-featured-module-1 .left-section {

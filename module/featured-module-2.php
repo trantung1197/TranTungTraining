@@ -5,7 +5,7 @@
                 EDITOR'S CHOICE
             </h4>
         </div>
-        <div class="mnmd-block__inner flex-box">
+        <div class="mnmd-block__inner mnmd-block__inner--before-shadow flex-box">
             <div class="main-section p-t-25">
                 <article class="post post--horizontal post--horizontal-follow-parent ">
                     <div class="post__thumb">
@@ -26,7 +26,7 @@
                                             <img alt="Ryan Reynold" src="http://via.placeholder.com/50x50" class="avatar photo">
                                         </div>
                                     </div>
-                                    <div class="author-name text-right">
+                                    <div class="author-name">
                                         <span class="f-12 f-w-300">By <a href="#author-url" title="Posts by Ryan Reynold" rel="author" class="f-w-300 f-12">Marry janes</a></span>
                                     </div>
                                 </div>
@@ -42,9 +42,10 @@
                 <div class="block-heading m-b-25">
                     <h4 class="block-heading__title block-heading__title-capitalize block-heading__title--noneborder f-20 f-w-700">Best Weekly</h4>
                 </div>
+                
                 <div class="post__inner">
-                    <div class="d-flex row--space-between space-between-20">
-                        <div class="col-xs-12 col-sm-4">
+                    <div class="posts-list flex-box flex-box-3i flex-space-20">
+                        <div class="list-item">
                             <article class="post post--vertical atbs--post-custom">
                                 <div class="post__thumb post__thumb--height-sm">
                                     <a href="#single-url">
@@ -63,7 +64,7 @@
                                 </div>
                             </article>
                         </div>
-                        <div class="col-xs-12 col-sm-4">
+                        <div class="list-item">
                             <article class="post post--vertical atbs--post-custom">
                                 <div class="post__thumb post__thumb--height-sm">
                                     <a href="#single-url">
@@ -82,7 +83,7 @@
                                 </div>
                             </article>
                         </div>
-                        <div class="col-xs-12 col-sm-4">
+                        <div class="list-item">
                             <article class="post post--vertical atbs--post-custom">
                                 <div class="post__thumb post__thumb--height-sm">
                                     <a href="#single-url">

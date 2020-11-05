@@ -36,7 +36,7 @@
                     <div class="post__meta m-t-25 m-b-30 post__meta-author-light">
                         <span class="entry-author">by <a href="#" class="entry-author__name">Marry Janes</a></span>
                     </div>
-                    <div class="post__excerpt f-12 text-overflow">
+                    <div class="post__excerpt f-15 text-overflow">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio voluptatum praesentium magnam ducimus id repellat velit harum consectetur eum doloribus!
                     </div>
                 </div>
