@@ -42,7 +42,8 @@ fontweight >= 34: 1.3rem -->
     <link rel="stylesheet" href="../css/module/posts-listing-grid--has-sidebar-4.css">
     <link rel="stylesheet" href="../css/module/posts-listing-grid--has-sidebar-3.css">
     <link rel="stylesheet" href="../css/module/posts-listing-grid--has-sidebar-2.css">
-    <link rel="stylesheet" href="../css/module/posts-listing-grid--has-sidebar-1.css">
+    <link rel="stylesheet" href="../css/module/widget--list-post-1.css">
+
 
     <!-- Web Fonts  -->
     <script>
@@ -89,6 +90,10 @@ fontweight >= 34: 1.3rem -->
                             <?php include './mnmd-posts-listing-grid--has-sidebar-3.php'; ?>
                             <?php include './mnmd-posts-listing-grid--has-sidebar-2.php'; ?>
                             <?php include './mnmd-posts-listing-grid--has-sidebar-1.php'; ?>
+                        </div>
+
+                        <div class="mnmd-sub-col" role="complementary">
+                            <?php include 'mnmd-widget--list-post-1.php' ?>
                         </div>
                     </div>
                 </div>
