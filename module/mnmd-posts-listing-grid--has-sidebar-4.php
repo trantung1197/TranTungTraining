@@ -23,17 +23,17 @@
                         </a>
                     </div>
                 </div>
-                <div class="post__text">
+                <div class="post__text post__text--spacing-1">
                     <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase">
                         <a href="#" class="post__cat">Lifestyle</a>
                         <time class="time" datetime="none" title="none">12 april</time>
                     </div>
-                    <h3 class="post__title f-28 f-w-700 m-0">
+                    <h3 class="post__title f-28 f-w-700">
                         <a href="#">
                             Simplicity Is The Last Step of Art and the Beginning of Natural
                         </a>
                     </h3>
-                    <div class="post__meta m-t-25 m-b-30 post__meta-author-light">
+                    <div class="post__meta post__meta-author-light">
                         <span class="entry-author">by <a href="#" class="entry-author__name">Marry Janes</a></span>
                     </div>
                     <div class="post__excerpt f-15 text-overflow">
@@ -63,7 +63,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="post__text">
+                    <div class="post__text post__text--spacing-1">
                         <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase">
                             <a href="#" class="post__cat">inspiration</a>
                             <time class="time" datetime="none" title="none">12 april</time>
@@ -99,7 +99,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="post__text">
+                    <div class="post__text post__text--spacing-1">
                         <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase">
                             <a href="#" class="post__cat">inspiration</a>
                             <time class="time" datetime="none" title="none">12 april</time>
@@ -135,7 +135,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="post__text">
+                    <div class="post__text post__text--spacing-1">
                         <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase">
                             <a href="#" class="post__cat">inspiration</a>
                             <time class="time" datetime="none" title="none">12 april</time>
@@ -171,7 +171,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="post__text">
+                    <div class="post__text post__text--spacing-1">
                         <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase">
                             <a href="#" class="post__cat">inspiration</a>
                             <time class="time" datetime="none" title="none">12 april</time>
@@ -207,7 +207,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="post__text">
+                    <div class="post__text post__text--spacing-1">
                         <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase">
                             <a href="#" class="post__cat">inspiration</a>
                             <time class="time" datetime="none" title="none">12 april</time>
@@ -243,7 +243,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="post__text">
+                    <div class="post__text post__text--spacing-1">
                         <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase">
                             <a href="#" class="post__cat">inspiration</a>
                             <time class="time" datetime="none" title="none">12 april</time>

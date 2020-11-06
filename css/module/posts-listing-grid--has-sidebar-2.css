@@ -12,10 +12,6 @@
     margin-bottom: 22px;
 }
 
-.posts-listing-grid-2 .post__meta:not(:last-of-type) {
-    margin-bottom: 15px;
-}
-
 .posts-listing-grid-2 .post__title {
     margin-top: 0;
     margin-bottom: 15px;

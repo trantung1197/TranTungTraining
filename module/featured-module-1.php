@@ -9,12 +9,12 @@
                     <div class="background-img" style="background-image: url(http://via.placeholder.com/570x500);"></div>
                     <div class="post__text min-height-500">
                         <div class="post__text-wrap">
-                            <div class="post__text-inner">
+                            <div class="post__text-inner post__text--spacing-1">
                                 <div class="post__meta text-uppercase post__meta-heading post__meta-heading--style-1">
                                     <a href="#" class="post__cat">Fashion</a>
                                     <time class="time" datetime="none" title="">12 april</time>
                                 </div>
-                                <h3 class="post__title text-capitalize m-0 f-28 f-w-700">
+                                <h3 class="post__title text-capitalize f-28 f-w-700">
                                     <a href="#">
                                         True knowledge exists in knowing that you know nothing
                                     </a>
@@ -37,17 +37,17 @@
                     </div>
                 </article>
             </div>
-            <div class="left-section">
+            <div class="left-section ">
                 <div class="post__inner">
                     <div class="main-post">
-                        <article class="post--vertical atbs--post-custom post--vertical-reverse">
-                            <div class="post__thumb post__thumb--height-sm">
+                        <article class="post--vertical atbs--post-custom post--vertical-reverse post--spacing-1">
+                            <div class="post__thumb post__thumb--height-180">
                                 <a href="#">
                                     <img src="http://via.placeholder.com/270x180" alt="img">
                                 </a>
                             </div>
-                            <div class="post__text m-b-10">
-                                <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase m-b-10">
+                            <div class="post__text post__text--spacing-1">
+                                <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase">
                                     <a href="#" class="post__cat">Lifestyle</a>
                                     <time class="time" datetime="none" title="">12 april</time>
                                 </div>
@@ -66,7 +66,7 @@
                                             <img src="https://via.placeholder.com/70x70" alt="img">
                                         </a>
                                     </div>
-                                    <div class="post__text">
+                                    <div class="post__text post__text--spacing-1">
                                         <a href="#" class="post__cat post__cat--heading-style-1">INSPIRATION</a>
                                         <h3 class="post__title text-capitalize f-16">
                                             <a href="#">Nothing ever becomes real till it is experienced</a>
@@ -81,7 +81,7 @@
                                             <img src="https://via.placeholder.com/70x70" alt="img">
                                         </a>
                                     </div>
-                                    <div class="post__text">
+                                    <div class="post__text post__text--spacing-1">
                                         <a href="#" class="post__cat post__cat--heading-style-1">INSPIRATION</a>
                                         <h3 class="post__title text-capitalize f-16">
                                             <a href="#">Nothing ever becomes real till it is experienced</a>
@@ -95,23 +95,23 @@
             </div>
             <div class="right-section">
                 <div class="post__inner">
-                    <article class="post post--vertical atbs--post-custom">
-                        <div class="post__thumb post__thumb--height-md">
+                    <article class="post post--vertical atbs--post-custom post--spacing-1">
+                        <div class="post__thumb post__thumb--height-300">
                             <a href="#single-url">
                                 <img src="http://via.placeholder.com/270x300" alt="img">
                             </a>
                         </div>
-                        <div class="post__text">
-                            <div class="post__meta post__meta-heading text-uppercase post__meta-heading--style-1 m-b-10">
+                        <div class="post__text post__text--spacing-1">
+                            <div class="post__meta post__meta-heading text-uppercase post__meta-heading--style-1">
                                 <a href="#" class="post__cat">Lifestyle</a>
                                 <time class="time" datetime="" title="">12 april</time>
                             </div>
 
-                            <h3 class="post__title text-capitalize f-20 f-w-600 m-b-20">
+                            <h3 class="post__title text-capitalize f-20 f-w-600">
                                 <a href="#">The Measure of Intelligence Is the Ability to Change</a>
                             </h3>
 
-                            <div class="post__excerpt f-15">
+                            <div class="post__excerpt">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam voluptatum minus?
                             </div>
                         </div>
@@ -121,7 +121,3 @@
         </div>
     </div>
 </div>
-
-
-
-

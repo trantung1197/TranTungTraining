@@ -13,10 +13,10 @@
                             <img src="http://via.placeholder.com/500x600" alt="image">
                         </a>
                     </div>
-                    <div class="post__text m-b-5">
-                        <a href="#" class="post__cat post__cat--heading-style-1  f-12 m-b-5">FASHION</a>
-                        <div class="post__text-group m-b-10">
-                            <h3 class="post__title f-28 f-w-700 m-b-2 width-335">
+                    <div class="post__text post__text--spacing-1">
+                        <a href="#" class="post__cat post__cat--heading-style-1">FASHION</a>
+                        <div class="post__text-group">
+                            <h3 class="post__title f-28 f-w-700 width-335">
                                 <a href="#single-url">A Book Must Be the Ax for Frozen Sea Within Us</a>
                             </h3>
                             <div class="post__meta">
@@ -38,7 +38,7 @@
                     </div>
                 </article>
             </div>
-            <div class="sub-section p-t-60 has-block-heading-line">
+            <div class="sub-section m-t-60 has-block-heading-line">
                 <div class="block-heading m-b-25">
                     <h4 class="block-heading__title block-heading__title-capitalize block-heading__title--noneborder f-20 f-w-700">Best Weekly</h4>
                 </div>
@@ -47,13 +47,13 @@
                     <div class="posts-list flex-box flex-box-3i flex-space-20">
                         <div class="list-item">
                             <article class="post post--vertical atbs--post-custom">
-                                <div class="post__thumb post__thumb--height-sm">
+                                <div class="post__thumb post__thumb--height-180">
                                     <a href="#single-url">
                                         <img src="http://via.placeholder.com/180x180" alt="img">
                                     </a>
                                 </div>
-                                <div class="post__text">
-                                    <div class="post__meta post__meta-heading post__meta-heading--style-1 m-b-10">
+                                <div class="post__text post__text--spacing-1">
+                                    <div class="post__meta post__meta-heading post__meta-heading--style-1">
                                         <a href="#" class="post__cat">Lifestyle</a>
                                         <time class="time" datetime="none" title="none">12 april</time>
                                     </div>
@@ -66,13 +66,13 @@
                         </div>
                         <div class="list-item">
                             <article class="post post--vertical atbs--post-custom">
-                                <div class="post__thumb post__thumb--height-sm">
+                                <div class="post__thumb post__thumb--height-180">
                                     <a href="#single-url">
                                         <img src="http://via.placeholder.com/180x180" alt="img">
                                     </a>
                                 </div>
-                                <div class="post__text">
-                                    <div class="post__meta post__meta-heading post__meta-heading--style-1 m-b-10">
+                                <div class="post__text post__text--spacing-1">
+                                    <div class="post__meta post__meta-heading post__meta-heading--style-1">
                                         <a href="#" class="post__cat">Lifestyle</a>
                                         <time class="time" datetime="none" title="none">12 april</time>
                                     </div>
@@ -85,13 +85,13 @@
                         </div>
                         <div class="list-item">
                             <article class="post post--vertical atbs--post-custom">
-                                <div class="post__thumb post__thumb--height-sm">
+                                <div class="post__thumb post__thumb--height-180">
                                     <a href="#single-url">
                                         <img src="http://via.placeholder.com/180x180" alt="img">
                                     </a>
                                 </div>
-                                <div class="post__text">
-                                    <div class="post__meta post__meta-heading post__meta-heading--style-1 m-b-10">
+                                <div class="post__text post__text--spacing-1">
+                                    <div class="post__meta post__meta-heading post__meta-heading--style-1">
                                         <a href="#" class="post__cat">Lifestyle</a>
                                         <time class="time" datetime="none" title="none">12 april</time>
                                     </div>

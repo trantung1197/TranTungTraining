@@ -6,7 +6,7 @@
     </div>
 
     <div class="mnmd-block__inner">
-        <div class="posts-list posts-listing-grid-2 flex-box flex-box-2i flex-space-40 flex-gutter-30">
+        <div class="posts-list posts-listing-grid-2 flex-box flex-box-2i flex-space-50 flex-gutter-30">
             <div class="list-item">
                 <article class="post post--vertical has-post-thumb--border-bottom">
                     <div class="post__thumb">
@@ -14,7 +14,7 @@
                             <img src="http://via.placeholder.com/400x180" alt="img">
                         </a>
                     </div>
-                    <div class="post__text">
+                    <div class="post__text post__text--spacing-1 ">
                         <div class="post__meta text-uppercase post__meta-heading post__meta-heading--style-1">
                             <a href="#" class="post__cat">inspiration</a>
                             <time class="time" datetime="none" title="none">12 april</time>
@@ -25,10 +25,6 @@
                                 I Have Measured Out My Own Life With a Coffee Spoons
                             </a>
                         </h3>
-
-                        <div class="post__meta post__meta-author-light">
-                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
-                        </div>
 
                         <div class="post__readmore post__readmore--style-2 btn-circle btn-border overlay-item--middle-right">
                             <a href="#">
@@ -43,6 +39,10 @@
                                 </span>
                             </a>
                         </div>
+                        <div class="post__meta post__meta-author-light">
+                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
+                        </div>
+
                     </div>
                 </article>
             </div>
@@ -53,7 +53,7 @@
                             <img src="http://via.placeholder.com/400x180" alt="img">
                         </a>
                     </div>
-                    <div class="post__text">
+                    <div class="post__text post__text--spacing-1 ">
                         <div class="post__meta text-uppercase post__meta-heading post__meta-heading--style-1">
                             <a href="#" class="post__cat">inspiration</a>
                             <time class="time" datetime="none" title="none">12 april</time>
@@ -64,10 +64,6 @@
                                 I Have Measured Out My Own Life With a Coffee Spoons
                             </a>
                         </h3>
-
-                        <div class="post__meta post__meta-author-light">
-                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
-                        </div>
 
                         <div class="post__readmore post__readmore--style-2 btn-circle btn-border overlay-item--middle-right">
                             <a href="#">
@@ -82,6 +78,10 @@
                                 </span>
                             </a>
                         </div>
+                        <div class="post__meta post__meta-author-light">
+                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
+                        </div>
+
                     </div>
                 </article>
             </div>
@@ -92,7 +92,7 @@
                             <img src="http://via.placeholder.com/400x180" alt="img">
                         </a>
                     </div>
-                    <div class="post__text">
+                    <div class="post__text post__text--spacing-1 ">
                         <div class="post__meta text-uppercase post__meta-heading post__meta-heading--style-1">
                             <a href="#" class="post__cat">inspiration</a>
                             <time class="time" datetime="none" title="none">12 april</time>
@@ -103,10 +103,6 @@
                                 I Have Measured Out My Own Life With a Coffee Spoons
                             </a>
                         </h3>
-
-                        <div class="post__meta post__meta-author-light">
-                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
-                        </div>
 
                         <div class="post__readmore post__readmore--style-2 btn-circle btn-border overlay-item--middle-right">
                             <a href="#">
@@ -121,6 +117,10 @@
                                 </span>
                             </a>
                         </div>
+                        <div class="post__meta post__meta-author-light">
+                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
+                        </div>
+
                     </div>
                 </article>
             </div>
@@ -131,7 +131,7 @@
                             <img src="http://via.placeholder.com/400x180" alt="img">
                         </a>
                     </div>
-                    <div class="post__text">
+                    <div class="post__text post__text--spacing-1 ">
                         <div class="post__meta text-uppercase post__meta-heading post__meta-heading--style-1">
                             <a href="#" class="post__cat">inspiration</a>
                             <time class="time" datetime="none" title="none">12 april</time>
@@ -142,10 +142,6 @@
                                 I Have Measured Out My Own Life With a Coffee Spoons
                             </a>
                         </h3>
-
-                        <div class="post__meta post__meta-author-light">
-                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
-                        </div>
 
                         <div class="post__readmore post__readmore--style-2 btn-circle btn-border overlay-item--middle-right">
                             <a href="#">
@@ -160,6 +156,10 @@
                                 </span>
                             </a>
                         </div>
+                        <div class="post__meta post__meta-author-light">
+                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
+                        </div>
+
                     </div>
                 </article>
             </div>
@@ -170,7 +170,7 @@
                             <img src="http://via.placeholder.com/400x180" alt="img">
                         </a>
                     </div>
-                    <div class="post__text">
+                    <div class="post__text post__text--spacing-1 ">
                         <div class="post__meta text-uppercase post__meta-heading post__meta-heading--style-1">
                             <a href="#" class="post__cat">inspiration</a>
                             <time class="time" datetime="none" title="none">12 april</time>
@@ -181,10 +181,6 @@
                                 I Have Measured Out My Own Life With a Coffee Spoons
                             </a>
                         </h3>
-
-                        <div class="post__meta post__meta-author-light">
-                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
-                        </div>
 
                         <div class="post__readmore post__readmore--style-2 btn-circle btn-border overlay-item--middle-right">
                             <a href="#">
@@ -199,6 +195,10 @@
                                 </span>
                             </a>
                         </div>
+                        <div class="post__meta post__meta-author-light">
+                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
+                        </div>
+
                     </div>
                 </article>
             </div>
@@ -209,7 +209,7 @@
                             <img src="http://via.placeholder.com/400x180" alt="img">
                         </a>
                     </div>
-                    <div class="post__text">
+                    <div class="post__text post__text--spacing-1 ">
                         <div class="post__meta text-uppercase post__meta-heading post__meta-heading--style-1">
                             <a href="#" class="post__cat">inspiration</a>
                             <time class="time" datetime="none" title="none">12 april</time>
@@ -220,10 +220,6 @@
                                 I Have Measured Out My Own Life With a Coffee Spoons
                             </a>
                         </h3>
-
-                        <div class="post__meta post__meta-author-light">
-                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
-                        </div>
 
                         <div class="post__readmore post__readmore--style-2 btn-circle btn-border overlay-item--middle-right">
                             <a href="#">
@@ -238,6 +234,10 @@
                                 </span>
                             </a>
                         </div>
+                        <div class="post__meta post__meta-author-light">
+                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
+                        </div>
+
                     </div>
                 </article>
             </div>

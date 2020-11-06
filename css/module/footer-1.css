@@ -1,0 +1,37 @@
+.atbs__site-footer--style-1 {
+    background-color: transparent;
+}
+
+.atbs--logo-letter.atbs--logo-letter-2 a {
+    color: var(--color-primary);
+}
+
+.site-footer__section-brand {
+    width: 170px;
+}
+
+.site-footer__section-social {
+    width: 130px;
+}
+
+.site-footer__section-social .social-list i {
+    color: rgb(175, 175, 175);
+}
+
+.social-list li:hover i{
+    color: #2b2b2b;
+}
+
+.site-footer__section-menu {
+    flex: 1;
+}
+
+.footer-menu__center .navigation--footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-menu .navigation--footer a {
+    font-family: "Roboto", sans-serif;
+}

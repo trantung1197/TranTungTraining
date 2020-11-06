@@ -3,7 +3,7 @@
     <div id="mnmd-mobile-header" class="mobile-header mobile-header--inverse visible-xs visible-sm">
         <div class="mobile-header__inner mobile-header__inner--flex">
             <div class="header-branding header-branding--mobile mobile-header__section text-left">
-                <div class="header-logo header-logo--mobile flexbox__item text-left">
+                <div class="header-logo header-logo--mobile atbs--logo-letter flexbox__item text-left">
                     <a href="#">Donche</a>
                 </div>
             </div>
@@ -22,16 +22,18 @@
     <nav class="navigation-bar navigation-bar--fullwidth hidden-xs hidden-sm js-sticky-header-holder">
         <div class="navigation-bar__inner">
             <div class="navigation-bar__section navigation-bar__site-logo inverse-text">
-                <div class="site-logo header-logo atbs--logo-custom-1 f-18">
-                    <a href="#">Donche</a>
+                <div class="navigation-bar__section-inner">
+                    <div class="site-logo header-logo atbs--logo-letter">
+                        <a href="#">Donche</a>
+                    </div>
+                    <a href="#mnmd-offcanvas-primary" class="offcanvas-menu-toggle p-r-25 navigation-bar-btn js-mnmd-offcanvas-toggle">
+                        <i class="mdicon mdicon-menu icon--2x"></i>
+                    </a>
                 </div>
-                <a href="#mnmd-offcanvas-primary" class="offcanvas-menu-toggle navigation-bar-btn js-mnmd-offcanvas-toggle">
-                    <i class="mdicon mdicon-menu icon--2x"></i>
-                </a>
             </div>
 
-            <div class="navigation-wrapper navigation-bar__section js-priority-nav">
-                <ul id="menu-main-menu" class="navigation navigation--main navigation--inline">
+            <div class="navigation-wrapper navigation-bar__section navigation-bar__section-menu js-priority-nav">
+                <ul id="menu-main-menu" class="navigation navigation--main navigation--inline navigation-space-40">
                     <li>
                         <a href="#">Home</a>
                     </li>
@@ -49,8 +51,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="navigation-bar__section">
-                <button type="submit" class="navigation-bar-btn js-search-dropdown-toggle"><i class="mdicon mdicon-search"></i></button>
+            <div class="navigation-bar__section navigation-bar__section-search">
+                <button type="submit" class="navigation-bar-btn btn-search__style-1 js-search-dropdown-toggle"><i class="mdicon mdicon-search"></i></button>
             </div>
         </div><!-- .navigation-bar__inner -->
 

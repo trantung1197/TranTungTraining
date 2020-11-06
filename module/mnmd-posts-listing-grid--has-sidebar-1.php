@@ -26,7 +26,7 @@
                             </div>
                         </div>
 
-                        <div class="post__text">
+                        <div class="post__text post__text--spacing-1">
                             <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase">
                                 <a href="#" class="post__cat">inspiration</a>
                                 <time class="time" datetime="none" title="none">12 april</time>
@@ -65,7 +65,7 @@
                             </div>
                         </div>
 
-                        <div class="post__text">
+                        <div class="post__text post__text--spacing-1">
                             <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase">
                                 <a href="#" class="post__cat">inspiration</a>
                                 <time class="time" datetime="none" title="none">12 april</time>
@@ -104,7 +104,7 @@
                             </div>
                         </div>
 
-                        <div class="post__text">
+                        <div class="post__text post__text--spacing-1">
                             <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase">
                                 <a href="#" class="post__cat">inspiration</a>
                                 <time class="time" datetime="none" title="none">12 april</time>
@@ -143,7 +143,7 @@
                             </div>
                         </div>
 
-                        <div class="post__text">
+                        <div class="post__text post__text--spacing-1">
                             <div class="post__meta post__meta-heading post__meta-heading--style-1 text-uppercase">
                                 <a href="#" class="post__cat">inspiration</a>
                                 <time class="time" datetime="none" title="none">12 april</time>

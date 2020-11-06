@@ -38,7 +38,7 @@ fontweight >= 34: 1.3rem -->
     <link rel="stylesheet" href="../css/module/featured-module-2.css">
     <link rel="stylesheet" href="../css/module/featured-module-3.css">
     <link rel="stylesheet" href="../css/module/header-1.css">
-    <link rel="stylesheet" href="../css/module/featured-module-6.css">
+    <link rel="stylesheet" href="../css/module/footer-1.css">
     <link rel="stylesheet" href="../css/module/posts-listing-grid--has-sidebar-4.css">
     <link rel="stylesheet" href="../css/module/posts-listing-grid--has-sidebar-3.css">
     <link rel="stylesheet" href="../css/module/posts-listing-grid--has-sidebar-2.css">
@@ -69,13 +69,13 @@ fontweight >= 34: 1.3rem -->
 
     <!-- .site-wrapper -->
     <div class="site-wrapper">
+
+        <?php include 'header-1.php'; ?>
         <!-- Site header -->
-        <div class="site-content">
-            <?php include 'header-1.php'; ?>
+
+        <div class="site-content p-t-60">
 
             <?php include 'featured-module-3.php'; ?>
-
-            <?php include 'featured-module-6.php'; ?>
 
             <?php include 'featured-module-2.php'; ?>
 
@@ -95,6 +95,8 @@ fontweight >= 34: 1.3rem -->
             </div>
         </div><!-- .site-content -->
 
+        <?php include 'footer-1.php'; ?>
+        <!-- Site footer -->
     </div><!-- .site-wrapper -->
 
     <!-- Vendor -->

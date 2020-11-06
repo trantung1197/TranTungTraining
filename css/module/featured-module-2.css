@@ -1,3 +1,4 @@
+
 .max-witdh-350 {
     max-width: 350px;
 }
@@ -55,7 +56,7 @@ a.post__cat.cat-primary {
     display: block;
     display: -webkit-box;
     max-width: 100%;
-    height: 60px;
+    height: 70px;
     margin: 0 auto;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -109,7 +110,7 @@ a.post__cat.cat-primary {
     height: 53px;
     border: none;
     box-shadow: none;
-    left: -3px;
+    left: -33px;
 }
 
 .atbs--author-box-custom .author__name {
@@ -120,9 +121,6 @@ a.post__cat.cat-primary {
     text-transform: none;
 }
 
-.post__text .post__excerpt {
-    line-height: 1.4;
-}
 .post__excerpt:last-child {
     margin-bottom: 0;
 }
@@ -143,7 +141,7 @@ a.post__cat.cat-primary {
 .mnmd-block__inner.mnmd-block__inner--before-shadow::before {
     content: "";
     position: absolute;
-    top: 80px;
+    top: 150px;
     right: calc(100% - 250px);
     left: auto;
     bottom: auto;
