@@ -42,6 +42,7 @@ fontweight >= 34: 1.3rem -->
     <link rel="stylesheet" href="css/module/posts-listing-grid--has-sidebar-4.css">
     <link rel="stylesheet" href="css/module/posts-listing-grid--has-sidebar-3.css">
     <link rel="stylesheet" href="css/module/posts-listing-grid--has-sidebar-2.css">
+    <link rel="stylesheet" href="css/module/posts-listing-grid--has-sidebar-1.css">
     <link rel="stylesheet" href="css/module/widget--list-post-1.css">
 
 

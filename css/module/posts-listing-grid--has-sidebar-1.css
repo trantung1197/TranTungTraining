@@ -4,17 +4,12 @@
     margin-left: 120px;
 }
 
-.posts-listing-grid-1 .post__text {
+.posts-listing-grid-1 .post__text.post__text--spacing-1 {
     padding-top: 20px;
 }
 
 .posts-listing-grid-1 .post__text .post__meta-heading {
     margin-bottom: 15px;
-}
-
-.posts-listing-grid-1 .post__text .post__title {
-    margin-top: 0;
-    margin-bottom: 20px;
 }
 
 @media (max-width:1199px){
