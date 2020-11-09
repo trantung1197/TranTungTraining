@@ -8,11 +8,11 @@
     margin-bottom: 60px;
 }
 
-.post--horizontal-reverse__style-1 .post__text {
+.post--horizontal-reverse.post--horizontal-reverse__style-1 .post__text {
     padding-top: 15px;
 }
 
-.post--horizontal-reverse__style-1 .post__thumb {
+.post--horizontal-reverse.post--horizontal-reverse__style-1 .post__thumb {
     width: 450px;
     margin-left: 40px;
 }
@@ -50,15 +50,15 @@
 }
 
 @media (max-width: 1199px) {
-    .post--horizontal-reverse__style-1 .post__title {
+    .post--horizontal-reverse.post--horizontal-reverse__style-1 .post__title {
         padding-right: 0;
     }
 
-    .post--horizontal-reverse__style-1 .post__excerpt {
+    .post--horizontal-reverse.post--horizontal-reverse__style-1 .post__excerpt {
         padding-right: 0;
     }
 
-    .post--horizontal-reverse__style-1 .post__thumb {
+    .post--horizontal-reverse.post--horizontal-reverse__style-1 .post__thumb {
         width: 345px;
     }
 
@@ -68,7 +68,7 @@
 }
 
 @media (max-width: 991px) {
-    .post--horizontal-reverse__style-1 .post__thumb {
+    .post--horizontal-reverse.post--horizontal-reverse__style-1 .post__thumb {
         width: 390px;
     }
 
@@ -78,7 +78,7 @@
 }
 
 @media (max-width: 767px) {
-    .post--horizontal-reverse__style-1 .post__thumb {
+    .post--horizontal-reverse.post--horizontal-reverse__style-1 .post__thumb {
         width: 100%;
         margin-left: 0;
     }
@@ -88,12 +88,22 @@
     }
 
     .posts-listing-grid-4 .post__text {
-        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .posts-listing-grid-4 .post--horizontal {
         align-items: center;
         display: flex;
+    }
+
+    .posts-listing-grid-4 .post--horizontal .post__thumb {
+        margin-right: 50px;
+    }
+}
+
+@media (min-width: 576px) {
+    .post--horizontal .post__thumb {
+        margin: 0;
     }
 }
 
@@ -110,5 +120,13 @@
     .posts-listing-grid-4 .post--horizontal .post__thumb {
         margin-bottom: 20px;
         width: 100%;
+    }
+
+    .overlay-item--middle-right-25{
+        top: auto;
+        left: auto;
+        right: 0;
+        bottom: 0;
+        transform: translate(0);
     }
 }

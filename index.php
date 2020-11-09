@@ -17,32 +17,32 @@ fontweight >= 34: 1.3rem -->
     <meta name="author" content="minimaldog.net">
 
     <!-- Favicon -->
-    <link rel="icon" href="../img/favicon.png" sizes="32x32" />
-    <link rel="icon" href="../img/favicon.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="../img/favicon.png" />
-    <meta name="msapplication-TileImage" content="../img/favicon.png" />
+    <link rel="icon" href="img/favicon.png" sizes="32x32" />
+    <link rel="icon" href="img/favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.png" />
+    <meta name="msapplication-TileImage" content="img/favicon.png" />
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Vendor CSS -->
-    <link href="../css/vendors.css" rel="stylesheet">
+    <link href="css/vendors.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="../css/module/typography.css">
-    <link rel="stylesheet" href="../css/module/define.css">
-    <link rel="stylesheet" href="../css/module/featured-module-1.css">
-    <link rel="stylesheet" href="../css/module/featured-module-2.css">
-    <link rel="stylesheet" href="../css/module/featured-module-3.css">
-    <link rel="stylesheet" href="../css/module/header-1.css">
-    <link rel="stylesheet" href="../css/module/footer-1.css">
-    <link rel="stylesheet" href="../css/module/posts-listing-grid--has-sidebar-4.css">
-    <link rel="stylesheet" href="../css/module/posts-listing-grid--has-sidebar-3.css">
-    <link rel="stylesheet" href="../css/module/posts-listing-grid--has-sidebar-2.css">
-    <link rel="stylesheet" href="../css/module/widget--list-post-1.css">
+    <link rel="stylesheet" href="css/module/typography.css">
+    <link rel="stylesheet" href="css/module/define.css">
+    <link rel="stylesheet" href="css/module/featured-module-1.css">
+    <link rel="stylesheet" href="css/module/featured-module-2.css">
+    <link rel="stylesheet" href="css/module/featured-module-3.css">
+    <link rel="stylesheet" href="css/module/header-1.css">
+    <link rel="stylesheet" href="css/module/footer-1.css">
+    <link rel="stylesheet" href="css/module/posts-listing-grid--has-sidebar-4.css">
+    <link rel="stylesheet" href="css/module/posts-listing-grid--has-sidebar-3.css">
+    <link rel="stylesheet" href="css/module/posts-listing-grid--has-sidebar-2.css">
+    <link rel="stylesheet" href="css/module/widget--list-post-1.css">
 
 
     <!-- Web Fonts  -->
@@ -71,48 +71,48 @@ fontweight >= 34: 1.3rem -->
     <!-- .site-wrapper -->
     <div class="site-wrapper">
 
-        <?php include 'header-1.php'; ?>
+        <?php include 'module/header-1.php'; ?>
         <!-- Site header -->
 
         <div class="site-content p-t-60">
 
-            <?php include 'featured-module-3.php'; ?>
+            <?php include 'module/featured-module-3.php'; ?>
 
-            <?php include 'featured-module-2.php'; ?>
+            <?php include 'module/featured-module-2.php'; ?>
 
-            <?php include 'featured-module-1.php'; ?>
+            <?php include 'module/featured-module-1.php'; ?>
 
             <div class="mnmd-block mnmd-block--fullwidth">
                 <div class="container">
                     <div class="row">
                         <div class="mnmd-main-col" role="main">
-                            <?php include './mnmd-posts-listing-grid--has-sidebar-4.php'; ?>
-                            <?php include './mnmd-posts-listing-grid--has-sidebar-3.php'; ?>
-                            <?php include './mnmd-posts-listing-grid--has-sidebar-2.php'; ?>
-                            <?php include './mnmd-posts-listing-grid--has-sidebar-1.php'; ?>
+                            <?php include 'module/mnmd-posts-listing-grid--has-sidebar-4.php'; ?>
+                            <?php include 'module/mnmd-posts-listing-grid--has-sidebar-3.php'; ?>
+                            <?php include 'module/mnmd-posts-listing-grid--has-sidebar-2.php'; ?>
+                            <?php include 'module/mnmd-posts-listing-grid--has-sidebar-1.php'; ?>
                         </div>
 
                         <div class="mnmd-sub-col" role="complementary">
-                            <?php include 'mnmd-widget--list-post-1.php' ?>
+                            <?php include 'module/mnmd-widget--list-post-1.php' ?>
                         </div>
                     </div>
                 </div>
             </div>
         </div><!-- .site-content -->
 
-        <?php include 'footer-1.php'; ?>
+        <?php include 'module/footer-1.php'; ?>
         <!-- Site footer -->
     </div><!-- .site-wrapper -->
 
     <!-- Vendor -->
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/vendors.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/vendors.js"></script>
 
     <!-- Theme Scripts -->
-    <script type="text/javascript" src="../js/scripts.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
 
     <!-- Theme Custom Scripts -->
-    <script src="../js/custom.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>

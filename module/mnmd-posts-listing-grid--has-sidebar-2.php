@@ -8,7 +8,7 @@
     <div class="mnmd-block__inner">
         <div class="posts-list posts-listing-grid-2 flex-box flex-box-2i flex-space-50 flex-gutter-30">
             <div class="list-item">
-                <article class="post post--vertical has-post-thumb--border-bottom">
+                <article class="post post--vertical has-post-thumb--border-bottom post--has-btn-readmore">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/400x180" alt="img">
@@ -25,7 +25,9 @@
                                 I Have Measured Out My Own Life With a Coffee Spoons
                             </a>
                         </h3>
-
+                        <div class="post__meta post__meta-author-light">
+                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
+                        </div>
                         <div class="post__readmore post__readmore--style-2 btn-circle btn-border overlay-item--middle-right">
                             <a href="#">
                                 <span class="readmore__text">
@@ -39,15 +41,11 @@
                                 </span>
                             </a>
                         </div>
-                        <div class="post__meta post__meta-author-light">
-                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
-                        </div>
-
                     </div>
                 </article>
             </div>
             <div class="list-item">
-                <article class="post post--vertical has-post-thumb--border-bottom">
+                <article class="post post--vertical has-post-thumb--border-bottom post--has-btn-readmore">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/400x180" alt="img">
@@ -64,7 +62,9 @@
                                 I Have Measured Out My Own Life With a Coffee Spoons
                             </a>
                         </h3>
-
+                        <div class="post__meta post__meta-author-light">
+                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
+                        </div>
                         <div class="post__readmore post__readmore--style-2 btn-circle btn-border overlay-item--middle-right">
                             <a href="#">
                                 <span class="readmore__text">
@@ -78,15 +78,11 @@
                                 </span>
                             </a>
                         </div>
-                        <div class="post__meta post__meta-author-light">
-                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
-                        </div>
-
                     </div>
                 </article>
             </div>
             <div class="list-item">
-                <article class="post post--vertical has-post-thumb--border-bottom">
+                <article class="post post--vertical has-post-thumb--border-bottom post--has-btn-readmore">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/400x180" alt="img">
@@ -103,7 +99,9 @@
                                 I Have Measured Out My Own Life With a Coffee Spoons
                             </a>
                         </h3>
-
+                        <div class="post__meta post__meta-author-light">
+                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
+                        </div>
                         <div class="post__readmore post__readmore--style-2 btn-circle btn-border overlay-item--middle-right">
                             <a href="#">
                                 <span class="readmore__text">
@@ -117,15 +115,11 @@
                                 </span>
                             </a>
                         </div>
-                        <div class="post__meta post__meta-author-light">
-                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
-                        </div>
-
                     </div>
                 </article>
             </div>
             <div class="list-item">
-                <article class="post post--vertical has-post-thumb--border-bottom">
+                <article class="post post--vertical has-post-thumb--border-bottom post--has-btn-readmore">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/400x180" alt="img">
@@ -142,7 +136,9 @@
                                 I Have Measured Out My Own Life With a Coffee Spoons
                             </a>
                         </h3>
-
+                        <div class="post__meta post__meta-author-light">
+                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
+                        </div>
                         <div class="post__readmore post__readmore--style-2 btn-circle btn-border overlay-item--middle-right">
                             <a href="#">
                                 <span class="readmore__text">
@@ -156,15 +152,11 @@
                                 </span>
                             </a>
                         </div>
-                        <div class="post__meta post__meta-author-light">
-                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
-                        </div>
-
                     </div>
                 </article>
             </div>
             <div class="list-item">
-                <article class="post post--vertical has-post-thumb--border-bottom">
+                <article class="post post--vertical has-post-thumb--border-bottom post--has-btn-readmore">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/400x180" alt="img">
@@ -182,6 +174,10 @@
                             </a>
                         </h3>
 
+
+                        <div class="post__meta post__meta-author-light">
+                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
+                        </div>
                         <div class="post__readmore post__readmore--style-2 btn-circle btn-border overlay-item--middle-right">
                             <a href="#">
                                 <span class="readmore__text">
@@ -195,15 +191,11 @@
                                 </span>
                             </a>
                         </div>
-                        <div class="post__meta post__meta-author-light">
-                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
-                        </div>
-
                     </div>
                 </article>
             </div>
             <div class="list-item">
-                <article class="post post--vertical has-post-thumb--border-bottom">
+                <article class="post post--vertical has-post-thumb--border-bottom post--has-btn-readmore">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/400x180" alt="img">
@@ -220,7 +212,9 @@
                                 I Have Measured Out My Own Life With a Coffee Spoons
                             </a>
                         </h3>
-
+                        <div class="post__meta post__meta-author-light">
+                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
+                        </div>
                         <div class="post__readmore post__readmore--style-2 btn-circle btn-border overlay-item--middle-right">
                             <a href="#">
                                 <span class="readmore__text">
@@ -234,10 +228,6 @@
                                 </span>
                             </a>
                         </div>
-                        <div class="post__meta post__meta-author-light">
-                            <span class="entry-author">by <a href="#" class="entry-author__name">Manuel Rovira</a></span>
-                        </div>
-
                     </div>
                 </article>
             </div>

@@ -3,7 +3,13 @@
 }
 
 .posts-listing-grid-3 .post--overlay-has-background-inner .post__text-inner {
-    padding-right: 60px;
+    padding: 30px 60px 30px 20px;
+}
+
+@media (max-width:1199px){
+    .posts-listing-grid-3 .post--overlay-has-background-inner .post__text-inner{
+        margin-right: 50px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -17,3 +23,5 @@
         width: 100%;
     }
 }
+
+

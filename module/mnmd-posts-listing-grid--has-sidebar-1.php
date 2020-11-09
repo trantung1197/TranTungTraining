@@ -6,7 +6,7 @@
         <div class="posts-listing-grid-1">
             <div class="posts-list flex-box flex-box-1i flex-space-30 flex-gutter-30">
                 <div class="list-item">
-                    <article class="post post--horizontal post--horizontal-reverse">
+                    <article class="post post--horizontal post--horizontal-reverse post--has-btn-readmore">
                         <div class="post__thumb">
                             <a href="#single-url">
                                 <img src="http://via.placeholder.com/425x230" alt="img">
@@ -45,7 +45,7 @@
                     </article>
                 </div>
                 <div class="list-item">
-                    <article class="post post--horizontal post--horizontal-reverse">
+                    <article class="post post--horizontal post--horizontal-reverse post--has-btn-readmore">
                         <div class="post__thumb">
                             <a href="#single-url">
                                 <img src="http://via.placeholder.com/425x230" alt="img">
@@ -84,7 +84,7 @@
                     </article>
                 </div>
                 <div class="list-item">
-                    <article class="post post--horizontal post--horizontal-reverse">
+                    <article class="post post--horizontal post--horizontal-reverse post--has-btn-readmore">
                         <div class="post__thumb">
                             <a href="#single-url">
                                 <img src="http://via.placeholder.com/425x230" alt="img">
@@ -123,7 +123,7 @@
                     </article>
                 </div>
                 <div class="list-item">
-                    <article class="post post--horizontal post--horizontal-reverse">
+                    <article class="post post--horizontal post--horizontal-reverse post--has-btn-readmore">
                         <div class="post__thumb">
                             <a href="#single-url">
                                 <img src="http://via.placeholder.com/425x230" alt="img">

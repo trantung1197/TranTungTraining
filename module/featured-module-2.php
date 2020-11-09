@@ -6,14 +6,14 @@
             </h4>
         </div>
         <div class="mnmd-block__inner mnmd-block__inner--before-shadow flex-box">
-            <div class="main-section p-t-25">
+            <div class="main-section">
                 <article class="post post--horizontal post--horizontal-follow-parent ">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/500x600" alt="image">
                         </a>
                     </div>
-                    <div class="post__text post__text--spacing-1">
+                    <div class="post__text post__text--spacing-1 post__text--padding-w-thumd p-t-25">
                         <a href="#" class="post__cat post__cat--heading-style-1">FASHION</a>
                         <div class="post__text-group">
                             <h3 class="post__title f-28 f-w-700 width-335">

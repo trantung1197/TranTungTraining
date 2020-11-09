@@ -5,7 +5,7 @@
         </div>
         <div class="mnmd-block__inner flex-box">
             <div class="middle-section">
-                <article class="post--overlay post--overlay-has-background-inner post--overlay-has-background-inner--style-1 post--overlay-bottom">
+                <article class="post--overlay post--has-btn-readmore post--overlay-has-background-inner post--overlay-has-background-inner--style-1 post--overlay-bottom">
                     <div class="background-img" style="background-image: url(http://via.placeholder.com/570x500);"></div>
                     <div class="post__text min-height-500">
                         <div class="post__text-wrap">
@@ -61,7 +61,7 @@
                         <ul class="posts-list atbs--post-custom list-unstyled list-space-md">
                             <li>
                                 <article class="post--horizontal atbs--post-custom post--horizontal-middle">
-                                    <div class="post__thumb post__thumb-xxs">
+                                    <div class="post__thumb post__thumb-70">
                                         <a href="#single-url">
                                             <img src="https://via.placeholder.com/70x70" alt="img">
                                         </a>
@@ -76,7 +76,7 @@
                             </li>
                             <li>
                                 <article class="post--horizontal atbs--post-custom post--horizontal-middle">
-                                    <div class="post__thumb post__thumb-xxs">
+                                    <div class="post__thumb post__thumb-70">
                                         <a href="#single-url">
                                             <img src="https://via.placeholder.com/70x70" alt="img">
                                         </a>

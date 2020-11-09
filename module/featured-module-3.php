@@ -3,7 +3,7 @@
         <div class="container">
             <div class="mnmd-block__inner d-flex">
                 <div class="left-section">
-                    <article class="post post--overlay post--overlay-has-background-inner post--overlay-has-background-inner--fullwidth">
+                    <article class="post post--overlay post--has-btn-readmore post--overlay-has-background-inner post--overlay-has-background-inner--fullwidth">
                         <div class="background-img" style="background-image: url(http://via.placeholder.com/900x600);"></div>
                         <div class="post__text min-height-500">
                             <div class="post__text-wrap">
@@ -37,7 +37,7 @@
                     </article>
                 </div>
                 <div class="right-section">
-                    <article class="post post--vertical atbs--post-custom">
+                    <article class="post post--vertical atbs--post-custom post--has-btn-readmore">
                         <div class="post__thumb">
                             <a href="#">
                                 <img src="http://via.placeholder.com/370x350" alt="image">
@@ -60,7 +60,7 @@
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam voluptatum minus?
                             </div>
 
-                            <button class=" btn-read-more btn-read-more--bot-right f-w-600 text-uppercase">read more</button>
+                            <button class="btn-read-more btn-read-more--bot-right f-w-600 text-uppercase">read more</button>
                         </div>
                     </article>
                 </div>

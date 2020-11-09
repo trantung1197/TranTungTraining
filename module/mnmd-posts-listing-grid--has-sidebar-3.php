@@ -8,7 +8,7 @@
     <div class="mnmd-block__inner">
         <div class="posts-list posts-listing-grid-3 flex-box flex-box-2i flex-space-50">
             <div class="list-item">
-                <article class="post--overlay post--overlay-bottom post--overlay-has-background-inner">
+                <article class="post--overlay post--overlay-bottom post--has-btn-readmore  post--has-btn-readmore post--overlay-has-background-inner">
                     <div class="background-img" style="background-image: url('http://via.placeholder.com/400x450');"></div>
                     <div class="post__text min-height-450">
                         <div class="post__text-wrap">
@@ -17,6 +17,12 @@
                                     <a href="#" class="post__cat">inspiration</a>
                                     <time class="time" datetime="none" title="none">12 april</time>
                                 </div>
+
+                                <h3 class="post__title f-20 f-w-700">
+                                    <a href="#">
+                                        I Have Measured Out My Own Life With a Coffee Spoons
+                                    </a>
+                                </h3>
                                 <div class="post__readmore post__readmore--style-1 btn-circle btn-border overlay-item--bottom-right overlay-item--bottom-right-100">
                                     <a href="#">
                                         <span class="readmore__text">
@@ -30,19 +36,13 @@
                                         </span>
                                     </a>
                                 </div>
-                                <h3 class="post__title f-20 f-w-700">
-                                    <a href="#">
-                                        I Have Measured Out My Own Life With a Coffee Spoons
-                                    </a>
-                                </h3>
-
                             </div>
                         </div>
                     </div>
                 </article>
             </div>
             <div class="list-item">
-                <article class="post--overlay post--overlay-bottom post--overlay-has-background-inner">
+                <article class="post--overlay post--overlay-bottom post--has-btn-readmore post--has-btn-readmore post--overlay-has-background-inner">
                     <div class="background-img" style="background-image: url('http://via.placeholder.com/400x450');"></div>
                     <div class="post__text min-height-450">
                         <div class="post__text-wrap">
@@ -51,6 +51,12 @@
                                     <a href="#" class="post__cat">inspiration</a>
                                     <time class="time" datetime="none" title="none">12 april</time>
                                 </div>
+
+                                <h3 class="post__title f-20 f-w-700">
+                                    <a href="#">
+                                        I Have Measured Out My Own Life With a Coffee Spoons
+                                    </a>
+                                </h3>
                                 <div class="post__readmore post__readmore--style-1 btn-circle btn-border overlay-item--bottom-right overlay-item--bottom-right-100">
                                     <a href="#">
                                         <span class="readmore__text">
@@ -64,19 +70,13 @@
                                         </span>
                                     </a>
                                 </div>
-                                <h3 class="post__title f-20 f-w-700">
-                                    <a href="#">
-                                        I Have Measured Out My Own Life With a Coffee Spoons
-                                    </a>
-                                </h3>
-
                             </div>
                         </div>
                     </div>
                 </article>
             </div>
             <div class="list-item">
-                <article class="post--overlay post--overlay-bottom post--overlay-has-background-inner">
+                <article class="post--overlay post--overlay-bottom post--has-btn-readmore post--has-btn-readmore post--overlay-has-background-inner">
                     <div class="background-img" style="background-image: url('http://via.placeholder.com/400x450');"></div>
                     <div class="post__text min-height-450">
                         <div class="post__text-wrap">
@@ -85,6 +85,12 @@
                                     <a href="#" class="post__cat">inspiration</a>
                                     <time class="time" datetime="none" title="none">12 april</time>
                                 </div>
+
+                                <h3 class="post__title f-20 f-w-700">
+                                    <a href="#">
+                                        I Have Measured Out My Own Life With a Coffee Spoons
+                                    </a>
+                                </h3>
                                 <div class="post__readmore post__readmore--style-1 btn-circle btn-border overlay-item--bottom-right overlay-item--bottom-right-100">
                                     <a href="#">
                                         <span class="readmore__text">
@@ -98,19 +104,13 @@
                                         </span>
                                     </a>
                                 </div>
-                                <h3 class="post__title f-20 f-w-700">
-                                    <a href="#">
-                                        I Have Measured Out My Own Life With a Coffee Spoons
-                                    </a>
-                                </h3>
-
                             </div>
                         </div>
                     </div>
                 </article>
             </div>
             <div class="list-item">
-                <article class="post--overlay post--overlay-bottom post--overlay-has-background-inner">
+                <article class="post--overlay post--overlay-bottom post--has-btn-readmore post--has-btn-readmore post--overlay-has-background-inner">
                     <div class="background-img" style="background-image: url('http://via.placeholder.com/400x450');"></div>
                     <div class="post__text min-height-450">
                         <div class="post__text-wrap">
@@ -119,6 +119,12 @@
                                     <a href="#" class="post__cat">inspiration</a>
                                     <time class="time" datetime="none" title="none">12 april</time>
                                 </div>
+
+                                <h3 class="post__title f-20 f-w-700">
+                                    <a href="#">
+                                        I Have Measured Out My Own Life With a Coffee Spoons
+                                    </a>
+                                </h3>
                                 <div class="post__readmore post__readmore--style-1 btn-circle btn-border overlay-item--bottom-right overlay-item--bottom-right-100">
                                     <a href="#">
                                         <span class="readmore__text">
@@ -132,19 +138,13 @@
                                         </span>
                                     </a>
                                 </div>
-                                <h3 class="post__title f-20 f-w-700">
-                                    <a href="#">
-                                        I Have Measured Out My Own Life With a Coffee Spoons
-                                    </a>
-                                </h3>
-
                             </div>
                         </div>
                     </div>
                 </article>
             </div>
             <div class="list-item">
-                <article class="post--overlay post--overlay-bottom post--overlay-has-background-inner">
+                <article class="post--overlay post--overlay-bottom post--has-btn-readmore post--has-btn-readmore post--overlay-has-background-inner">
                     <div class="background-img" style="background-image: url('http://via.placeholder.com/400x450');"></div>
                     <div class="post__text min-height-450">
                         <div class="post__text-wrap">
@@ -153,6 +153,12 @@
                                     <a href="#" class="post__cat">inspiration</a>
                                     <time class="time" datetime="none" title="none">12 april</time>
                                 </div>
+
+                                <h3 class="post__title f-20 f-w-700">
+                                    <a href="#">
+                                        I Have Measured Out My Own Life With a Coffee Spoons
+                                    </a>
+                                </h3>
                                 <div class="post__readmore post__readmore--style-1 btn-circle btn-border overlay-item--bottom-right overlay-item--bottom-right-100">
                                     <a href="#">
                                         <span class="readmore__text">
@@ -166,19 +172,13 @@
                                         </span>
                                     </a>
                                 </div>
-                                <h3 class="post__title f-20 f-w-700">
-                                    <a href="#">
-                                        I Have Measured Out My Own Life With a Coffee Spoons
-                                    </a>
-                                </h3>
-
                             </div>
                         </div>
                     </div>
                 </article>
             </div>
             <div class="list-item">
-                <article class="post--overlay post--overlay-bottom post--overlay-has-background-inner">
+                <article class="post--overlay post--overlay-bottom post--has-btn-readmore post--has-btn-readmore post--overlay-has-background-inner">
                     <div class="background-img" style="background-image: url('http://via.placeholder.com/400x450');"></div>
                     <div class="post__text min-height-450">
                         <div class="post__text-wrap">
@@ -187,6 +187,12 @@
                                     <a href="#" class="post__cat">inspiration</a>
                                     <time class="time" datetime="none" title="none">12 april</time>
                                 </div>
+
+                                <h3 class="post__title f-20 f-w-700">
+                                    <a href="#">
+                                        I Have Measured Out My Own Life With a Coffee Spoons
+                                    </a>
+                                </h3>
                                 <div class="post__readmore post__readmore--style-1 btn-circle btn-border overlay-item--bottom-right overlay-item--bottom-right-100">
                                     <a href="#">
                                         <span class="readmore__text">
@@ -200,12 +206,6 @@
                                         </span>
                                     </a>
                                 </div>
-                                <h3 class="post__title f-20 f-w-700">
-                                    <a href="#">
-                                        I Have Measured Out My Own Life With a Coffee Spoons
-                                    </a>
-                                </h3>
-
                             </div>
                         </div>
                     </div>
