@@ -1,5 +1,5 @@
 <!-- mnmd-block mnmd-block--fullwidth -->
-<div class="mnmd-widget widget--list-post-1">
+<div class="widget mnmd-widget widget--list-post-1">
     <div class="widget__title">
         <h4 class="widget__title-text heading-style-2">Trending news</h4>
     </div>

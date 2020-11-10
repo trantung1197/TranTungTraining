@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 /* ****************************** */
 /* Color */
 /* ****************************** */
@@ -35,8 +36,10 @@
     letter-spacing: normal;
 }
 
-.post__title {
+.post__title,
+.entry-title {
     font-family: "Source Sans Pro", sans-serif;
+    color: #222222;
 }
 
 a.post__cat {
@@ -48,6 +51,11 @@ time.time,
 .post__excerpt,
 .post__meta,
 .entry-meta,
+.entry-cat,
+a.entry-cat,
+.entry-teaser,
+.entry-tags,
+a.entry-tags,
 .btn-read-more {
     font-family: "Roboto", sans-serif;
 }
@@ -210,8 +218,6 @@ time.time,
     min-height: 260px;
 }
 
-
-
 .post__text--spacing-1 > * {
     margin-top: 0;
     margin-bottom: 20px;
@@ -234,7 +240,6 @@ time.time,
 .post__text--spacing-1 > :last-child {
     margin-bottom: 0;
 }
-
 
 .post__text--spacing-1 .post__text-group > .post__title,
 .post__text--spacing-1 .post__text-group > * {
@@ -269,11 +274,10 @@ time.time,
 .post__text--spacing-1 .post__readmore {
     margin: 0;
 }
-    
-.post--has-btn-readmore .post__text--spacing-1 > *:nth-last-child(2){
+
+.post--has-btn-readmore .post__text--spacing-1 > *:nth-last-child(2) {
     margin-bottom: 0;
 }
-
 
 /* ****************************** */
 /* Section */

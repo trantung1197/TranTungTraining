@@ -93,7 +93,7 @@ fontweight >= 34: 1.3rem -->
                             <?php include 'module/mnmd-posts-listing-grid--has-sidebar-1.php'; ?>
                         </div>
 
-                        <div class="mnmd-sub-col" role="complementary">
+                        <div class="mnmd-sub-col js-sticky-sidebar" role="complementary">
                             <?php include 'module/mnmd-widget--list-post-1.php' ?>
                         </div>
                     </div>

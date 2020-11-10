@@ -57,7 +57,93 @@
     <!-- .site-wrapper -->
     <div class="site-wrapper">
         <div class="site-content">
-            <?php include 'module/mnmd-module-test-2.php'; ?>
+            <div class="mnmd-block mnmd-block--fullwidth mnmd-featured-module-test-2">
+                <div class="container">
+                    <div class="posts-list posts-listing--grid posts-listing--grid-seperated grid-box-3">
+                        <div class="list-item grid-item--border-full">
+                            <article class="post post__no-thumb post--background-active">
+                                <div class="post__text post__text--spacing-2">
+                                    <a href="#" class="post__cat post__cat-heading">travel</a>
+                                    <div class="post__text">
+                                        <h3 class="post__title f-15 f-w-700">
+                                            <a href="#">
+                                                Act Enthusiastic and You Will Become
+                                                More Enthusiastic
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="list-item grid-item--no-border-bottom">
+                            <article class="post post__no-thumb">
+                                <div class="post__text post__text--spacing-2">
+                                    <a href="#" class="post__cat post__cat-heading">lifestyle</a>
+                                    <div class="post__text">
+                                        <h3 class="post__title f-15 f-w-600">
+                                            <a href="#">
+                                                Care About What Other People Think and You Will Be Their Prisoner
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="list-item post post--no-text grid-column-1-3 grid-row-2-4 grid-item--no-border-bottom">
+                            <div class="post__thumb">
+                                <a href="#">
+                                    <img src="http://via.placeholder.com/900x300" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="list-item grid-item--no-border-right">
+                            <article class="post post__no-thumb">
+                                <div class="post__text post__text--spacing-2">
+                                    <a href="#" class="post__cat post__cat-heading">travel</a>
+                                    <div class="post__text">
+                                        <h3 class="post__title f-15 f-w-600">
+                                            <a href="#">
+                                                I Think Being in Love With Life is a
+                                                Key to Eternal Youth
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="list-item grid-item--no-border-right">
+                            <article class="post post__no-thumb">
+                                <div class="post__text post__text--spacing-2">
+                                    <a href="#" class="post__cat post__cat-heading">travel</a>
+                                    <div class="post__text">
+                                        <h3 class="post__title f-15 f-w-600">
+                                            <a href="#">
+                                                I Think Being in Love With Life is a
+                                                Key to Eternal Youth
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="list-item grid-item--no-border-bottom grid-item--no-border-right">
+                            <article class="post post__no-thumb">
+                                <div class="post__text post__text--spacing-2">
+                                    <a href="#" class="post__cat post__cat-heading">travel</a>
+                                    <div class="post__text">
+                                        <h3 class="post__title f-15 f-w-600">
+                                            <a href="#">
+                                                I Think Being in Love With Life is a
+                                                Key to Eternal Youth
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div><!-- .site-wrapper -->
 
