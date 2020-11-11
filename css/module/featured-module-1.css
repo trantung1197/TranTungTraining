@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 /* ****************************** */
 /* Color */
 /* ****************************** */
@@ -15,6 +16,7 @@
     --color-primary: #ea7118;
     --color-secondary: #222222;
 }
+
 
 .block-heading .block-heading__title {
     font-family: "Source Sans Pro", sans-serif;
