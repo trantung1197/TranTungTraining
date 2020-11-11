@@ -32,19 +32,7 @@ fontweight >= 34: 1.3rem -->
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="css/module/typography.css">
-    <link rel="stylesheet" href="css/module/define.css">
-    <link rel="stylesheet" href="css/module/featured-module-1.css">
-    <link rel="stylesheet" href="css/module/featured-module-2.css">
-    <link rel="stylesheet" href="css/module/featured-module-3.css">
-    <link rel="stylesheet" href="css/module/header-1.css">
-    <link rel="stylesheet" href="css/module/footer-1.css">
-    <link rel="stylesheet" href="css/module/posts-listing-grid--has-sidebar-4.css">
-    <link rel="stylesheet" href="css/module/posts-listing-grid--has-sidebar-3.css">
-    <link rel="stylesheet" href="css/module/posts-listing-grid--has-sidebar-2.css">
-    <link rel="stylesheet" href="css/module/posts-listing-grid--has-sidebar-1.css">
-    <link rel="stylesheet" href="css/module/widget--list-post-1.css">
-
+    <link rel="stylesheet" href="./css/main.css">
 
     <!-- Web Fonts  -->
     <script>

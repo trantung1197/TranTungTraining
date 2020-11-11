@@ -4,7 +4,7 @@
     </div>
     <div class="mnmd-block__inner">
         <div class="main-post m-b-60">
-            <article class="post post--horizontal post--has-btn-readmore post--horizontal-reverse__style-1 post--horizontal-reverse">
+            <article class="post post--horizontal post--horizontal-reverse__style-1 post--horizontal-reverse">
                 <div class="post__thumb">
                     <a href="#single-url">
                         <img src="http://via.placeholder.com/450x300" alt="img">
@@ -44,7 +44,7 @@
         </div>
         <div class="sub-post posts-listing-grid-4 posts-list list-space-lg">
             <div class="list-item">
-                <article class="post post--horizontal post--has-btn-readmore post--horizontal-middle">
+                <article class="post post--horizontal post--horizontal-middle">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/400x240" alt="img">
@@ -80,7 +80,7 @@
                 </article>
             </div>
             <div class="list-item">
-                <article class="post post--horizontal post--has-btn-readmore post--horizontal-middle">
+                <article class="post post--horizontal post--horizontal-middle">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/400x240" alt="img">
@@ -116,7 +116,7 @@
                 </article>
             </div>
             <div class="list-item">
-                <article class="post post--horizontal post--has-btn-readmore post--horizontal-middle">
+                <article class="post post--horizontal post--horizontal-middle">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/400x240" alt="img">
@@ -152,7 +152,7 @@
                 </article>
             </div>
             <div class="list-item">
-                <article class="post post--horizontal post--has-btn-readmore post--horizontal-middle">
+                <article class="post post--horizontal post--horizontal-middle">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/400x240" alt="img">
@@ -188,7 +188,7 @@
                 </article>
             </div>
             <div class="list-item">
-                <article class="post post--horizontal post--has-btn-readmore post--horizontal-middle">
+                <article class="post post--horizontal post--horizontal-middle">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/400x240" alt="img">
@@ -224,7 +224,7 @@
                 </article>
             </div>
             <div class="list-item">
-                <article class="post post--horizontal post--has-btn-readmore post--horizontal-middle">
+                <article class="post post--horizontal post--horizontal-middle">
                     <div class="post__thumb">
                         <a href="#single-url">
                             <img src="http://via.placeholder.com/400x240" alt="img">

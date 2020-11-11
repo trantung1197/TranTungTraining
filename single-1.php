@@ -35,14 +35,7 @@ fontweight >= 34: 1.3rem -->
     <link href="css/icons.css" rel="stylesheet">
 
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="css/module/typography.css">
-    <link rel="stylesheet" href="css/module/define.css">
-    <link rel="stylesheet" href="css/module/featured-module-1.css">
-    <link rel="stylesheet" href="css/module/header-1.css">
-    <link rel="stylesheet" href="css/module/footer-1.css">
-    <link rel="stylesheet" href="css/module/single-1.css">
-    <link rel="stylesheet" href="css/module/widget--list-post-1.css">
-    <link rel="stylesheet" href="css/module/widget-subscribe-1.css">
+    <link rel="stylesheet" href="./css/main.css">
 
     <!-- Web Fonts  -->
     <script>
@@ -140,7 +133,6 @@ fontweight >= 34: 1.3rem -->
 
                                     <figure data-shortcode="caption" id="attachment" class="wp-caption alignnone mnmd-post-media-wide">
                                         <img class="wp-image-7 size-full" src="http://via.placeholder.com/570x300" alt="post image">
-                                        <!-- <figcaption class="wp-caption-text">This is image's caption..</figcaption> -->
                                     </figure>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
@@ -173,9 +165,27 @@ fontweight >= 34: 1.3rem -->
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div class="entry-interaction text-align-right entry-interaction--counter flex-column-20">
+                                                <!-- <div class="entry-interaction text-align-right entry-interaction--counter flex-column-20">
                                                     <a href="#comment" class="comments-count" data-toggle="tooltip" data-placement="top" title="" data-original-title="2 comments" aria-describedby="tooltip177591"><i class=" mdicon mdicon-chat_bubble_outline"></i><span>2</span></a>
                                                     <a href="#view" class="views-count" data-toggle="tooltip" data-placement="top" title="" data-original-title="295 views" aria-describedby="tooltip177591"><i class="mdicon mdicon-visibility"></i><span>295</span></a>
+                                                </div> -->
+                                                <div class="entry-interaction entry-interaction--horizontal">
+                                                    <div class="post-sharing post-sharing__text">
+                                                        <span class="sharing__text">share</span>
+                                                    </div>
+                                                    <div class="post-sharing post-sharing__list-btn">
+                                                        <ul>
+                                                            <li>
+                                                                <a href="#" class="sharing-btn sharing-btn__square facebook-btn btn-active" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share on Facebook"><i class="mdicon mdicon-facebook"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" class="sharing-btn sharing-btn__square twitter-btn" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share on Twitter"><i class="mdicon mdicon-twitter"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" class="sharing-btn sharing-btn__square googleplus-btn" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share on Google+"><i class="mdicon mdicon-google-plus"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -361,6 +371,8 @@ fontweight >= 34: 1.3rem -->
                                     </div><!-- #respond -->
                                 </div><!-- #comments -->
                             </div>
+
+                            <?php include "./module/mnmd-posts-listing-grid--has-sidebar-4.php"; ?>
                         </div>
                         <div class="mnmd-sub-col js-sticky-sidebar" role="complementary">
                             <?php include './module/mnmd-widget--list-post-1.php'; ?>
