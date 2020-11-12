@@ -1,0 +1,30 @@
+@media (min-width: 1200px) {
+    .mnmd-featured-module-2 .mnmd-main-col {
+        padding-right: 15px;
+    }
+}
+
+.mnmd-featured-module-2 .mnmd-main-col .mnmd-block__inner{
+    padding-right: 560px;
+    height: 690px;
+}
+
+.post--horizontal-follow-parent{
+    position: static;
+    padding-top: 115px;
+}
+
+.post--horizontal-follow-parent .post__thumb{
+    position: absolute;
+    left: auto;
+    bottom: 0;
+    top: 0;
+    right: 0;
+
+    width: 470px;
+    margin: 0;
+}
+
+.mnmd-featured-module-2 .mnmd-main-col .sub-posts{
+    margin-top: 65px;
+}
