@@ -8,7 +8,7 @@
                             <a href="#single-url"><img src="http://via.placeholder.com/400x500" alt="image"></a>
                         </div>
                         <div class="post__text post__text--spacing-1">
-                            <a href="#" class="post__cat post__cat--bg post__cat--bg-yellow">Fashion</a>
+                            <a href="#" class="post__cat post__cat--bg post__cat--bg-primary">Fashion</a>
                             <h3 class="post__title f-35 f-w-700">
                                 <a href="#">
                                     Don’t Talk Unless You Can Improve The

@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700&display=swap");
 
 @import url("./module-training-home-1/define.css");
 @import url("./module-training-home-1/typography.css");
+@import url("./module-training-home-1/header.css");
 @import url("./module-training-home-1/featured-module-1.css");
 @import url("./module-training-home-1/featured-module-2.css");
+@import url("./module-training-home-1/grid-listing-1.css");
+@import url("./module-training-home-1/widget--author-1.css");
+@import url("./module-training-home-1/widget--stories-1.css");

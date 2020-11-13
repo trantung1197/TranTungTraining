@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+.atbs__site-header--style-1,
+.atbs__site-header--style-2 {
+    box-shadow: none;
+}
+
+.atbs__site-header--style-1 .mobile-header {
+    background-color: var(--color-primary);
+}
+
+.atbs__site-header--style-1 .navigation-bar__site-logo {
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    margin-left: -20px;
+    padding-left: calc((100vw - 1170px) / 2);
+    padding-right: 0;
+}
+
+.atbs__site-header--style-2 .navigation-bar__inner,
+.atbs__site-header--style-2 .navigation-bar--fullwidth,
+.atbs__site-header--style-2 .navigation-bar__section,
+.atbs__site-header--style-2 .navigation-bar-btn,
+.atbs__site-header--style-1 .navigation-bar__inner,
+.atbs__site-header--style-1 .navigation-bar--fullwidth,
+.atbs__site-header--style-1 .navigation-bar__section,
+.atbs__site-header--style-1 .navigation-bar-btn {
+    height: 80px;
+    line-height: 80px;
+}
+
+.atbs--logo-letter a {
+    color: white;
+    font-size: 1.2857rem;
+    line-height: 1.5;
+    font-family: "Archivo Black", sans-serif;
+    text-decoration: none;
+}
+
+.atbs__site-header--style-2 .atbs--logo-letter a {
+    color: #222222;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    letter-spacing: 0.3em;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navigation-bar__section-menu .navigation--main li a {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.0714rem;
+    font-weight: 300;
+    line-height: 80px;
+    height: 80px;
+    text-transform: capitalize;
+}
+
+.btn-search__style-1 i {
+    color: var(--color-primary);
+    font-size: 25px;
+}
+
+.atbs__site-header--style-2 .btn-search__style-1 i {
+    color: #222222;
+}
+
+.navigation-bar__section-search {
+    margin-right: calc((-20px + (100vw - 1170px) / 2));
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 0;
+}
+
+.atbs__site-header--style-2 .navigation-bar__section-search {
+    margin-right: 0;
+}
+
+.btn-search__style-1 {
+    outline: none;
+    padding: 0;
+}
+
+.navigation-bar__section-menu .navigation--main {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-bar__section-inner {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation.navigation-space-40 li > * {
+    padding: 0 20px;
+}

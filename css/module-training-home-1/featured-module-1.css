@@ -8,6 +8,9 @@ body,
 body.training-home-1 {
     font-family: "Roboto", sans-serif;
     color: #222222;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .post__excerpt,
@@ -20,8 +23,15 @@ body.training-home-1 {
 .post__cat,
 a.post__cat,
 .heading__title-inside,
-time.time {
+time.time,
+.entry-author,
+.entry-author__name,
+a.entry-author__name {
     font-family: "Roboto", sans-serif;
+}
+
+.mnmd-featured-module-1.mnmd-block--fullwidth {
+    margin-bottom: 150px;
 }
 
 .mnmd-featured-module-1 .mnmd-main-col {
@@ -57,7 +67,7 @@ time.time {
     min-height: 300px;
 }
 
-a.post__cat--bg-yellow {
+a.post__cat--bg-primary {
     font-size: 0.8571rem;
     background-color: var(--color-primary);
     font-weight: 400;
@@ -87,11 +97,22 @@ a.post__cat--bg-yellow {
     opacity: 0.6;
 }
 
+.post__meta--12 {
+    font-size: 0.8571rem;
+    line-height: 1;
+    opacity: 0.6;
+    font-weight: 300;
+}
+
+.post__meta--13 {
+    font-size: 0.9286rem;
+    line-height: 1;
+}
+
 .post__meta.post__meta--has-line-before {
     position: relative;
     padding-left: 40px;
 }
-
 
 .post__meta.post__meta--has-line-before::before {
     content: "";
@@ -114,7 +135,6 @@ a.post__cat--bg-yellow {
 .post__meta--has-line-before.line-before--yellow::before {
     background-color: var(--color-primary);
 }
-
 
 .mnmd-featured-module-1 .mnmd-sub-col .mnmd-block__inner {
     display: flex;
@@ -151,11 +171,6 @@ ol.list-style--counter-1 li::before {
     right: 25px;
 }
 
-body {
-    padding: 1rem;
-    font-family: sans-serif;
-}
-
 .post__text.post__text--spacing-2 .post__title {
     margin-bottom: 10px;
 }
@@ -178,4 +193,44 @@ body {
     width: 670px;
     height: 400px;
     z-index: 0;
+}
+
+.mnmd-pagination {
+    font-family: "Roboto", sans-serif;
+}
+
+.mnmd-module-pagination .mnmd-pagination__item-prev.disable-click {
+    display: none;
+}
+
+.mnmd-pagination__item-current,
+.mnmd-pagination__item {
+    background: transparent;
+    color: #222222;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.mnmd-pagination__item {
+    opacity: 0.6;
+    min-width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0 15px;
+}
+
+.mnmd-pagination__item-current,
+.mnmd-pagination__item-current:hover,
+.mnmd-pagination__item-current:focus,
+.mnmd-pagination__item-current:active,
+.mnmd-pagination__item:hover,
+.mnmd-pagination__item:focus,
+.mnmd-pagination__item:active {
+    background: transparent;
+    color: #222222;
+    opacity: 1;
+
+    border-bottom: 3px solid var(--color-primary);
+    border-radius: 0;
 }

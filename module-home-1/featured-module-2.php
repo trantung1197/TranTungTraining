@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="mnmd-main-col">
-                <div class="block-heading">
-                    <h4 class="block-heading__title block-heading__title--opacity">Featured</h4>
+                <div class="block-heading block-heading--title--opacity">
+                    <h4 class="block-heading__title">Featured</h4>
                 </div>
                 <div class="mnmd-block__inner">
                     <div class="main-post">
@@ -14,7 +14,7 @@
                                 </a>
                             </div>
                             <div class="post__text post__text--spacing-1">
-                                <a href="#" class="post__cat post__cat--bg post__cat--bg-yellow">Fashion</a>
+                                <a href="#" class="post__cat post__cat--bg post__cat--bg-primary">Fashion</a>
                                 <h3 class="post__title f-30 f-w-700">
                                     <a href="#">
                                         A Loving Heart Is The Truest Wisdom.
@@ -77,7 +77,28 @@
                 </div>
             </div>
 
-            <div class="mnmd-sub-col"></div>
+            <div class="mnmd-sub-col">
+                <article class="post--vertical post post--fullwidth-left">
+                    <div class="post__text post__text-heading">
+                        <h3 class="post__title f-30 f-w-700">
+                            <a href="#">
+                                Paths are Made
+                                <span class="text-decor--line-through">By Walking</span>
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="post__thumb">
+                        <a href="#single-url">
+                            <img src="http://via.placeholder.com/300x350" alt="image">
+                        </a>
+                    </div>
+                    <div class="post__text post__text--spacing-1">
+                        <div class="post__excerpt f-14 f-w-300 opacity-7">
+                            Lorem ipsum dolor sit amet, consecte tur adipiscing elit, sed do eiusmod tempor incididunt lacus vel.
+                        </div>
+                    </div>
+                </article>
+            </div>
         </div>
     </div>
 </div>

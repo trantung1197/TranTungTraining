@@ -1,0 +1,65 @@
+.post__meta.post__meta--author__name--primary a.entry-author__name {
+    color: var(--color-primary);
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.content-space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post__meta.post__meta--time-light-italic time.time {
+    font-style: italic;
+    font-weight: 300;
+    opacity: 0.6;
+}
+
+.seperated-bottom {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.mnmd-grid-listing-1 .posts-listing .post__thumb {
+    margin-bottom: 25px;
+}
+
+.post__readmore.post__readmore--text-w-icon svg {
+    fill: #fff;
+    width: 16px;
+    margin-left: 7px;
+}
+
+.post__readmore.post__readmore--text-w-icon {
+    background-color: #292929;
+    display: inline-block;
+}
+
+.post__readmore.post__readmore--text-w-icon a {
+    color: #fff;
+}
+
+.post__readmore.post__readmore--text-w-icon .readmore__text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    font-size: 0.8571rem;
+    line-height: 1;
+}
+
+.mnmd-grid-listing-1 .posts-listing .post__text .post__excerpt {
+    margin-bottom: 15px;
+}
+
+.block-float-right {
+    float: right;
+}
+
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}

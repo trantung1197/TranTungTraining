@@ -62,11 +62,44 @@ fontweight >= 34: 1.3rem -->
 
     <!-- .site-wrapper -->
     <div class="site-wrapper">
+
+        <?php include './module-home-1/header.php'; ?>
+
         <div class="site-content">
             <?php include './module-home-1/featured-module-1.php'; ?>
 
             <?php include './module-home-1/featured-module-2.php'; ?>
-            
+
+            <div class="mnmd-block mnmd-block--fullwidth">
+                <div class="container">
+                    <div class="row">
+                        <div class="mnmd-main-col">
+                            <?php include './module-home-1/mnmd-grid-listing-1.php'; ?>
+
+                            <nav class="mnmd-pagination mnmd-module-pagination">
+                                <h4 class="mnmd-pagination__title sr-only">Posts navigation</h4>
+                                <div class="mnmd-pagination__links text-right">
+                                    <a class="mnmd-pagination__item mnmd-pagination__item-prev disable-click" href="#">
+                                        <i class="mdicon mdicon-arrow_back"></i> PREV
+                                    </a>
+                                    <a class="mnmd-pagination__item mnmd-pagination__item-current" href="#">1</a>
+                                    <a class="mnmd-pagination__item" href="#">2</a>
+                                    <a class="mnmd-pagination__item" href="#">3</a>
+                                    <a class="mnmd-pagination__item mnmd-pagination__item-next" href="#">
+                                        NEXT <i class="mdicon mdicon-arrow_forward"></i>
+                                    </a>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <div class="mnmd-sub-col js-sticky-sidebar">
+                            <?php include 'module-home-1/mnmd-widget--author-1.php';?>
+
+                            <?php include 'module-home-1/mnmd-widget--stories.php'?>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div><!-- .site-content -->
     </div><!-- .site-wrapper -->
 
