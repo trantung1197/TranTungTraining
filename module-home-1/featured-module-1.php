@@ -9,7 +9,7 @@
                         </div>
                         <div class="post__text post__text--spacing-1">
                             <a href="#" class="post__cat post__cat--bg post__cat--bg-primary">Fashion</a>
-                            <h3 class="post__title f-35 f-w-700">
+                            <h3 class="post__title -m-b-35 f-35 f-w-700">
                                 <a href="#">
                                     Don’t Talk Unless You Can Improve The
                                     Silence.
@@ -39,7 +39,7 @@
             </div>
 
             <div class="mnmd-sub-col">
-                <div class="mnmd-block__inner background-pattern--gray">
+                <div class="mnmd-block__inner mnmd-block--flex-space-between background-pattern--gray">
                     <div class="main-section">
                         <div class="heading-inside">
                             <h3 class="heading__title-inside">Hot Pick</h3>

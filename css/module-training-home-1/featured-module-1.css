@@ -87,10 +87,6 @@ a.post__cat--bg-primary {
     margin-bottom: 0;
 }
 
-.mnmd-featured-module-1 .mnmd-sub-col .mnmd-block__inner {
-    padding-right: 50px;
-}
-
 .post__meta--11 {
     font-size: 0.7857rem;
     line-height: 1;
@@ -136,11 +132,12 @@ a.post__cat--bg-primary {
     background-color: var(--color-primary);
 }
 
-.mnmd-featured-module-1 .mnmd-sub-col .mnmd-block__inner {
+.mnmd-block__inner.mnmd-block--flex-space-between {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    padding-right: 50px;
 }
 
 ul,
@@ -162,7 +159,7 @@ ol.list-style--counter-1 li::before {
     font-weight: bold;
     font-size: 3.5714rem;
     line-height: 1;
-    opacity: 0.2;
+    opacity: 0.05;
 
     position: absolute;
     top: auto;
@@ -192,7 +189,7 @@ ol.list-style--counter-1 li::before {
     background-color: var(--color-secondary);
     width: 670px;
     height: 400px;
-    z-index: 0;
+    z-index: -1;
 }
 
 .mnmd-pagination {
@@ -233,4 +230,90 @@ ol.list-style--counter-1 li::before {
 
     border-bottom: 3px solid var(--color-primary);
     border-radius: 0;
+}
+
+@media (max-width: 1199px) {
+    .post.post--text-over-image .post__thumb {
+        width: 350px;
+        height: 438px;
+    }
+
+    .post.post--text-over-image {
+        width: 625px;
+    }
+
+    .background-pattern--gray::before {
+        width: 600px;
+        height: 360px;
+    }
+}
+
+@media (max-width: 991px) {
+    .mnmd-block__inner.mnmd-block--flex-space-between {
+        flex-direction: row;
+        padding-right: 0;
+        margin: 0 -15px;
+    }
+
+    .mnmd-block__inner.mnmd-block--flex-space-between > * {
+        width: 50%;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .post.post--text-over-image {
+        width: 100%;
+    }
+
+    .post.post--text-over-image .post__thumb {
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+        flex: auto;
+    }
+
+    .post.post--text-over-image .post__thumb a,
+    .post.post--text-over-image .post__thumb img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .post.post--text-over-image .post__text {
+        max-width: 100%;
+    }
+
+    .post.post--text-over-image .post__text .post__excerpt {
+        padding-right: 0;
+    }
+
+    .mnmd-main-col .main-post.post--horizontal.post--text-over-image {
+        /* display: block; */
+        margin-bottom: 30px;
+    }
+
+    .mnmd-main-col .sub-post {
+        margin: 0;
+        width: 100%;
+    }
+
+    .background-pattern--gray::before {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .mnmd-block__inner.mnmd-block--flex-space-between {
+        display: block;
+        margin: 0;
+    }
+
+    .mnmd-block__inner.mnmd-block--flex-space-between > * {
+        width: auto;
+        padding: 0;
+    }
+
+    .mnmd-featured-module-1 .mnmd-sub-col .main-section {
+        margin-bottom: 30px;
+    }
 }

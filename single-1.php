@@ -141,7 +141,7 @@ fontweight >= 34: 1.3rem -->
                                     <footer class="single-footer entry-footer">
                                         <div class="entry-info">
                                             <div class="flex-box align-center">
-                                                <div class="entry-tags text-align-left flex-column-80">
+                                                <div class="entry-tags text-align-left flex-item-auto">
                                                     <ul class="flex-box">
                                                         <li>
                                                             <a href="#" class="post-tag" rel="tag">
@@ -247,7 +247,9 @@ fontweight >= 34: 1.3rem -->
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="author-bio">BKNinja is a writer based in New York. When he's not writing about apps, marketing, or tech, you can probably catch him eating ice cream.</div>
+                                    <div class="author-bio">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+                                    </div>
                                 </div>
                             </div>
 

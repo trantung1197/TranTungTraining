@@ -31,8 +31,8 @@
                 </div>
 
                 <div class="navigation-wrapper navigation-bar__section navigation-bar__section-menu js-priority-nav">
-                    <ul id="menu-main-menu" class="navigation navigation--main navigation--inline navigation-space-40">
-                        <li>
+                    <ul id="menu-main-menu" class="navigation navigation--main navigation--inline navigation-space-44">
+                        <li class="current-menu-item">
                             <a href="#">Home</a>
                         </li>
                         <li>

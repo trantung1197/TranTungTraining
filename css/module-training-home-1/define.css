@@ -19,6 +19,10 @@
     }
 }
 
+.site-content{
+    padding-top: 100px;
+}
+
 /* =============================================================================
    Flexbox
 ============================================================================= */
@@ -354,6 +358,8 @@ h3.atbs-line-limit.atbs-line-limit-4 > a {
 
 /* SPACING TEXT*/
 
+
+
 .post__text--spacing-1 > * {
     margin-top: 0;
     margin-bottom: 20px;
@@ -366,6 +372,14 @@ h3.atbs-line-limit.atbs-line-limit-4 > a {
 .post__text--spacing-1 .post__title:not(:last-child) {
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+.post__text--spacing-1 > .post__title.-m-b-35{
+    margin-bottom: 35px;
+}
+
+.post__text--spacing-1 > .post__title.-m-b-50{
+    margin-bottom: 50px;
 }
 
 .post__text--spacing-1 .post__title:not(:last-child).f-30 {

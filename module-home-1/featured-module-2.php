@@ -1,11 +1,11 @@
 <div class="mnmd-block mnmd-block--fullwidth mnmd-featured-module-2">
     <div class="container">
-        <div class="row">
+        <div class="row flex-box">
             <div class="mnmd-main-col">
-                <div class="block-heading block-heading--title--opacity">
+                <div class="block-heading block-heading--overlay-top block-heading--title--opacity">
                     <h4 class="block-heading__title">Featured</h4>
                 </div>
-                <div class="mnmd-block__inner">
+                <div class="mnmd-block__inner mnmd-block--has-post-padding-right">
                     <div class="main-post">
                         <article class="post post--horizontal post--horizontal-reverse post--horizontal-follow-parent">
                             <div class="post__thumb">

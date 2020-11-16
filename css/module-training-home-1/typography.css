@@ -142,10 +142,6 @@
         font-size: 2.1428rem; /*font system*/
         line-height: 1.4;
     }
-    .f-35{
-        font-size: 2.2143rem;
-        line-height: 1.4;
-    }
     .f-36 {
         font-size: 2.2857rem;
         line-height: 1.4;
@@ -198,7 +194,16 @@
         font-size: 3.9285rem;
         line-height: 1.3;
     }
+
 }
+
+@media (max-width: 1199px){
+    .f-35{
+        font-size: 2.2143rem;
+        line-height: 1.3;
+    }
+}
+
 @media (max-width: 991px) {
     .f-24 {
         font-size: 1.5714rem; /*font system*/

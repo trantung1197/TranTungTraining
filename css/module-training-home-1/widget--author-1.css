@@ -3,6 +3,7 @@
     text-transform: capitalize;
     font-size: 1.2857rem;
     line-height: 1.5;
+    letter-spacing: 0;
 }
 
 .widget__title-text.text-decor--line-through::before {
@@ -119,4 +120,22 @@
 
 .author-box__text--spacing-1 .auhtor-job {
     margin-bottom: 25px;
+}
+
+@media (max-width: 991px) {
+    .author-box.author-box--vertical .author-box__image {
+        width: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .author-name.author-name--dot-after {
+        justify-content: center;
+    }
+
+    .author-box.author-box--vertical{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
