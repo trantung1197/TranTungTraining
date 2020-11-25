@@ -44,6 +44,7 @@ a.entry-author__name {
 
 .post.post--text-over-image .post__thumb {
     position: static;
+    z-index: -1;
     width: 400px;
     height: 500px;
     margin-left: -100px;
